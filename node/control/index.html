@@ -1,0 +1,3098 @@
+<!-- prettier-ignore -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>control: report_trace_data</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- <div> -->
+      <h1>control: report_trace_data</h1>
+
+      <h2>Node List</h2>
+      <ul>
+        
+        <li><a href="#/control/external_cmd_converter">/control/external_cmd_converter</a></li>
+        
+        <li><a href="#/control/external_cmd_selector">/control/external_cmd_selector</a></li>
+        
+        <li><a href="#/control/operation_mode_transition_manager">/control/operation_mode_transition_manager</a></li>
+        
+        <li><a href="#/control/shift_decider">/control/shift_decider</a></li>
+        
+        <li><a href="#/control/trajectory_follower/controller_node_exe">/control/trajectory_follower/controller_node_exe</a></li>
+        
+        <li><a href="#/control/trajectory_follower/lane_departure_checker_node">/control/trajectory_follower/lane_departure_checker_node</a></li>
+        
+        <li><a href="#/control/vehicle_cmd_gate">/control/vehicle_cmd_gate</a></li>
+        
+      </ul>
+
+      
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="checkbox_stats_all" />
+        <label class="form-check-label" for="checkbox_stats_all">All stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="checkbox_hist_all" />
+        <label class="form-check-label" for="checkbox_hist_all">All histogram</label>
+      </div>
+
+      
+      <hr />
+      <h3 id="/control/external_cmd_converter">Node Name: /control/external_cmd_converter</h3>
+       
+      <h4>Frequency</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_2"
+          target="#collapse_stats_2"
+        />
+        <label class="form-check-label" for="checkbox_stats_2">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_2"
+          target="#colllapse_hist_2"
+        />
+        <label class="form-check-label" for="checkbox_hist_2">Histogram</label>
+      </div>
+
+      <a href="Frequency_control_external_cmd_converter.html" target="_blank">
+        <img src="Frequency_control_external_cmd_converter.png" />
+      </a>
+
+      <div class="collapse collapse_stats" id="collapse_stats_2">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [Hz]</th>
+            <th width="10%">Min [Hz]</th>
+            <th width="10%">Max [Hz]</th>
+            <th width="10%">Std [Hz]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_0: Timer_1000.0ms</td>
+            
+            <td class="text-end">1.000</td>
+            <td class="text-end">1.000</td>
+            <td class="text-end">1.000</td>
+            <td class="text-end">0.000</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_1: Timer_100.0ms</td>
+            
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">0.000</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_2: Sub_/localization/kinematic_state</td>
+            
+            <td class="text-end">50.067</td>
+            <td class="text-end">49.000</td>
+            <td class="text-end">51.000</td>
+            <td class="text-end">0.961</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_3: Sub_/external/selected/external_control_cmd</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_4: Sub_/external/selected/gear_cmd</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_5: Sub_/control/current_gate_mode</td>
+            
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">0.000</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_6: Sub_/external/selected/heartbeat</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_2">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Frequency_control_external_cmd_converter_callback_0_hist.html" target="_blank">
+              <img src="Frequency_control_external_cmd_converter_callback_0_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Frequency_control_external_cmd_converter_callback_1_hist.html" target="_blank">
+              <img src="Frequency_control_external_cmd_converter_callback_1_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Frequency_control_external_cmd_converter_callback_2_hist.html" target="_blank">
+              <img src="Frequency_control_external_cmd_converter_callback_2_hist.png" />
+            </a>
+          </div>
+                
+          <div class="col">
+            <a href="Frequency_control_external_cmd_converter_callback_5_hist.html" target="_blank">
+              <img src="Frequency_control_external_cmd_converter_callback_5_hist.png" />
+            </a>
+          </div>
+             
+        </div>
+      </div>
+
+      
+      <h4>Period</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_3"
+          target="#collapse_stats_3"
+        />
+        <label class="form-check-label" for="checkbox_stats_3">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_3"
+          target="#colllapse_hist_3"
+        />
+        <label class="form-check-label" for="checkbox_hist_3">Histogram</label>
+      </div>
+
+      <a href="Period_control_external_cmd_converter.html" target="_blank">
+        <img src="Period_control_external_cmd_converter.png" />
+      </a>
+
+      <div class="collapse collapse_stats" id="collapse_stats_3">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [ms]</th>
+            <th width="10%">Min [ms]</th>
+            <th width="10%">Max [ms]</th>
+            <th width="10%">Std [ms]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_0: Timer_1000.0ms</td>
+            
+            <td class="text-end">1000.000</td>
+            <td class="text-end">999.548</td>
+            <td class="text-end">1000.369</td>
+            <td class="text-end">0.179</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_1: Timer_100.0ms</td>
+            
+            <td class="text-end">100.011</td>
+            <td class="text-end">79.600</td>
+            <td class="text-end">120.969</td>
+            <td class="text-end">7.866</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_2: Sub_/localization/kinematic_state</td>
+            
+            <td class="text-end">19.995</td>
+            <td class="text-end">4.280</td>
+            <td class="text-end">35.403</td>
+            <td class="text-end">3.041</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_3: Sub_/external/selected/external_control_cmd</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_4: Sub_/external/selected/gear_cmd</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_5: Sub_/control/current_gate_mode</td>
+            
+            <td class="text-end">100.013</td>
+            <td class="text-end">89.401</td>
+            <td class="text-end">106.483</td>
+            <td class="text-end">3.771</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_6: Sub_/external/selected/heartbeat</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_3">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Period_control_external_cmd_converter_callback_0_hist.html" target="_blank">
+              <img src="Period_control_external_cmd_converter_callback_0_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Period_control_external_cmd_converter_callback_1_hist.html" target="_blank">
+              <img src="Period_control_external_cmd_converter_callback_1_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Period_control_external_cmd_converter_callback_2_hist.html" target="_blank">
+              <img src="Period_control_external_cmd_converter_callback_2_hist.png" />
+            </a>
+          </div>
+                
+          <div class="col">
+            <a href="Period_control_external_cmd_converter_callback_5_hist.html" target="_blank">
+              <img src="Period_control_external_cmd_converter_callback_5_hist.png" />
+            </a>
+          </div>
+             
+        </div>
+      </div>
+
+      
+      <h4>Latency</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_4"
+          target="#collapse_stats_4"
+        />
+        <label class="form-check-label" for="checkbox_stats_4">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_4"
+          target="#colllapse_hist_4"
+        />
+        <label class="form-check-label" for="checkbox_hist_4">Histogram</label>
+      </div>
+
+      <a href="Latency_control_external_cmd_converter.html" target="_blank">
+        <img src="Latency_control_external_cmd_converter.png" />
+      </a>
+
+      <div class="collapse collapse_stats" id="collapse_stats_4">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [ms]</th>
+            <th width="10%">Min [ms]</th>
+            <th width="10%">Max [ms]</th>
+            <th width="10%">Std [ms]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_0: Timer_1000.0ms</td>
+            
+            <td class="text-end">0.068</td>
+            <td class="text-end">0.019</td>
+            <td class="text-end">0.133</td>
+            <td class="text-end">0.035</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_1: Timer_100.0ms</td>
+            
+            <td class="text-end">0.072</td>
+            <td class="text-end">0.018</td>
+            <td class="text-end">0.501</td>
+            <td class="text-end">0.069</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_2: Sub_/localization/kinematic_state</td>
+            
+            <td class="text-end">0.003</td>
+            <td class="text-end">0.001</td>
+            <td class="text-end">0.013</td>
+            <td class="text-end">0.001</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_3: Sub_/external/selected/external_control_cmd</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_4: Sub_/external/selected/gear_cmd</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_5: Sub_/control/current_gate_mode</td>
+            
+            <td class="text-end">0.004</td>
+            <td class="text-end">0.001</td>
+            <td class="text-end">0.009</td>
+            <td class="text-end">0.001</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_6: Sub_/external/selected/heartbeat</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_4">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Latency_control_external_cmd_converter_callback_0_hist.html" target="_blank">
+              <img src="Latency_control_external_cmd_converter_callback_0_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Latency_control_external_cmd_converter_callback_1_hist.html" target="_blank">
+              <img src="Latency_control_external_cmd_converter_callback_1_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Latency_control_external_cmd_converter_callback_2_hist.html" target="_blank">
+              <img src="Latency_control_external_cmd_converter_callback_2_hist.png" />
+            </a>
+          </div>
+                
+          <div class="col">
+            <a href="Latency_control_external_cmd_converter_callback_5_hist.html" target="_blank">
+              <img src="Latency_control_external_cmd_converter_callback_5_hist.png" />
+            </a>
+          </div>
+             
+        </div>
+      </div>
+
+        
+      <hr />
+      <h3 id="/control/external_cmd_selector">Node Name: /control/external_cmd_selector</h3>
+       
+      <h4>Frequency</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_5"
+          target="#collapse_stats_5"
+        />
+        <label class="form-check-label" for="checkbox_stats_5">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_5"
+          target="#colllapse_hist_5"
+        />
+        <label class="form-check-label" for="checkbox_hist_5">Histogram</label>
+      </div>
+
+      <a href="Frequency_control_external_cmd_selector.html" target="_blank">
+        <img src="Frequency_control_external_cmd_selector.png" />
+      </a>
+
+      <div class="collapse collapse_stats" id="collapse_stats_5">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [Hz]</th>
+            <th width="10%">Min [Hz]</th>
+            <th width="10%">Max [Hz]</th>
+            <th width="10%">Std [Hz]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_0: Timer_1000.0ms</td>
+            
+            <td class="text-end">1.000</td>
+            <td class="text-end">1.000</td>
+            <td class="text-end">1.000</td>
+            <td class="text-end">0.000</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_1: Timer_100.0ms</td>
+            
+            <td class="text-end">10.000</td>
+            <td class="text-end">9.000</td>
+            <td class="text-end">11.000</td>
+            <td class="text-end">0.378</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_5">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Frequency_control_external_cmd_selector_callback_0_hist.html" target="_blank">
+              <img src="Frequency_control_external_cmd_selector_callback_0_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Frequency_control_external_cmd_selector_callback_1_hist.html" target="_blank">
+              <img src="Frequency_control_external_cmd_selector_callback_1_hist.png" />
+            </a>
+          </div>
+           
+        </div>
+      </div>
+
+      
+      <h4>Period</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_6"
+          target="#collapse_stats_6"
+        />
+        <label class="form-check-label" for="checkbox_stats_6">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_6"
+          target="#colllapse_hist_6"
+        />
+        <label class="form-check-label" for="checkbox_hist_6">Histogram</label>
+      </div>
+
+      <a href="Period_control_external_cmd_selector.html" target="_blank">
+        <img src="Period_control_external_cmd_selector.png" />
+      </a>
+
+      <div class="collapse collapse_stats" id="collapse_stats_6">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [ms]</th>
+            <th width="10%">Min [ms]</th>
+            <th width="10%">Max [ms]</th>
+            <th width="10%">Std [ms]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_0: Timer_1000.0ms</td>
+            
+            <td class="text-end">999.994</td>
+            <td class="text-end">999.856</td>
+            <td class="text-end">1000.075</td>
+            <td class="text-end">0.057</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_1: Timer_100.0ms</td>
+            
+            <td class="text-end">100.012</td>
+            <td class="text-end">79.569</td>
+            <td class="text-end">121.000</td>
+            <td class="text-end">7.877</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_6">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Period_control_external_cmd_selector_callback_0_hist.html" target="_blank">
+              <img src="Period_control_external_cmd_selector_callback_0_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Period_control_external_cmd_selector_callback_1_hist.html" target="_blank">
+              <img src="Period_control_external_cmd_selector_callback_1_hist.png" />
+            </a>
+          </div>
+           
+        </div>
+      </div>
+
+      
+      <h4>Latency</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_7"
+          target="#collapse_stats_7"
+        />
+        <label class="form-check-label" for="checkbox_stats_7">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_7"
+          target="#colllapse_hist_7"
+        />
+        <label class="form-check-label" for="checkbox_hist_7">Histogram</label>
+      </div>
+
+      <a href="Latency_control_external_cmd_selector.html" target="_blank">
+        <img src="Latency_control_external_cmd_selector.png" />
+      </a>
+
+      <div class="collapse collapse_stats" id="collapse_stats_7">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [ms]</th>
+            <th width="10%">Min [ms]</th>
+            <th width="10%">Max [ms]</th>
+            <th width="10%">Std [ms]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_0: Timer_1000.0ms</td>
+            
+            <td class="text-end">0.060</td>
+            <td class="text-end">0.025</td>
+            <td class="text-end">0.097</td>
+            <td class="text-end">0.017</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_1: Timer_100.0ms</td>
+            
+            <td class="text-end">0.044</td>
+            <td class="text-end">0.008</td>
+            <td class="text-end">0.303</td>
+            <td class="text-end">0.038</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_7">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Latency_control_external_cmd_selector_callback_0_hist.html" target="_blank">
+              <img src="Latency_control_external_cmd_selector_callback_0_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Latency_control_external_cmd_selector_callback_1_hist.html" target="_blank">
+              <img src="Latency_control_external_cmd_selector_callback_1_hist.png" />
+            </a>
+          </div>
+           
+        </div>
+      </div>
+
+        
+      <hr />
+      <h3 id="/control/operation_mode_transition_manager">Node Name: /control/operation_mode_transition_manager</h3>
+       
+      <h4>Frequency</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_8"
+          target="#collapse_stats_8"
+        />
+        <label class="form-check-label" for="checkbox_stats_8">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_8"
+          target="#colllapse_hist_8"
+        />
+        <label class="form-check-label" for="checkbox_hist_8">Histogram</label>
+      </div>
+
+      <a href="Frequency_control_operation_mode_transition_manager.html" target="_blank">
+        <img src="Frequency_control_operation_mode_transition_manager.png" />
+      </a>
+
+      <div class="collapse collapse_stats" id="collapse_stats_8">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [Hz]</th>
+            <th width="10%">Min [Hz]</th>
+            <th width="10%">Max [Hz]</th>
+            <th width="10%">Std [Hz]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_0: Timer_100.0ms</td>
+            
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">0.000</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_1: Sub_/localization/kinematic_state</td>
+            
+            <td class="text-end">50.067</td>
+            <td class="text-end">49.000</td>
+            <td class="text-end">51.000</td>
+            <td class="text-end">0.884</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_2: Sub_/planning/scenario_planning/trajectory</td>
+            
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">0.000</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_3: Sub_/control/command/control_cmd</td>
+            
+            <td class="text-end">33.333</td>
+            <td class="text-end">33.000</td>
+            <td class="text-end">34.000</td>
+            <td class="text-end">0.488</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_4: Sub_/vehicle/status/control_mode</td>
+            
+            <td class="text-end">27.867</td>
+            <td class="text-end">25.000</td>
+            <td class="text-end">31.000</td>
+            <td class="text-end">1.922</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_5: Sub_/control/vehicle_cmd_gate/operation_mode</td>
+            
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">0.000</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_8">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Frequency_control_operation_mode_transition_manager_callback_0_hist.html" target="_blank">
+              <img src="Frequency_control_operation_mode_transition_manager_callback_0_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Frequency_control_operation_mode_transition_manager_callback_1_hist.html" target="_blank">
+              <img src="Frequency_control_operation_mode_transition_manager_callback_1_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Frequency_control_operation_mode_transition_manager_callback_2_hist.html" target="_blank">
+              <img src="Frequency_control_operation_mode_transition_manager_callback_2_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Frequency_control_operation_mode_transition_manager_callback_3_hist.html" target="_blank">
+              <img src="Frequency_control_operation_mode_transition_manager_callback_3_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Frequency_control_operation_mode_transition_manager_callback_4_hist.html" target="_blank">
+              <img src="Frequency_control_operation_mode_transition_manager_callback_4_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Frequency_control_operation_mode_transition_manager_callback_5_hist.html" target="_blank">
+              <img src="Frequency_control_operation_mode_transition_manager_callback_5_hist.png" />
+            </a>
+          </div>
+           
+        </div>
+      </div>
+
+      
+      <h4>Period</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_9"
+          target="#collapse_stats_9"
+        />
+        <label class="form-check-label" for="checkbox_stats_9">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_9"
+          target="#colllapse_hist_9"
+        />
+        <label class="form-check-label" for="checkbox_hist_9">Histogram</label>
+      </div>
+
+      <a href="Period_control_operation_mode_transition_manager.html" target="_blank">
+        <img src="Period_control_operation_mode_transition_manager.png" />
+      </a>
+
+      <div class="collapse collapse_stats" id="collapse_stats_9">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [ms]</th>
+            <th width="10%">Min [ms]</th>
+            <th width="10%">Max [ms]</th>
+            <th width="10%">Std [ms]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_0: Timer_100.0ms</td>
+            
+            <td class="text-end">100.010</td>
+            <td class="text-end">79.607</td>
+            <td class="text-end">115.596</td>
+            <td class="text-end">6.753</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_1: Sub_/localization/kinematic_state</td>
+            
+            <td class="text-end">19.995</td>
+            <td class="text-end">4.289</td>
+            <td class="text-end">35.396</td>
+            <td class="text-end">3.040</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_2: Sub_/planning/scenario_planning/trajectory</td>
+            
+            <td class="text-end">99.877</td>
+            <td class="text-end">74.121</td>
+            <td class="text-end">129.896</td>
+            <td class="text-end">8.363</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_3: Sub_/control/command/control_cmd</td>
+            
+            <td class="text-end">30.012</td>
+            <td class="text-end">6.886</td>
+            <td class="text-end">53.874</td>
+            <td class="text-end">4.059</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_4: Sub_/vehicle/status/control_mode</td>
+            
+            <td class="text-end">35.847</td>
+            <td class="text-end">0.061</td>
+            <td class="text-end">86.295</td>
+            <td class="text-end">14.670</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_5: Sub_/control/vehicle_cmd_gate/operation_mode</td>
+            
+            <td class="text-end">100.013</td>
+            <td class="text-end">89.395</td>
+            <td class="text-end">106.488</td>
+            <td class="text-end">3.771</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_9">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Period_control_operation_mode_transition_manager_callback_0_hist.html" target="_blank">
+              <img src="Period_control_operation_mode_transition_manager_callback_0_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Period_control_operation_mode_transition_manager_callback_1_hist.html" target="_blank">
+              <img src="Period_control_operation_mode_transition_manager_callback_1_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Period_control_operation_mode_transition_manager_callback_2_hist.html" target="_blank">
+              <img src="Period_control_operation_mode_transition_manager_callback_2_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Period_control_operation_mode_transition_manager_callback_3_hist.html" target="_blank">
+              <img src="Period_control_operation_mode_transition_manager_callback_3_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Period_control_operation_mode_transition_manager_callback_4_hist.html" target="_blank">
+              <img src="Period_control_operation_mode_transition_manager_callback_4_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Period_control_operation_mode_transition_manager_callback_5_hist.html" target="_blank">
+              <img src="Period_control_operation_mode_transition_manager_callback_5_hist.png" />
+            </a>
+          </div>
+           
+        </div>
+      </div>
+
+      
+      <h4>Latency</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_10"
+          target="#collapse_stats_10"
+        />
+        <label class="form-check-label" for="checkbox_stats_10">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_10"
+          target="#colllapse_hist_10"
+        />
+        <label class="form-check-label" for="checkbox_hist_10">Histogram</label>
+      </div>
+
+      <a href="Latency_control_operation_mode_transition_manager.html" target="_blank">
+        <img src="Latency_control_operation_mode_transition_manager.png" />
+      </a>
+
+      <div class="collapse collapse_stats" id="collapse_stats_10">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [ms]</th>
+            <th width="10%">Min [ms]</th>
+            <th width="10%">Max [ms]</th>
+            <th width="10%">Std [ms]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_0: Timer_100.0ms</td>
+            
+            <td class="text-end">0.071</td>
+            <td class="text-end">0.016</td>
+            <td class="text-end">0.515</td>
+            <td class="text-end">0.060</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_1: Sub_/localization/kinematic_state</td>
+            
+            <td class="text-end">0.002</td>
+            <td class="text-end">0.000</td>
+            <td class="text-end">0.015</td>
+            <td class="text-end">0.001</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_2: Sub_/planning/scenario_planning/trajectory</td>
+            
+            <td class="text-end">0.002</td>
+            <td class="text-end">0.001</td>
+            <td class="text-end">0.013</td>
+            <td class="text-end">0.001</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_3: Sub_/control/command/control_cmd</td>
+            
+            <td class="text-end">0.001</td>
+            <td class="text-end">0.000</td>
+            <td class="text-end">0.015</td>
+            <td class="text-end">0.001</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_4: Sub_/vehicle/status/control_mode</td>
+            
+            <td class="text-end">0.002</td>
+            <td class="text-end">0.000</td>
+            <td class="text-end">0.011</td>
+            <td class="text-end">0.001</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_5: Sub_/control/vehicle_cmd_gate/operation_mode</td>
+            
+            <td class="text-end">0.002</td>
+            <td class="text-end">0.000</td>
+            <td class="text-end">0.042</td>
+            <td class="text-end">0.003</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_10">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Latency_control_operation_mode_transition_manager_callback_0_hist.html" target="_blank">
+              <img src="Latency_control_operation_mode_transition_manager_callback_0_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Latency_control_operation_mode_transition_manager_callback_1_hist.html" target="_blank">
+              <img src="Latency_control_operation_mode_transition_manager_callback_1_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Latency_control_operation_mode_transition_manager_callback_2_hist.html" target="_blank">
+              <img src="Latency_control_operation_mode_transition_manager_callback_2_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Latency_control_operation_mode_transition_manager_callback_3_hist.html" target="_blank">
+              <img src="Latency_control_operation_mode_transition_manager_callback_3_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Latency_control_operation_mode_transition_manager_callback_4_hist.html" target="_blank">
+              <img src="Latency_control_operation_mode_transition_manager_callback_4_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Latency_control_operation_mode_transition_manager_callback_5_hist.html" target="_blank">
+              <img src="Latency_control_operation_mode_transition_manager_callback_5_hist.png" />
+            </a>
+          </div>
+           
+        </div>
+      </div>
+
+        
+      <hr />
+      <h3 id="/control/shift_decider">Node Name: /control/shift_decider</h3>
+       
+      <h4>Frequency</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_11"
+          target="#collapse_stats_11"
+        />
+        <label class="form-check-label" for="checkbox_stats_11">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_11"
+          target="#colllapse_hist_11"
+        />
+        <label class="form-check-label" for="checkbox_hist_11">Histogram</label>
+      </div>
+
+      <a href="Frequency_control_shift_decider.html" target="_blank">
+        <img src="Frequency_control_shift_decider.png" />
+      </a>
+
+      <div class="collapse collapse_stats" id="collapse_stats_11">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [Hz]</th>
+            <th width="10%">Min [Hz]</th>
+            <th width="10%">Max [Hz]</th>
+            <th width="10%">Std [Hz]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_0: Timer_100.0ms</td>
+            
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">0.000</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_1: Sub_/control/trajectory_follower/control_cmd</td>
+            
+            <td class="text-end">33.333</td>
+            <td class="text-end">33.000</td>
+            <td class="text-end">34.000</td>
+            <td class="text-end">0.488</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_11">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Frequency_control_shift_decider_callback_0_hist.html" target="_blank">
+              <img src="Frequency_control_shift_decider_callback_0_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Frequency_control_shift_decider_callback_1_hist.html" target="_blank">
+              <img src="Frequency_control_shift_decider_callback_1_hist.png" />
+            </a>
+          </div>
+           
+        </div>
+      </div>
+
+      
+      <h4>Period</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_12"
+          target="#collapse_stats_12"
+        />
+        <label class="form-check-label" for="checkbox_stats_12">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_12"
+          target="#colllapse_hist_12"
+        />
+        <label class="form-check-label" for="checkbox_hist_12">Histogram</label>
+      </div>
+
+      <a href="Period_control_shift_decider.html" target="_blank">
+        <img src="Period_control_shift_decider.png" />
+      </a>
+
+      <div class="collapse collapse_stats" id="collapse_stats_12">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [ms]</th>
+            <th width="10%">Min [ms]</th>
+            <th width="10%">Max [ms]</th>
+            <th width="10%">Std [ms]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_0: Timer_100.0ms</td>
+            
+            <td class="text-end">100.004</td>
+            <td class="text-end">85.477</td>
+            <td class="text-end">113.387</td>
+            <td class="text-end">5.346</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_1: Sub_/control/trajectory_follower/control_cmd</td>
+            
+            <td class="text-end">30.012</td>
+            <td class="text-end">6.894</td>
+            <td class="text-end">53.934</td>
+            <td class="text-end">4.039</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_12">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Period_control_shift_decider_callback_0_hist.html" target="_blank">
+              <img src="Period_control_shift_decider_callback_0_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Period_control_shift_decider_callback_1_hist.html" target="_blank">
+              <img src="Period_control_shift_decider_callback_1_hist.png" />
+            </a>
+          </div>
+           
+        </div>
+      </div>
+
+      
+      <h4>Latency</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_13"
+          target="#collapse_stats_13"
+        />
+        <label class="form-check-label" for="checkbox_stats_13">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_13"
+          target="#colllapse_hist_13"
+        />
+        <label class="form-check-label" for="checkbox_hist_13">Histogram</label>
+      </div>
+
+      <a href="Latency_control_shift_decider.html" target="_blank">
+        <img src="Latency_control_shift_decider.png" />
+      </a>
+
+      <div class="collapse collapse_stats" id="collapse_stats_13">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [ms]</th>
+            <th width="10%">Min [ms]</th>
+            <th width="10%">Max [ms]</th>
+            <th width="10%">Std [ms]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_0: Timer_100.0ms</td>
+            
+            <td class="text-end">0.033</td>
+            <td class="text-end">0.005</td>
+            <td class="text-end">0.667</td>
+            <td class="text-end">0.061</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_1: Sub_/control/trajectory_follower/control_cmd</td>
+            
+            <td class="text-end">0.003</td>
+            <td class="text-end">0.001</td>
+            <td class="text-end">0.066</td>
+            <td class="text-end">0.003</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_13">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Latency_control_shift_decider_callback_0_hist.html" target="_blank">
+              <img src="Latency_control_shift_decider_callback_0_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Latency_control_shift_decider_callback_1_hist.html" target="_blank">
+              <img src="Latency_control_shift_decider_callback_1_hist.png" />
+            </a>
+          </div>
+           
+        </div>
+      </div>
+
+        
+      <hr />
+      <h3 id="/control/trajectory_follower/controller_node_exe">Node Name: /control/trajectory_follower/controller_node_exe</h3>
+       
+      <h4>Frequency</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_14"
+          target="#collapse_stats_14"
+        />
+        <label class="form-check-label" for="checkbox_stats_14">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_14"
+          target="#colllapse_hist_14"
+        />
+        <label class="form-check-label" for="checkbox_hist_14">Histogram</label>
+      </div>
+
+      <a href="Frequency_control_trajectory_follower_controller_node_exe.html" target="_blank">
+        <img src="Frequency_control_trajectory_follower_controller_node_exe.png" />
+      </a>
+
+      <div class="collapse collapse_stats" id="collapse_stats_14">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [Hz]</th>
+            <th width="10%">Min [Hz]</th>
+            <th width="10%">Max [Hz]</th>
+            <th width="10%">Std [Hz]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_0: Timer_30.0ms</td>
+            
+            <td class="text-end">33.333</td>
+            <td class="text-end">33.000</td>
+            <td class="text-end">34.000</td>
+            <td class="text-end">0.488</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_1: Sub_/planning/scenario_planning/trajectory</td>
+            
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">0.000</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_2: Sub_/vehicle/status/steering_status</td>
+            
+            <td class="text-end">28.533</td>
+            <td class="text-end">24.000</td>
+            <td class="text-end">31.000</td>
+            <td class="text-end">2.066</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_3: Sub_/localization/kinematic_state</td>
+            
+            <td class="text-end">50.067</td>
+            <td class="text-end">49.000</td>
+            <td class="text-end">51.000</td>
+            <td class="text-end">0.961</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_14">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Frequency_control_trajectory_follower_controller_node_exe_callback_0_hist.html" target="_blank">
+              <img src="Frequency_control_trajectory_follower_controller_node_exe_callback_0_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Frequency_control_trajectory_follower_controller_node_exe_callback_1_hist.html" target="_blank">
+              <img src="Frequency_control_trajectory_follower_controller_node_exe_callback_1_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Frequency_control_trajectory_follower_controller_node_exe_callback_2_hist.html" target="_blank">
+              <img src="Frequency_control_trajectory_follower_controller_node_exe_callback_2_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Frequency_control_trajectory_follower_controller_node_exe_callback_3_hist.html" target="_blank">
+              <img src="Frequency_control_trajectory_follower_controller_node_exe_callback_3_hist.png" />
+            </a>
+          </div>
+           
+        </div>
+      </div>
+
+      
+      <h4>Period</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_15"
+          target="#collapse_stats_15"
+        />
+        <label class="form-check-label" for="checkbox_stats_15">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_15"
+          target="#colllapse_hist_15"
+        />
+        <label class="form-check-label" for="checkbox_hist_15">Histogram</label>
+      </div>
+
+      <a href="Period_control_trajectory_follower_controller_node_exe.html" target="_blank">
+        <img src="Period_control_trajectory_follower_controller_node_exe.png" />
+      </a>
+
+      <div class="collapse collapse_stats" id="collapse_stats_15">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [ms]</th>
+            <th width="10%">Min [ms]</th>
+            <th width="10%">Max [ms]</th>
+            <th width="10%">Std [ms]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_0: Timer_30.0ms</td>
+            
+            <td class="text-end">30.015</td>
+            <td class="text-end">7.109</td>
+            <td class="text-end">53.561</td>
+            <td class="text-end">3.933</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_1: Sub_/planning/scenario_planning/trajectory</td>
+            
+            <td class="text-end">99.877</td>
+            <td class="text-end">74.075</td>
+            <td class="text-end">129.872</td>
+            <td class="text-end">8.366</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_2: Sub_/vehicle/status/steering_status</td>
+            
+            <td class="text-end">35.183</td>
+            <td class="text-end">0.036</td>
+            <td class="text-end">86.829</td>
+            <td class="text-end">15.387</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_3: Sub_/localization/kinematic_state</td>
+            
+            <td class="text-end">19.995</td>
+            <td class="text-end">4.287</td>
+            <td class="text-end">35.419</td>
+            <td class="text-end">3.040</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_15">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Period_control_trajectory_follower_controller_node_exe_callback_0_hist.html" target="_blank">
+              <img src="Period_control_trajectory_follower_controller_node_exe_callback_0_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Period_control_trajectory_follower_controller_node_exe_callback_1_hist.html" target="_blank">
+              <img src="Period_control_trajectory_follower_controller_node_exe_callback_1_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Period_control_trajectory_follower_controller_node_exe_callback_2_hist.html" target="_blank">
+              <img src="Period_control_trajectory_follower_controller_node_exe_callback_2_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Period_control_trajectory_follower_controller_node_exe_callback_3_hist.html" target="_blank">
+              <img src="Period_control_trajectory_follower_controller_node_exe_callback_3_hist.png" />
+            </a>
+          </div>
+           
+        </div>
+      </div>
+
+      
+      <h4>Latency</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_16"
+          target="#collapse_stats_16"
+        />
+        <label class="form-check-label" for="checkbox_stats_16">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_16"
+          target="#colllapse_hist_16"
+        />
+        <label class="form-check-label" for="checkbox_hist_16">Histogram</label>
+      </div>
+
+      <a href="Latency_control_trajectory_follower_controller_node_exe.html" target="_blank">
+        <img src="Latency_control_trajectory_follower_controller_node_exe.png" />
+      </a>
+
+      <div class="collapse collapse_stats" id="collapse_stats_16">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [ms]</th>
+            <th width="10%">Min [ms]</th>
+            <th width="10%">Max [ms]</th>
+            <th width="10%">Std [ms]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_0: Timer_30.0ms</td>
+            
+            <td class="text-end">1.145</td>
+            <td class="text-end">0.161</td>
+            <td class="text-end">4.423</td>
+            <td class="text-end">0.879</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_1: Sub_/planning/scenario_planning/trajectory</td>
+            
+            <td class="text-end">0.002</td>
+            <td class="text-end">0.001</td>
+            <td class="text-end">0.005</td>
+            <td class="text-end">0.001</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_2: Sub_/vehicle/status/steering_status</td>
+            
+            <td class="text-end">0.002</td>
+            <td class="text-end">0.000</td>
+            <td class="text-end">0.071</td>
+            <td class="text-end">0.003</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_3: Sub_/localization/kinematic_state</td>
+            
+            <td class="text-end">0.003</td>
+            <td class="text-end">0.000</td>
+            <td class="text-end">0.055</td>
+            <td class="text-end">0.002</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_16">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Latency_control_trajectory_follower_controller_node_exe_callback_0_hist.html" target="_blank">
+              <img src="Latency_control_trajectory_follower_controller_node_exe_callback_0_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Latency_control_trajectory_follower_controller_node_exe_callback_1_hist.html" target="_blank">
+              <img src="Latency_control_trajectory_follower_controller_node_exe_callback_1_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Latency_control_trajectory_follower_controller_node_exe_callback_2_hist.html" target="_blank">
+              <img src="Latency_control_trajectory_follower_controller_node_exe_callback_2_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Latency_control_trajectory_follower_controller_node_exe_callback_3_hist.html" target="_blank">
+              <img src="Latency_control_trajectory_follower_controller_node_exe_callback_3_hist.png" />
+            </a>
+          </div>
+           
+        </div>
+      </div>
+
+        
+      <hr />
+      <h3 id="/control/trajectory_follower/lane_departure_checker_node">Node Name: /control/trajectory_follower/lane_departure_checker_node</h3>
+       
+      <h4>Frequency</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_17"
+          target="#collapse_stats_17"
+        />
+        <label class="form-check-label" for="checkbox_stats_17">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_17"
+          target="#colllapse_hist_17"
+        />
+        <label class="form-check-label" for="checkbox_hist_17">Histogram</label>
+      </div>
+
+      <a href="Frequency_control_trajectory_follower_lane_departure_checker_node.html" target="_blank">
+        <img src="Frequency_control_trajectory_follower_lane_departure_checker_node.png" />
+      </a>
+
+      <div class="collapse collapse_stats" id="collapse_stats_17">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [Hz]</th>
+            <th width="10%">Min [Hz]</th>
+            <th width="10%">Max [Hz]</th>
+            <th width="10%">Std [Hz]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_0: Timer_1000.0ms</td>
+            
+            <td class="text-end">1.000</td>
+            <td class="text-end">1.000</td>
+            <td class="text-end">1.000</td>
+            <td class="text-end">0.000</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_1: Timer_100.0ms</td>
+            
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">0.000</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_2: Sub_/localization/kinematic_state</td>
+            
+            <td class="text-end">50.067</td>
+            <td class="text-end">49.000</td>
+            <td class="text-end">51.000</td>
+            <td class="text-end">0.961</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_3: Sub_/planning/mission_planning/route</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_4: Sub_/planning/scenario_planning/trajectory</td>
+            
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">0.000</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_5: Sub_/control/trajectory_follower/lateral/predicted_trajectory</td>
+            
+            <td class="text-end">33.333</td>
+            <td class="text-end">33.000</td>
+            <td class="text-end">34.000</td>
+            <td class="text-end">0.488</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_17">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Frequency_control_trajectory_follower_lane_departure_checker_node_callback_0_hist.html" target="_blank">
+              <img src="Frequency_control_trajectory_follower_lane_departure_checker_node_callback_0_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Frequency_control_trajectory_follower_lane_departure_checker_node_callback_1_hist.html" target="_blank">
+              <img src="Frequency_control_trajectory_follower_lane_departure_checker_node_callback_1_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Frequency_control_trajectory_follower_lane_departure_checker_node_callback_2_hist.html" target="_blank">
+              <img src="Frequency_control_trajectory_follower_lane_departure_checker_node_callback_2_hist.png" />
+            </a>
+          </div>
+              
+          <div class="col">
+            <a href="Frequency_control_trajectory_follower_lane_departure_checker_node_callback_4_hist.html" target="_blank">
+              <img src="Frequency_control_trajectory_follower_lane_departure_checker_node_callback_4_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Frequency_control_trajectory_follower_lane_departure_checker_node_callback_5_hist.html" target="_blank">
+              <img src="Frequency_control_trajectory_follower_lane_departure_checker_node_callback_5_hist.png" />
+            </a>
+          </div>
+           
+        </div>
+      </div>
+
+      
+      <h4>Period</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_18"
+          target="#collapse_stats_18"
+        />
+        <label class="form-check-label" for="checkbox_stats_18">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_18"
+          target="#colllapse_hist_18"
+        />
+        <label class="form-check-label" for="checkbox_hist_18">Histogram</label>
+      </div>
+
+      <a href="Period_control_trajectory_follower_lane_departure_checker_node.html" target="_blank">
+        <img src="Period_control_trajectory_follower_lane_departure_checker_node.png" />
+      </a>
+
+      <div class="collapse collapse_stats" id="collapse_stats_18">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [ms]</th>
+            <th width="10%">Min [ms]</th>
+            <th width="10%">Max [ms]</th>
+            <th width="10%">Std [ms]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_0: Timer_1000.0ms</td>
+            
+            <td class="text-end">999.845</td>
+            <td class="text-end">997.674</td>
+            <td class="text-end">1000.266</td>
+            <td class="text-end">0.611</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_1: Timer_100.0ms</td>
+            
+            <td class="text-end">99.990</td>
+            <td class="text-end">89.222</td>
+            <td class="text-end">105.493</td>
+            <td class="text-end">3.832</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_2: Sub_/localization/kinematic_state</td>
+            
+            <td class="text-end">19.995</td>
+            <td class="text-end">4.289</td>
+            <td class="text-end">35.416</td>
+            <td class="text-end">3.041</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_3: Sub_/planning/mission_planning/route</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_4: Sub_/planning/scenario_planning/trajectory</td>
+            
+            <td class="text-end">99.877</td>
+            <td class="text-end">74.128</td>
+            <td class="text-end">129.877</td>
+            <td class="text-end">8.367</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_5: Sub_/control/trajectory_follower/lateral/predicted_trajectory</td>
+            
+            <td class="text-end">30.012</td>
+            <td class="text-end">6.857</td>
+            <td class="text-end">53.935</td>
+            <td class="text-end">4.037</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_18">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Period_control_trajectory_follower_lane_departure_checker_node_callback_0_hist.html" target="_blank">
+              <img src="Period_control_trajectory_follower_lane_departure_checker_node_callback_0_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Period_control_trajectory_follower_lane_departure_checker_node_callback_1_hist.html" target="_blank">
+              <img src="Period_control_trajectory_follower_lane_departure_checker_node_callback_1_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Period_control_trajectory_follower_lane_departure_checker_node_callback_2_hist.html" target="_blank">
+              <img src="Period_control_trajectory_follower_lane_departure_checker_node_callback_2_hist.png" />
+            </a>
+          </div>
+              
+          <div class="col">
+            <a href="Period_control_trajectory_follower_lane_departure_checker_node_callback_4_hist.html" target="_blank">
+              <img src="Period_control_trajectory_follower_lane_departure_checker_node_callback_4_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Period_control_trajectory_follower_lane_departure_checker_node_callback_5_hist.html" target="_blank">
+              <img src="Period_control_trajectory_follower_lane_departure_checker_node_callback_5_hist.png" />
+            </a>
+          </div>
+           
+        </div>
+      </div>
+
+      
+      <h4>Latency</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_19"
+          target="#collapse_stats_19"
+        />
+        <label class="form-check-label" for="checkbox_stats_19">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_19"
+          target="#colllapse_hist_19"
+        />
+        <label class="form-check-label" for="checkbox_hist_19">Histogram</label>
+      </div>
+
+      <a href="Latency_control_trajectory_follower_lane_departure_checker_node.html" target="_blank">
+        <img src="Latency_control_trajectory_follower_lane_departure_checker_node.png" />
+      </a>
+
+      <div class="collapse collapse_stats" id="collapse_stats_19">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [ms]</th>
+            <th width="10%">Min [ms]</th>
+            <th width="10%">Max [ms]</th>
+            <th width="10%">Std [ms]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_0: Timer_1000.0ms</td>
+            
+            <td class="text-end">0.086</td>
+            <td class="text-end">0.033</td>
+            <td class="text-end">0.154</td>
+            <td class="text-end">0.030</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_1: Timer_100.0ms</td>
+            
+            <td class="text-end">0.310</td>
+            <td class="text-end">0.014</td>
+            <td class="text-end">1.466</td>
+            <td class="text-end">0.341</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_2: Sub_/localization/kinematic_state</td>
+            
+            <td class="text-end">0.003</td>
+            <td class="text-end">0.001</td>
+            <td class="text-end">0.053</td>
+            <td class="text-end">0.002</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_3: Sub_/planning/mission_planning/route</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_4: Sub_/planning/scenario_planning/trajectory</td>
+            
+            <td class="text-end">0.002</td>
+            <td class="text-end">0.000</td>
+            <td class="text-end">0.009</td>
+            <td class="text-end">0.001</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_5: Sub_/control/trajectory_follower/lateral/predicted_trajectory</td>
+            
+            <td class="text-end">0.003</td>
+            <td class="text-end">0.000</td>
+            <td class="text-end">0.084</td>
+            <td class="text-end">0.004</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_19">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Latency_control_trajectory_follower_lane_departure_checker_node_callback_0_hist.html" target="_blank">
+              <img src="Latency_control_trajectory_follower_lane_departure_checker_node_callback_0_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Latency_control_trajectory_follower_lane_departure_checker_node_callback_1_hist.html" target="_blank">
+              <img src="Latency_control_trajectory_follower_lane_departure_checker_node_callback_1_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Latency_control_trajectory_follower_lane_departure_checker_node_callback_2_hist.html" target="_blank">
+              <img src="Latency_control_trajectory_follower_lane_departure_checker_node_callback_2_hist.png" />
+            </a>
+          </div>
+              
+          <div class="col">
+            <a href="Latency_control_trajectory_follower_lane_departure_checker_node_callback_4_hist.html" target="_blank">
+              <img src="Latency_control_trajectory_follower_lane_departure_checker_node_callback_4_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Latency_control_trajectory_follower_lane_departure_checker_node_callback_5_hist.html" target="_blank">
+              <img src="Latency_control_trajectory_follower_lane_departure_checker_node_callback_5_hist.png" />
+            </a>
+          </div>
+           
+        </div>
+      </div>
+
+        
+      <hr />
+      <h3 id="/control/vehicle_cmd_gate">Node Name: /control/vehicle_cmd_gate</h3>
+       
+      <h4>Frequency</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_20"
+          target="#collapse_stats_20"
+        />
+        <label class="form-check-label" for="checkbox_stats_20">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_20"
+          target="#colllapse_hist_20"
+        />
+        <label class="form-check-label" for="checkbox_hist_20">Histogram</label>
+      </div>
+
+      <a href="Frequency_control_vehicle_cmd_gate.html" target="_blank">
+        <img src="Frequency_control_vehicle_cmd_gate.png" />
+      </a>
+
+      <div class="collapse collapse_stats" id="collapse_stats_20">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [Hz]</th>
+            <th width="10%">Min [Hz]</th>
+            <th width="10%">Max [Hz]</th>
+            <th width="10%">Std [Hz]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_00: Timer_1000.0ms</td>
+            
+            <td class="text-end">1.000</td>
+            <td class="text-end">1.000</td>
+            <td class="text-end">1.000</td>
+            <td class="text-end">0.000</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_01: Timer_100.0ms</td>
+            
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">0.000</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_02: Timer_100.00000999999999ms</td>
+            
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">0.000</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_03: Sub_/system/emergency/emergency_state</td>
+            
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">0.000</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_04: Sub_/external/selected/heartbeat</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_05: Sub_/control/gate_mode_cmd</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_06: Sub_/vehicle/status/steering_status</td>
+            
+            <td class="text-end">28.133</td>
+            <td class="text-end">24.000</td>
+            <td class="text-end">31.000</td>
+            <td class="text-end">1.767</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_07: Sub_/control/operation_mode</td>
+            
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">0.000</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_08: Sub_/control/trajectory_follower/control_cmd</td>
+            
+            <td class="text-end">33.333</td>
+            <td class="text-end">33.000</td>
+            <td class="text-end">34.000</td>
+            <td class="text-end">0.488</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_09: Sub_/planning/turn_indicators_cmd</td>
+            
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">0.000</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_10: Sub_/planning/hazard_lights_cmd</td>
+            
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">0.000</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_11: Sub_/control/shift_decider/gear_cmd</td>
+            
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">0.000</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_12: Sub_/external/selected/control_cmd</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_13: Sub_/external/selected/turn_indicators_cmd</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_14: Sub_/external/selected/hazard_lights_cmd</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_15: Sub_/external/selected/gear_cmd</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_16: Sub_/system/emergency/control_cmd</td>
+            
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">0.000</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_17: Sub_/system/emergency/hazard_lights_cmd</td>
+            
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">0.000</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_18: Sub_/system/emergency/gear_cmd</td>
+            
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">0.000</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_20">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Frequency_control_vehicle_cmd_gate_callback_00_hist.html" target="_blank">
+              <img src="Frequency_control_vehicle_cmd_gate_callback_00_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Frequency_control_vehicle_cmd_gate_callback_01_hist.html" target="_blank">
+              <img src="Frequency_control_vehicle_cmd_gate_callback_01_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Frequency_control_vehicle_cmd_gate_callback_02_hist.html" target="_blank">
+              <img src="Frequency_control_vehicle_cmd_gate_callback_02_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Frequency_control_vehicle_cmd_gate_callback_03_hist.html" target="_blank">
+              <img src="Frequency_control_vehicle_cmd_gate_callback_03_hist.png" />
+            </a>
+          </div>
+                
+          <div class="col">
+            <a href="Frequency_control_vehicle_cmd_gate_callback_06_hist.html" target="_blank">
+              <img src="Frequency_control_vehicle_cmd_gate_callback_06_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Frequency_control_vehicle_cmd_gate_callback_07_hist.html" target="_blank">
+              <img src="Frequency_control_vehicle_cmd_gate_callback_07_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Frequency_control_vehicle_cmd_gate_callback_08_hist.html" target="_blank">
+              <img src="Frequency_control_vehicle_cmd_gate_callback_08_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Frequency_control_vehicle_cmd_gate_callback_09_hist.html" target="_blank">
+              <img src="Frequency_control_vehicle_cmd_gate_callback_09_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Frequency_control_vehicle_cmd_gate_callback_10_hist.html" target="_blank">
+              <img src="Frequency_control_vehicle_cmd_gate_callback_10_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Frequency_control_vehicle_cmd_gate_callback_11_hist.html" target="_blank">
+              <img src="Frequency_control_vehicle_cmd_gate_callback_11_hist.png" />
+            </a>
+          </div>
+                    
+          <div class="col">
+            <a href="Frequency_control_vehicle_cmd_gate_callback_16_hist.html" target="_blank">
+              <img src="Frequency_control_vehicle_cmd_gate_callback_16_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Frequency_control_vehicle_cmd_gate_callback_17_hist.html" target="_blank">
+              <img src="Frequency_control_vehicle_cmd_gate_callback_17_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Frequency_control_vehicle_cmd_gate_callback_18_hist.html" target="_blank">
+              <img src="Frequency_control_vehicle_cmd_gate_callback_18_hist.png" />
+            </a>
+          </div>
+           
+        </div>
+      </div>
+
+      
+      <h4>Period</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_21"
+          target="#collapse_stats_21"
+        />
+        <label class="form-check-label" for="checkbox_stats_21">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_21"
+          target="#colllapse_hist_21"
+        />
+        <label class="form-check-label" for="checkbox_hist_21">Histogram</label>
+      </div>
+
+      <a href="Period_control_vehicle_cmd_gate.html" target="_blank">
+        <img src="Period_control_vehicle_cmd_gate.png" />
+      </a>
+
+      <div class="collapse collapse_stats" id="collapse_stats_21">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [ms]</th>
+            <th width="10%">Min [ms]</th>
+            <th width="10%">Max [ms]</th>
+            <th width="10%">Std [ms]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_00: Timer_1000.0ms</td>
+            
+            <td class="text-end">999.991</td>
+            <td class="text-end">998.632</td>
+            <td class="text-end">1001.364</td>
+            <td class="text-end">0.521</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_01: Timer_100.0ms</td>
+            
+            <td class="text-end">100.012</td>
+            <td class="text-end">88.925</td>
+            <td class="text-end">106.760</td>
+            <td class="text-end">3.789</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_02: Timer_100.00000999999999ms</td>
+            
+            <td class="text-end">100.013</td>
+            <td class="text-end">88.977</td>
+            <td class="text-end">106.735</td>
+            <td class="text-end">3.780</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_03: Sub_/system/emergency/emergency_state</td>
+            
+            <td class="text-end">100.011</td>
+            <td class="text-end">79.950</td>
+            <td class="text-end">121.027</td>
+            <td class="text-end">7.804</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_04: Sub_/external/selected/heartbeat</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_05: Sub_/control/gate_mode_cmd</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_06: Sub_/vehicle/status/steering_status</td>
+            
+            <td class="text-end">35.637</td>
+            <td class="text-end">0.032</td>
+            <td class="text-end">86.863</td>
+            <td class="text-end">14.958</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_07: Sub_/control/operation_mode</td>
+            
+            <td class="text-end">100.012</td>
+            <td class="text-end">79.642</td>
+            <td class="text-end">115.387</td>
+            <td class="text-end">6.713</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_08: Sub_/control/trajectory_follower/control_cmd</td>
+            
+            <td class="text-end">30.012</td>
+            <td class="text-end">6.895</td>
+            <td class="text-end">53.940</td>
+            <td class="text-end">4.041</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_09: Sub_/planning/turn_indicators_cmd</td>
+            
+            <td class="text-end">99.996</td>
+            <td class="text-end">86.735</td>
+            <td class="text-end">111.945</td>
+            <td class="text-end">4.153</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_10: Sub_/planning/hazard_lights_cmd</td>
+            
+            <td class="text-end">99.996</td>
+            <td class="text-end">86.700</td>
+            <td class="text-end">111.911</td>
+            <td class="text-end">4.156</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_11: Sub_/control/shift_decider/gear_cmd</td>
+            
+            <td class="text-end">100.005</td>
+            <td class="text-end">85.594</td>
+            <td class="text-end">113.302</td>
+            <td class="text-end">5.365</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_12: Sub_/external/selected/control_cmd</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_13: Sub_/external/selected/turn_indicators_cmd</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_14: Sub_/external/selected/hazard_lights_cmd</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_15: Sub_/external/selected/gear_cmd</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_16: Sub_/system/emergency/control_cmd</td>
+            
+            <td class="text-end">100.012</td>
+            <td class="text-end">79.889</td>
+            <td class="text-end">121.154</td>
+            <td class="text-end">7.826</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_17: Sub_/system/emergency/hazard_lights_cmd</td>
+            
+            <td class="text-end">100.012</td>
+            <td class="text-end">79.896</td>
+            <td class="text-end">121.155</td>
+            <td class="text-end">7.815</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_18: Sub_/system/emergency/gear_cmd</td>
+            
+            <td class="text-end">100.012</td>
+            <td class="text-end">79.900</td>
+            <td class="text-end">121.158</td>
+            <td class="text-end">7.811</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_21">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Period_control_vehicle_cmd_gate_callback_00_hist.html" target="_blank">
+              <img src="Period_control_vehicle_cmd_gate_callback_00_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Period_control_vehicle_cmd_gate_callback_01_hist.html" target="_blank">
+              <img src="Period_control_vehicle_cmd_gate_callback_01_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Period_control_vehicle_cmd_gate_callback_02_hist.html" target="_blank">
+              <img src="Period_control_vehicle_cmd_gate_callback_02_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Period_control_vehicle_cmd_gate_callback_03_hist.html" target="_blank">
+              <img src="Period_control_vehicle_cmd_gate_callback_03_hist.png" />
+            </a>
+          </div>
+                
+          <div class="col">
+            <a href="Period_control_vehicle_cmd_gate_callback_06_hist.html" target="_blank">
+              <img src="Period_control_vehicle_cmd_gate_callback_06_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Period_control_vehicle_cmd_gate_callback_07_hist.html" target="_blank">
+              <img src="Period_control_vehicle_cmd_gate_callback_07_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Period_control_vehicle_cmd_gate_callback_08_hist.html" target="_blank">
+              <img src="Period_control_vehicle_cmd_gate_callback_08_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Period_control_vehicle_cmd_gate_callback_09_hist.html" target="_blank">
+              <img src="Period_control_vehicle_cmd_gate_callback_09_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Period_control_vehicle_cmd_gate_callback_10_hist.html" target="_blank">
+              <img src="Period_control_vehicle_cmd_gate_callback_10_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Period_control_vehicle_cmd_gate_callback_11_hist.html" target="_blank">
+              <img src="Period_control_vehicle_cmd_gate_callback_11_hist.png" />
+            </a>
+          </div>
+                    
+          <div class="col">
+            <a href="Period_control_vehicle_cmd_gate_callback_16_hist.html" target="_blank">
+              <img src="Period_control_vehicle_cmd_gate_callback_16_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Period_control_vehicle_cmd_gate_callback_17_hist.html" target="_blank">
+              <img src="Period_control_vehicle_cmd_gate_callback_17_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Period_control_vehicle_cmd_gate_callback_18_hist.html" target="_blank">
+              <img src="Period_control_vehicle_cmd_gate_callback_18_hist.png" />
+            </a>
+          </div>
+           
+        </div>
+      </div>
+
+      
+      <h4>Latency</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_22"
+          target="#collapse_stats_22"
+        />
+        <label class="form-check-label" for="checkbox_stats_22">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_22"
+          target="#colllapse_hist_22"
+        />
+        <label class="form-check-label" for="checkbox_hist_22">Histogram</label>
+      </div>
+
+      <a href="Latency_control_vehicle_cmd_gate.html" target="_blank">
+        <img src="Latency_control_vehicle_cmd_gate.png" />
+      </a>
+
+      <div class="collapse collapse_stats" id="collapse_stats_22">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [ms]</th>
+            <th width="10%">Min [ms]</th>
+            <th width="10%">Max [ms]</th>
+            <th width="10%">Std [ms]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_00: Timer_1000.0ms</td>
+            
+            <td class="text-end">0.057</td>
+            <td class="text-end">0.027</td>
+            <td class="text-end">0.127</td>
+            <td class="text-end">0.029</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_01: Timer_100.0ms</td>
+            
+            <td class="text-end">0.146</td>
+            <td class="text-end">0.024</td>
+            <td class="text-end">0.524</td>
+            <td class="text-end">0.090</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_02: Timer_100.00000999999999ms</td>
+            
+            <td class="text-end">0.195</td>
+            <td class="text-end">0.034</td>
+            <td class="text-end">0.757</td>
+            <td class="text-end">0.146</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_03: Sub_/system/emergency/emergency_state</td>
+            
+            <td class="text-end">0.006</td>
+            <td class="text-end">0.002</td>
+            <td class="text-end">0.096</td>
+            <td class="text-end">0.007</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_04: Sub_/external/selected/heartbeat</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_05: Sub_/control/gate_mode_cmd</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_06: Sub_/vehicle/status/steering_status</td>
+            
+            <td class="text-end">0.002</td>
+            <td class="text-end">0.000</td>
+            <td class="text-end">0.013</td>
+            <td class="text-end">0.001</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_07: Sub_/control/operation_mode</td>
+            
+            <td class="text-end">0.001</td>
+            <td class="text-end">0.000</td>
+            <td class="text-end">0.014</td>
+            <td class="text-end">0.001</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_08: Sub_/control/trajectory_follower/control_cmd</td>
+            
+            <td class="text-end">0.077</td>
+            <td class="text-end">0.018</td>
+            <td class="text-end">0.553</td>
+            <td class="text-end">0.062</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_09: Sub_/planning/turn_indicators_cmd</td>
+            
+            <td class="text-end">0.002</td>
+            <td class="text-end">0.001</td>
+            <td class="text-end">0.005</td>
+            <td class="text-end">0.001</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_10: Sub_/planning/hazard_lights_cmd</td>
+            
+            <td class="text-end">0.001</td>
+            <td class="text-end">0.000</td>
+            <td class="text-end">0.003</td>
+            <td class="text-end">0.000</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_11: Sub_/control/shift_decider/gear_cmd</td>
+            
+            <td class="text-end">0.002</td>
+            <td class="text-end">0.001</td>
+            <td class="text-end">0.006</td>
+            <td class="text-end">0.001</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_12: Sub_/external/selected/control_cmd</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_13: Sub_/external/selected/turn_indicators_cmd</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_14: Sub_/external/selected/hazard_lights_cmd</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_15: Sub_/external/selected/gear_cmd</td>
+            
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_16: Sub_/system/emergency/control_cmd</td>
+            
+            <td class="text-end">0.002</td>
+            <td class="text-end">0.000</td>
+            <td class="text-end">0.027</td>
+            <td class="text-end">0.002</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_17: Sub_/system/emergency/hazard_lights_cmd</td>
+            
+            <td class="text-end">0.001</td>
+            <td class="text-end">0.001</td>
+            <td class="text-end">0.004</td>
+            <td class="text-end">0.001</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_18: Sub_/system/emergency/gear_cmd</td>
+            
+            <td class="text-end">0.001</td>
+            <td class="text-end">0.000</td>
+            <td class="text-end">0.003</td>
+            <td class="text-end">0.001</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_22">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Latency_control_vehicle_cmd_gate_callback_00_hist.html" target="_blank">
+              <img src="Latency_control_vehicle_cmd_gate_callback_00_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Latency_control_vehicle_cmd_gate_callback_01_hist.html" target="_blank">
+              <img src="Latency_control_vehicle_cmd_gate_callback_01_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Latency_control_vehicle_cmd_gate_callback_02_hist.html" target="_blank">
+              <img src="Latency_control_vehicle_cmd_gate_callback_02_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Latency_control_vehicle_cmd_gate_callback_03_hist.html" target="_blank">
+              <img src="Latency_control_vehicle_cmd_gate_callback_03_hist.png" />
+            </a>
+          </div>
+                
+          <div class="col">
+            <a href="Latency_control_vehicle_cmd_gate_callback_06_hist.html" target="_blank">
+              <img src="Latency_control_vehicle_cmd_gate_callback_06_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Latency_control_vehicle_cmd_gate_callback_07_hist.html" target="_blank">
+              <img src="Latency_control_vehicle_cmd_gate_callback_07_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Latency_control_vehicle_cmd_gate_callback_08_hist.html" target="_blank">
+              <img src="Latency_control_vehicle_cmd_gate_callback_08_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Latency_control_vehicle_cmd_gate_callback_09_hist.html" target="_blank">
+              <img src="Latency_control_vehicle_cmd_gate_callback_09_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Latency_control_vehicle_cmd_gate_callback_10_hist.html" target="_blank">
+              <img src="Latency_control_vehicle_cmd_gate_callback_10_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Latency_control_vehicle_cmd_gate_callback_11_hist.html" target="_blank">
+              <img src="Latency_control_vehicle_cmd_gate_callback_11_hist.png" />
+            </a>
+          </div>
+                    
+          <div class="col">
+            <a href="Latency_control_vehicle_cmd_gate_callback_16_hist.html" target="_blank">
+              <img src="Latency_control_vehicle_cmd_gate_callback_16_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Latency_control_vehicle_cmd_gate_callback_17_hist.html" target="_blank">
+              <img src="Latency_control_vehicle_cmd_gate_callback_17_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Latency_control_vehicle_cmd_gate_callback_18_hist.html" target="_blank">
+              <img src="Latency_control_vehicle_cmd_gate_callback_18_hist.png" />
+            </a>
+          </div>
+           
+        </div>
+      </div>
+
+        
+    </div>
+    <!-- container -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript">
+      $("#checkbox_stats_all").click(function () {
+        if ($(this).prop("checked")) {
+          $(".collapse_stats").collapse("show");
+          $(".checkbox_stats").prop("checked", true);
+        } else {
+          $(".collapse_stats").collapse("hide");
+          $(".checkbox_stats").prop("checked", false);
+        }
+      });
+      $("#checkbox_hist_all").click(function () {
+        if ($(this).prop("checked")) {
+          $(".collapse_hist").collapse("show");
+          $(".checkbox_hist").prop("checked", true);
+        } else {
+          $(".collapse_hist").collapse("hide");
+          $(".checkbox_hist").prop("checked", false);
+        }
+      });
+      $(".checkbox_stats").click(function () {
+        target = $(this).attr("target");
+        if ($(this).prop("checked")) {
+          $(target).collapse("show");
+        } else {
+          $(target).collapse("hide");
+        }
+      });
+      $(".checkbox_hist").click(function () {
+        target = $(this).attr("target");
+        if ($(this).prop("checked")) {
+          $(target).collapse("show");
+        } else {
+          $(target).collapse("hide");
+        }
+      });
+      $(function () {
+        $(".form-check-input").prop("checked", false);
+        $("#checkbox_stats_all").click();
+      });
+    </script>
+  </body>
+</html>

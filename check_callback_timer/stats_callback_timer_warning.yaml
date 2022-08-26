@@ -1,0 +1,8 @@
+- node_name: /planning/scenario_planning/lane_driving/motion_planning/surround_obstacle_checker
+  package_name: planning
+  callback_name: /planning/scenario_planning/lane_driving/motion_planning/surround_obstacle_checker/callback_0
+  callback_displayname: Timer_100.0ms
+  freq_timer: 10.0
+  freq_callback: 2
+  num_huge_gap: 14
+  graph_filename: planning_scenario_planning_lane_driving_motion_planning_surround_obstacle_checker_callback_0

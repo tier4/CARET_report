@@ -1,0 +1,962 @@
+/control/external_cmd_converter:
+  filename_timeseries:
+    Frequency: Frequency_control_external_cmd_converter
+    Period: Period_control_external_cmd_converter
+    Latency: Latency_control_external_cmd_converter
+  callbacks:
+    /control/external_cmd_converter/callback_0:
+      Frequency:
+        avg: 1.0
+        min: 1.0
+        max: 1.0
+        std: 0.0
+        filename_hist: Frequency_control_external_cmd_converter_callback_0_hist
+      displayname: 'callback_0: Timer_1000.0ms'
+      Period:
+        avg: 1000.000199
+        min: 999.5480399999999
+        max: 1000.368558
+        std: 0.17902885246918723
+        filename_hist: Period_control_external_cmd_converter_callback_0_hist
+      Latency:
+        avg: 0.06784499999999999
+        min: 0.018622
+        max: 0.133015
+        std: 0.03519118753703357
+        filename_hist: Latency_control_external_cmd_converter_callback_0_hist
+    /control/external_cmd_converter/callback_1:
+      Frequency:
+        avg: 10.0
+        min: 10.0
+        max: 10.0
+        std: 0.0
+        filename_hist: Frequency_control_external_cmd_converter_callback_1_hist
+      displayname: 'callback_1: Timer_100.0ms'
+      Period:
+        avg: 100.01131046012269
+        min: 79.600144
+        max: 120.96909699999999
+        std: 7.8664236792366244
+        filename_hist: Period_control_external_cmd_converter_callback_1_hist
+      Latency:
+        avg: 0.07155527439024391
+        min: 0.017943999999999998
+        max: 0.501085
+        std: 0.06914464324729296
+        filename_hist: Latency_control_external_cmd_converter_callback_1_hist
+    /control/external_cmd_converter/callback_2:
+      Frequency:
+        avg: 50.06666666666667
+        min: 49.0
+        max: 51.0
+        std: 0.9611501047232549
+        filename_hist: Frequency_control_external_cmd_converter_callback_2_hist
+      displayname: 'callback_2: Sub_/localization/kinematic_state'
+      Period:
+        avg: 19.994768261761156
+        min: 4.279707
+        max: 35.403223
+        std: 3.041484231523204
+        filename_hist: Period_control_external_cmd_converter_callback_2_hist
+      Latency:
+        avg: 0.0026641855421686744
+        min: 0.000937
+        max: 0.012934
+        std: 0.0010462056904427177
+        filename_hist: Latency_control_external_cmd_converter_callback_2_hist
+    /control/external_cmd_converter/callback_3:
+      Frequency:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+      displayname: 'callback_3: Sub_/external/selected/external_control_cmd'
+      Period:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+      Latency:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+    /control/external_cmd_converter/callback_4:
+      Frequency:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+      displayname: 'callback_4: Sub_/external/selected/gear_cmd'
+      Period:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+      Latency:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+    /control/external_cmd_converter/callback_5:
+      Frequency:
+        avg: 10.0
+        min: 10.0
+        max: 10.0
+        std: 0.0
+        filename_hist: Frequency_control_external_cmd_converter_callback_5_hist
+      displayname: 'callback_5: Sub_/control/current_gate_mode'
+      Period:
+        avg: 100.01298837423313
+        min: 89.401411
+        max: 106.48254999999999
+        std: 3.771070515683195
+        filename_hist: Period_control_external_cmd_converter_callback_5_hist
+      Latency:
+        avg: 0.003638615853658537
+        min: 0.000883
+        max: 0.009182
+        std: 0.0013040562127943287
+        filename_hist: Latency_control_external_cmd_converter_callback_5_hist
+    /control/external_cmd_converter/callback_6:
+      Frequency:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+      displayname: 'callback_6: Sub_/external/selected/heartbeat'
+      Period:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+      Latency:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+/control/external_cmd_selector:
+  filename_timeseries:
+    Frequency: Frequency_control_external_cmd_selector
+    Period: Period_control_external_cmd_selector
+    Latency: Latency_control_external_cmd_selector
+  callbacks:
+    /control/external_cmd_selector/callback_0:
+      Frequency:
+        avg: 1.0
+        min: 1.0
+        max: 1.0
+        std: 0.0
+        filename_hist: Frequency_control_external_cmd_selector_callback_0_hist
+      displayname: 'callback_0: Timer_1000.0ms'
+      Period:
+        avg: 999.9944113333332
+        min: 999.8560369999999
+        max: 1000.0747359999999
+        std: 0.05670450657282968
+        filename_hist: Period_control_external_cmd_selector_callback_0_hist
+      Latency:
+        avg: 0.059951875
+        min: 0.025259
+        max: 0.09734799999999999
+        std: 0.01664941980921057
+        filename_hist: Latency_control_external_cmd_selector_callback_0_hist
+    /control/external_cmd_selector/callback_1:
+      Frequency:
+        avg: 10.0
+        min: 9.0
+        max: 11.0
+        std: 0.3779644730092272
+        filename_hist: Frequency_control_external_cmd_selector_callback_1_hist
+      displayname: 'callback_1: Timer_100.0ms'
+      Period:
+        avg: 100.01182182822085
+        min: 79.568584
+        max: 120.999921
+        std: 7.876944650213963
+        filename_hist: Period_control_external_cmd_selector_callback_1_hist
+      Latency:
+        avg: 0.04353538414634146
+        min: 0.00752
+        max: 0.303456
+        std: 0.03760642774232409
+        filename_hist: Latency_control_external_cmd_selector_callback_1_hist
+/control/operation_mode_transition_manager:
+  filename_timeseries:
+    Frequency: Frequency_control_operation_mode_transition_manager
+    Period: Period_control_operation_mode_transition_manager
+    Latency: Latency_control_operation_mode_transition_manager
+  callbacks:
+    /control/operation_mode_transition_manager/callback_0:
+      Frequency:
+        avg: 10.0
+        min: 10.0
+        max: 10.0
+        std: 0.0
+        filename_hist: Frequency_control_operation_mode_transition_manager_callback_0_hist
+      displayname: 'callback_0: Timer_100.0ms'
+      Period:
+        avg: 100.01026167484663
+        min: 79.60704799999999
+        max: 115.595739
+        std: 6.752744466582361
+        filename_hist: Period_control_operation_mode_transition_manager_callback_0_hist
+      Latency:
+        avg: 0.07112356707317072
+        min: 0.016333999999999998
+        max: 0.514952
+        std: 0.05984040054214672
+        filename_hist: Latency_control_operation_mode_transition_manager_callback_0_hist
+    /control/operation_mode_transition_manager/callback_1:
+      Frequency:
+        avg: 50.06666666666667
+        min: 49.0
+        max: 51.0
+        std: 0.8837151016885368
+        filename_hist: Frequency_control_operation_mode_transition_manager_callback_1_hist
+      displayname: 'callback_1: Sub_/localization/kinematic_state'
+      Period:
+        avg: 19.99456108443908
+        min: 4.288682
+        max: 35.396177
+        std: 3.0403044125001584
+        filename_hist: Period_control_operation_mode_transition_manager_callback_1_hist
+      Latency:
+        avg: 0.001713340963855422
+        min: 0.00039
+        max: 0.014511999999999999
+        std: 0.000800729042439191
+        filename_hist: Latency_control_operation_mode_transition_manager_callback_1_hist
+    /control/operation_mode_transition_manager/callback_2:
+      Frequency:
+        avg: 10.0
+        min: 10.0
+        max: 10.0
+        std: 0.0
+        filename_hist: Frequency_control_operation_mode_transition_manager_callback_2_hist
+      displayname: 'callback_2: Sub_/planning/scenario_planning/trajectory'
+      Period:
+        avg: 99.8774296993865
+        min: 74.120717
+        max: 129.89615799999999
+        std: 8.363058397609434
+        filename_hist: Period_control_operation_mode_transition_manager_callback_2_hist
+      Latency:
+        avg: 0.002384231707317073
+        min: 0.00075
+        max: 0.012742
+        std: 0.0014756550779814798
+        filename_hist: Latency_control_operation_mode_transition_manager_callback_2_hist
+    /control/operation_mode_transition_manager/callback_3:
+      Frequency:
+        avg: 33.333333333333336
+        min: 33.0
+        max: 34.0
+        std: 0.4879500364742665
+        filename_hist: Frequency_control_operation_mode_transition_manager_callback_3_hist
+      displayname: 'callback_3: Sub_/control/command/control_cmd'
+      Period:
+        avg: 30.011645163339384
+        min: 6.8859639999999995
+        max: 53.873582
+        std: 4.05896413611036
+        filename_hist: Period_control_operation_mode_transition_manager_callback_3_hist
+      Latency:
+        avg: 0.0013544909420289855
+        min: 0.000167
+        max: 0.015189999999999999
+        std: 0.0009728378492130859
+        filename_hist: Latency_control_operation_mode_transition_manager_callback_3_hist
+    /control/operation_mode_transition_manager/callback_4:
+      Frequency:
+        avg: 27.866666666666667
+        min: 25.0
+        max: 31.0
+        std: 1.92230020944651
+        filename_hist: Frequency_control_operation_mode_transition_manager_callback_4_hist
+      displayname: 'callback_4: Sub_/vehicle/status/control_mode'
+      Period:
+        avg: 35.84674323593073
+        min: 0.061152
+        max: 86.295199
+        std: 14.670298391943213
+        filename_hist: Period_control_operation_mode_transition_manager_callback_4_hist
+      Latency:
+        avg: 0.002125317494600432
+        min: 0.000144
+        max: 0.010595
+        std: 0.0011469907685859614
+        filename_hist: Latency_control_operation_mode_transition_manager_callback_4_hist
+    /control/operation_mode_transition_manager/callback_5:
+      Frequency:
+        avg: 10.0
+        min: 10.0
+        max: 10.0
+        std: 0.0
+        filename_hist: Frequency_control_operation_mode_transition_manager_callback_5_hist
+      displayname: 'callback_5: Sub_/control/vehicle_cmd_gate/operation_mode'
+      Period:
+        avg: 100.01305038650307
+        min: 89.394745
+        max: 106.488407
+        std: 3.7709708618592517
+        filename_hist: Period_control_operation_mode_transition_manager_callback_5_hist
+      Latency:
+        avg: 0.002357810975609756
+        min: 0.000374
+        max: 0.042193999999999995
+        std: 0.003248930871944853
+        filename_hist: Latency_control_operation_mode_transition_manager_callback_5_hist
+/control/shift_decider:
+  filename_timeseries:
+    Frequency: Frequency_control_shift_decider
+    Period: Period_control_shift_decider
+    Latency: Latency_control_shift_decider
+  callbacks:
+    /control/shift_decider/callback_0:
+      Frequency:
+        avg: 10.0
+        min: 10.0
+        max: 10.0
+        std: 0.0
+        filename_hist: Frequency_control_shift_decider_callback_0_hist
+      displayname: 'callback_0: Timer_100.0ms'
+      Period:
+        avg: 100.00425622085889
+        min: 85.47748399999999
+        max: 113.38653699999999
+        std: 5.345764966257105
+        filename_hist: Period_control_shift_decider_callback_0_hist
+      Latency:
+        avg: 0.03332633536585366
+        min: 0.005031
+        max: 0.666513
+        std: 0.06067909909766309
+        filename_hist: Latency_control_shift_decider_callback_0_hist
+    /control/shift_decider/callback_1:
+      Frequency:
+        avg: 33.333333333333336
+        min: 33.0
+        max: 34.0
+        std: 0.4879500364742665
+        filename_hist: Frequency_control_shift_decider_callback_1_hist
+      displayname: 'callback_1: Sub_/control/trajectory_follower/control_cmd'
+      Period:
+        avg: 30.01159307441016
+        min: 6.894381999999999
+        max: 53.934221
+        std: 4.038650693770723
+        filename_hist: Period_control_shift_decider_callback_1_hist
+      Latency:
+        avg: 0.002754853260869565
+        min: 0.000829
+        max: 0.066078
+        std: 0.0030890994891010983
+        filename_hist: Latency_control_shift_decider_callback_1_hist
+/control/trajectory_follower/controller_node_exe:
+  filename_timeseries:
+    Frequency: Frequency_control_trajectory_follower_controller_node_exe
+    Period: Period_control_trajectory_follower_controller_node_exe
+    Latency: Latency_control_trajectory_follower_controller_node_exe
+  callbacks:
+    /control/trajectory_follower/controller_node_exe/callback_0:
+      Frequency:
+        avg: 33.333333333333336
+        min: 33.0
+        max: 34.0
+        std: 0.4879500364742665
+        filename_hist: Frequency_control_trajectory_follower_controller_node_exe_callback_0_hist
+      displayname: 'callback_0: Timer_30.0ms'
+      Period:
+        avg: 30.01503485117967
+        min: 7.109265
+        max: 53.560989
+        std: 3.933074566420476
+        filename_hist: Period_control_trajectory_follower_controller_node_exe_callback_0_hist
+      Latency:
+        avg: 1.1454345344202899
+        min: 0.16133799999999998
+        max: 4.423191
+        std: 0.8786442076012009
+        filename_hist: Latency_control_trajectory_follower_controller_node_exe_callback_0_hist
+    /control/trajectory_follower/controller_node_exe/callback_1:
+      Frequency:
+        avg: 10.0
+        min: 10.0
+        max: 10.0
+        std: 0.0
+        filename_hist: Frequency_control_trajectory_follower_controller_node_exe_callback_1_hist
+      displayname: 'callback_1: Sub_/planning/scenario_planning/trajectory'
+      Period:
+        avg: 99.8773038773006
+        min: 74.07505499999999
+        max: 129.872194
+        std: 8.366471915239579
+        filename_hist: Period_control_trajectory_follower_controller_node_exe_callback_1_hist
+      Latency:
+        avg: 0.0021523902439024387
+        min: 0.000659
+        max: 0.005004
+        std: 0.0008296314616218599
+        filename_hist: Latency_control_trajectory_follower_controller_node_exe_callback_1_hist
+    /control/trajectory_follower/controller_node_exe/callback_2:
+      Frequency:
+        avg: 28.533333333333335
+        min: 24.0
+        max: 31.0
+        std: 2.065591117977289
+        filename_hist: Frequency_control_trajectory_follower_controller_node_exe_callback_2_hist
+      displayname: 'callback_2: Sub_/vehicle/status/steering_status'
+      Period:
+        avg: 35.1833844373673
+        min: 0.036161
+        max: 86.828615
+        std: 15.38710389237802
+        filename_hist: Period_control_trajectory_follower_controller_node_exe_callback_2_hist
+      Latency:
+        avg: 0.002360561440677966
+        min: 0.00040199999999999996
+        max: 0.071072
+        std: 0.0033823727655123183
+        filename_hist: Latency_control_trajectory_follower_controller_node_exe_callback_2_hist
+    /control/trajectory_follower/controller_node_exe/callback_3:
+      Frequency:
+        avg: 50.06666666666667
+        min: 49.0
+        max: 51.0
+        std: 0.9611501047232549
+        filename_hist: Frequency_control_trajectory_follower_controller_node_exe_callback_3_hist
+      displayname: 'callback_3: Sub_/localization/kinematic_state'
+      Period:
+        avg: 19.994822026537996
+        min: 4.2867679999999995
+        max: 35.419193
+        std: 3.040315767638787
+        filename_hist: Period_control_trajectory_follower_controller_node_exe_callback_3_hist
+      Latency:
+        avg: 0.0028741783132530123
+        min: 0.00024099999999999998
+        max: 0.055365
+        std: 0.002167846496822886
+        filename_hist: Latency_control_trajectory_follower_controller_node_exe_callback_3_hist
+/control/trajectory_follower/lane_departure_checker_node:
+  filename_timeseries:
+    Frequency: Frequency_control_trajectory_follower_lane_departure_checker_node
+    Period: Period_control_trajectory_follower_lane_departure_checker_node
+    Latency: Latency_control_trajectory_follower_lane_departure_checker_node
+  callbacks:
+    /control/trajectory_follower/lane_departure_checker_node/callback_0:
+      Frequency:
+        avg: 1.0
+        min: 1.0
+        max: 1.0
+        std: 0.0
+        filename_hist: Frequency_control_trajectory_follower_lane_departure_checker_node_callback_0_hist
+      displayname: 'callback_0: Timer_1000.0ms'
+      Period:
+        avg: 999.8451318666666
+        min: 997.67372
+        max: 1000.265551
+        std: 0.6110086291328657
+        filename_hist: Period_control_trajectory_follower_lane_departure_checker_node_callback_0_hist
+      Latency:
+        avg: 0.08591775
+        min: 0.032528999999999995
+        max: 0.153683
+        std: 0.03014824176962895
+        filename_hist: Latency_control_trajectory_follower_lane_departure_checker_node_callback_0_hist
+    /control/trajectory_follower/lane_departure_checker_node/callback_1:
+      Frequency:
+        avg: 10.0
+        min: 10.0
+        max: 10.0
+        std: 0.0
+        filename_hist: Frequency_control_trajectory_follower_lane_departure_checker_node_callback_1_hist
+      displayname: 'callback_1: Timer_100.0ms'
+      Period:
+        avg: 99.990399601227
+        min: 89.221813
+        max: 105.493117
+        std: 3.832067431734362
+        filename_hist: Period_control_trajectory_follower_lane_departure_checker_node_callback_1_hist
+      Latency:
+        avg: 0.31001215243902436
+        min: 0.013616999999999999
+        max: 1.466362
+        std: 0.3409771214643913
+        filename_hist: Latency_control_trajectory_follower_lane_departure_checker_node_callback_1_hist
+    /control/trajectory_follower/lane_departure_checker_node/callback_2:
+      Frequency:
+        avg: 50.06666666666667
+        min: 49.0
+        max: 51.0
+        std: 0.9611501047232549
+        filename_hist: Frequency_control_trajectory_follower_lane_departure_checker_node_callback_2_hist
+      displayname: 'callback_2: Sub_/localization/kinematic_state'
+      Period:
+        avg: 19.994859920386006
+        min: 4.288828
+        max: 35.416415
+        std: 3.0405351027785947
+        filename_hist: Period_control_trajectory_follower_lane_departure_checker_node_callback_2_hist
+      Latency:
+        avg: 0.003215890361445783
+        min: 0.000832
+        max: 0.05253
+        std: 0.002238592624778788
+        filename_hist: Latency_control_trajectory_follower_lane_departure_checker_node_callback_2_hist
+    /control/trajectory_follower/lane_departure_checker_node/callback_3:
+      Frequency:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+      displayname: 'callback_3: Sub_/planning/mission_planning/route'
+      Period:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+      Latency:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+    /control/trajectory_follower/lane_departure_checker_node/callback_4:
+      Frequency:
+        avg: 10.0
+        min: 10.0
+        max: 10.0
+        std: 0.0
+        filename_hist: Frequency_control_trajectory_follower_lane_departure_checker_node_callback_4_hist
+      displayname: 'callback_4: Sub_/planning/scenario_planning/trajectory'
+      Period:
+        avg: 99.87721476687115
+        min: 74.12750199999999
+        max: 129.87688
+        std: 8.367022754200958
+        filename_hist: Period_control_trajectory_follower_lane_departure_checker_node_callback_4_hist
+      Latency:
+        avg: 0.0020966036585365853
+        min: 0.000309
+        max: 0.009375
+        std: 0.001176838734222706
+        filename_hist: Latency_control_trajectory_follower_lane_departure_checker_node_callback_4_hist
+    /control/trajectory_follower/lane_departure_checker_node/callback_5:
+      Frequency:
+        avg: 33.333333333333336
+        min: 33.0
+        max: 34.0
+        std: 0.4879500364742665
+        filename_hist: Frequency_control_trajectory_follower_lane_departure_checker_node_callback_5_hist
+      displayname: 'callback_5: Sub_/control/trajectory_follower/lateral/predicted_trajectory'
+      Period:
+        avg: 30.01154829764065
+        min: 6.8565629999999995
+        max: 53.934709999999995
+        std: 4.036934826941777
+        filename_hist: Period_control_trajectory_follower_lane_departure_checker_node_callback_5_hist
+      Latency:
+        avg: 0.0033347065217391304
+        min: 0.000195
+        max: 0.08433299999999999
+        std: 0.0043423093244759825
+        filename_hist: Latency_control_trajectory_follower_lane_departure_checker_node_callback_5_hist
+/control/vehicle_cmd_gate:
+  filename_timeseries:
+    Frequency: Frequency_control_vehicle_cmd_gate
+    Period: Period_control_vehicle_cmd_gate
+    Latency: Latency_control_vehicle_cmd_gate
+  callbacks:
+    /control/vehicle_cmd_gate/callback_00:
+      Frequency:
+        avg: 1.0
+        min: 1.0
+        max: 1.0
+        std: 0.0
+        filename_hist: Frequency_control_vehicle_cmd_gate_callback_00_hist
+      displayname: 'callback_00: Timer_1000.0ms'
+      Period:
+        avg: 999.9908085999999
+        min: 998.631932
+        max: 1001.363972
+        std: 0.5209184989401997
+        filename_hist: Period_control_vehicle_cmd_gate_callback_00_hist
+      Latency:
+        avg: 0.05663918749999999
+        min: 0.026986
+        max: 0.12685
+        std: 0.02897440184074844
+        filename_hist: Latency_control_vehicle_cmd_gate_callback_00_hist
+    /control/vehicle_cmd_gate/callback_01:
+      Frequency:
+        avg: 10.0
+        min: 10.0
+        max: 10.0
+        std: 0.0
+        filename_hist: Frequency_control_vehicle_cmd_gate_callback_01_hist
+      displayname: 'callback_01: Timer_100.0ms'
+      Period:
+        avg: 100.01230970552147
+        min: 88.92479999999999
+        max: 106.76016899999999
+        std: 3.788961175100143
+        filename_hist: Period_control_vehicle_cmd_gate_callback_01_hist
+      Latency:
+        avg: 0.1455028231707317
+        min: 0.024298
+        max: 0.524365
+        std: 0.0900485555878568
+        filename_hist: Latency_control_vehicle_cmd_gate_callback_01_hist
+    /control/vehicle_cmd_gate/callback_02:
+      Frequency:
+        avg: 10.0
+        min: 10.0
+        max: 10.0
+        std: 0.0
+        filename_hist: Frequency_control_vehicle_cmd_gate_callback_02_hist
+      displayname: 'callback_02: Timer_100.00000999999999ms'
+      Period:
+        avg: 100.01315463803681
+        min: 88.977051
+        max: 106.735305
+        std: 3.779861400158773
+        filename_hist: Period_control_vehicle_cmd_gate_callback_02_hist
+      Latency:
+        avg: 0.19470099999999996
+        min: 0.033642
+        max: 0.757394
+        std: 0.1461083426370136
+        filename_hist: Latency_control_vehicle_cmd_gate_callback_02_hist
+    /control/vehicle_cmd_gate/callback_03:
+      Frequency:
+        avg: 10.0
+        min: 10.0
+        max: 10.0
+        std: 0.0
+        filename_hist: Frequency_control_vehicle_cmd_gate_callback_03_hist
+      displayname: 'callback_03: Sub_/system/emergency/emergency_state'
+      Period:
+        avg: 100.01127720858896
+        min: 79.949964
+        max: 121.026816
+        std: 7.804088550210378
+        filename_hist: Period_control_vehicle_cmd_gate_callback_03_hist
+      Latency:
+        avg: 0.005599810975609756
+        min: 0.0016799999999999999
+        max: 0.096203
+        std: 0.007387622847178159
+        filename_hist: Latency_control_vehicle_cmd_gate_callback_03_hist
+    /control/vehicle_cmd_gate/callback_04:
+      Frequency:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+      displayname: 'callback_04: Sub_/external/selected/heartbeat'
+      Period:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+      Latency:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+    /control/vehicle_cmd_gate/callback_05:
+      Frequency:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+      displayname: 'callback_05: Sub_/control/gate_mode_cmd'
+      Period:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+      Latency:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+    /control/vehicle_cmd_gate/callback_06:
+      Frequency:
+        avg: 28.133333333333333
+        min: 24.0
+        max: 31.0
+        std: 1.767430203377074
+        filename_hist: Frequency_control_vehicle_cmd_gate_callback_06_hist
+      displayname: 'callback_06: Sub_/vehicle/status/steering_status'
+      Period:
+        avg: 35.637367969892466
+        min: 0.031861
+        max: 86.86255299999999
+        std: 14.958280101994749
+        filename_hist: Period_control_vehicle_cmd_gate_callback_06_hist
+      Latency:
+        avg: 0.0015353798283261801
+        min: 9.999999999999999e-05
+        max: 0.013444999999999999
+        std: 0.0008709933838870559
+        filename_hist: Latency_control_vehicle_cmd_gate_callback_06_hist
+    /control/vehicle_cmd_gate/callback_07:
+      Frequency:
+        avg: 10.0
+        min: 10.0
+        max: 10.0
+        std: 0.0
+        filename_hist: Frequency_control_vehicle_cmd_gate_callback_07_hist
+      displayname: 'callback_07: Sub_/control/operation_mode'
+      Period:
+        avg: 100.01170558282207
+        min: 79.642218
+        max: 115.38703199999999
+        std: 6.713051971952161
+        filename_hist: Period_control_vehicle_cmd_gate_callback_07_hist
+      Latency:
+        avg: 0.0014227865853658535
+        min: 0.00040199999999999996
+        max: 0.014483
+        std: 0.0011965062369388919
+        filename_hist: Latency_control_vehicle_cmd_gate_callback_07_hist
+    /control/vehicle_cmd_gate/callback_08:
+      Frequency:
+        avg: 33.333333333333336
+        min: 33.0
+        max: 34.0
+        std: 0.4879500364742665
+        filename_hist: Frequency_control_vehicle_cmd_gate_callback_08_hist
+      displayname: 'callback_08: Sub_/control/trajectory_follower/control_cmd'
+      Period:
+        avg: 30.011596029038113
+        min: 6.8951329999999995
+        max: 53.940031999999995
+        std: 4.041094853016055
+        filename_hist: Period_control_vehicle_cmd_gate_callback_08_hist
+      Latency:
+        avg: 0.07659956884057971
+        min: 0.017752
+        max: 0.553248
+        std: 0.06234723390612288
+        filename_hist: Latency_control_vehicle_cmd_gate_callback_08_hist
+    /control/vehicle_cmd_gate/callback_09:
+      Frequency:
+        avg: 10.0
+        min: 10.0
+        max: 10.0
+        std: 0.0
+        filename_hist: Frequency_control_vehicle_cmd_gate_callback_09_hist
+      displayname: 'callback_09: Sub_/planning/turn_indicators_cmd'
+      Period:
+        avg: 99.99600188343557
+        min: 86.734798
+        max: 111.94476399999999
+        std: 4.153294019622302
+        filename_hist: Period_control_vehicle_cmd_gate_callback_09_hist
+      Latency:
+        avg: 0.001880042682926829
+        min: 0.000799
+        max: 0.00483
+        std: 0.0007684915457151774
+        filename_hist: Latency_control_vehicle_cmd_gate_callback_09_hist
+    /control/vehicle_cmd_gate/callback_10:
+      Frequency:
+        avg: 10.0
+        min: 10.0
+        max: 10.0
+        std: 0.0
+        filename_hist: Frequency_control_vehicle_cmd_gate_callback_10_hist
+      displayname: 'callback_10: Sub_/planning/hazard_lights_cmd'
+      Period:
+        avg: 99.995723797546
+        min: 86.700363
+        max: 111.911108
+        std: 4.156040140832969
+        filename_hist: Period_control_vehicle_cmd_gate_callback_10_hist
+      Latency:
+        avg: 0.0008401890243902439
+        min: 0.000359
+        max: 0.002892
+        std: 0.0004176476568563146
+        filename_hist: Latency_control_vehicle_cmd_gate_callback_10_hist
+    /control/vehicle_cmd_gate/callback_11:
+      Frequency:
+        avg: 10.0
+        min: 10.0
+        max: 10.0
+        std: 0.0
+        filename_hist: Frequency_control_vehicle_cmd_gate_callback_11_hist
+      displayname: 'callback_11: Sub_/control/shift_decider/gear_cmd'
+      Period:
+        avg: 100.00496084662576
+        min: 85.59395099999999
+        max: 113.302285
+        std: 5.365093914770025
+        filename_hist: Period_control_vehicle_cmd_gate_callback_11_hist
+      Latency:
+        avg: 0.0020052256097560974
+        min: 0.000503
+        max: 0.006468
+        std: 0.0007779692798059006
+        filename_hist: Latency_control_vehicle_cmd_gate_callback_11_hist
+    /control/vehicle_cmd_gate/callback_12:
+      Frequency:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+      displayname: 'callback_12: Sub_/external/selected/control_cmd'
+      Period:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+      Latency:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+    /control/vehicle_cmd_gate/callback_13:
+      Frequency:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+      displayname: 'callback_13: Sub_/external/selected/turn_indicators_cmd'
+      Period:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+      Latency:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+    /control/vehicle_cmd_gate/callback_14:
+      Frequency:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+      displayname: 'callback_14: Sub_/external/selected/hazard_lights_cmd'
+      Period:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+      Latency:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+    /control/vehicle_cmd_gate/callback_15:
+      Frequency:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+      displayname: 'callback_15: Sub_/external/selected/gear_cmd'
+      Period:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+      Latency:
+        avg: '-'
+        min: '-'
+        max: '-'
+        std: '-'
+        filename_hist: ''
+    /control/vehicle_cmd_gate/callback_16:
+      Frequency:
+        avg: 10.0
+        min: 10.0
+        max: 10.0
+        std: 0.0
+        filename_hist: Frequency_control_vehicle_cmd_gate_callback_16_hist
+      displayname: 'callback_16: Sub_/system/emergency/control_cmd'
+      Period:
+        avg: 100.01201692024539
+        min: 79.888634
+        max: 121.154208
+        std: 7.825941527322131
+        filename_hist: Period_control_vehicle_cmd_gate_callback_16_hist
+      Latency:
+        avg: 0.0019462621951219512
+        min: 0.000259
+        max: 0.027173
+        std: 0.00226819951531196
+        filename_hist: Latency_control_vehicle_cmd_gate_callback_16_hist
+    /control/vehicle_cmd_gate/callback_17:
+      Frequency:
+        avg: 10.0
+        min: 10.0
+        max: 10.0
+        std: 0.0
+        filename_hist: Frequency_control_vehicle_cmd_gate_callback_17_hist
+      displayname: 'callback_17: Sub_/system/emergency/hazard_lights_cmd'
+      Period:
+        avg: 100.0117132760736
+        min: 79.896023
+        max: 121.15526799999999
+        std: 7.81497078316155
+        filename_hist: Period_control_vehicle_cmd_gate_callback_17_hist
+      Latency:
+        avg: 0.0014983719512195123
+        min: 0.000565
+        max: 0.0041459999999999995
+        std: 0.0005846898202952618
+        filename_hist: Latency_control_vehicle_cmd_gate_callback_17_hist
+    /control/vehicle_cmd_gate/callback_18:
+      Frequency:
+        avg: 10.0
+        min: 10.0
+        max: 10.0
+        std: 0.0
+        filename_hist: Frequency_control_vehicle_cmd_gate_callback_18_hist
+      displayname: 'callback_18: Sub_/system/emergency/gear_cmd'
+      Period:
+        avg: 100.01170054601226
+        min: 79.90021
+        max: 121.157969
+        std: 7.811353263668768
+        filename_hist: Period_control_vehicle_cmd_gate_callback_18_hist
+      Latency:
+        avg: 0.0012118841463414633
+        min: 0.00019999999999999998
+        max: 0.002773
+        std: 0.0005213390663267121
+        filename_hist: Latency_control_vehicle_cmd_gate_callback_18_hist
