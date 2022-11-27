@@ -13,16 +13,16 @@
         filename_hist: Frequency_localization_localization_error_monitor_callback_0_hist
       displayname: 'callback_0: Timer_1000.0ms'
       Period:
-        avg: 1000.001
-        min: 999.968
-        max: 1000.041
-        std: 0.022
+        avg: 1000.004
+        min: 999.957
+        max: 1000.084
+        std: 0.031
         filename_hist: Period_localization_localization_error_monitor_callback_0_hist
       Latency:
-        avg: 0.090
+        avg: 0.098
         min: 0.036
         max: 0.259
-        std: 0.056
+        std: 0.065
         filename_hist: Latency_localization_localization_error_monitor_callback_0_hist
     /localization/localization_error_monitor/callback_1:
       Frequency:
@@ -33,10 +33,10 @@
         filename_hist: Frequency_localization_localization_error_monitor_callback_1_hist
       displayname: 'callback_1: Timer_100.0ms'
       Period:
-        avg: 100.008
+        avg: 100.099
         min: 80.357
         max: 118.867
-        std: 7.670
+        std: 7.687
         filename_hist: Period_localization_localization_error_monitor_callback_1_hist
       Latency:
         avg: 0.131
@@ -46,17 +46,17 @@
         filename_hist: Latency_localization_localization_error_monitor_callback_1_hist
     /localization/localization_error_monitor/callback_2:
       Frequency:
-        avg: 50.067
+        avg: 50.000
         min: 49.000
         max: 51.000
         std: 0.961
         filename_hist: Frequency_localization_localization_error_monitor_callback_2_hist
       displayname: 'callback_2: Sub_/localization/kinematic_state'
       Period:
-        avg: 19.995
+        avg: 19.997
         min: 4.434
         max: 35.840
-        std: 3.052
+        std: 3.048
         filename_hist: Period_localization_localization_error_monitor_callback_2_hist
       Latency:
         avg: 0.045
@@ -72,17 +72,17 @@
   callbacks:
     /localization/pose_estimator/ndt_scan_matcher/callback_0:
       Frequency:
-        avg: 50.067
+        avg: 50.000
         min: 49.000
         max: 51.000
         std: 0.961
         filename_hist: Frequency_localization_pose_estimator_ndt_scan_matcher_callback_0_hist
       displayname: 'callback_0: Sub_/localization/pose_twist_fusion_filter/pose_with_covariance_without_yawbias'
       Period:
-        avg: 19.995
+        avg: 19.996
         min: 4.378
         max: 35.910
-        std: 3.042
+        std: 3.038
         filename_hist: Period_localization_pose_estimator_ndt_scan_matcher_callback_0_hist
       Latency:
         avg: 0.003
@@ -92,23 +92,23 @@
         filename_hist: Latency_localization_pose_estimator_ndt_scan_matcher_callback_0_hist
     /localization/pose_estimator/ndt_scan_matcher/callback_1:
       Frequency:
-        avg: 9.667
+        avg: 9.643
         min: 9.000
         max: 10.000
-        std: 0.488
+        std: 0.497
         filename_hist: Frequency_localization_pose_estimator_ndt_scan_matcher_callback_1_hist
       displayname: 'callback_1: Sub_/localization/util/downsample/pointcloud'
       Period:
-        avg: 103.788
+        avg: 103.751
         min: 75.634
         max: 151.710
-        std: 11.030
+        std: 11.151
         filename_hist: Period_localization_pose_estimator_ndt_scan_matcher_callback_1_hist
       Latency:
-        avg: 10.893
+        avg: 10.894
         min: 2.067
         max: 36.669
-        std: 7.197
+        std: 7.154
         filename_hist: Latency_localization_pose_estimator_ndt_scan_matcher_callback_1_hist
     /localization/pose_estimator/ndt_scan_matcher/callback_2:
       Frequency:
@@ -119,10 +119,10 @@
         filename_hist: Frequency_localization_pose_estimator_ndt_scan_matcher_callback_2_hist
       displayname: 'callback_2: Sub_/sensing/gnss/pose_with_covariance'
       Period:
-        avg: 999.153
+        avg: 999.181
         min: 986.595
         max: 1014.770
-        std: 9.506
+        std: 9.059
         filename_hist: Period_localization_pose_estimator_ndt_scan_matcher_callback_2_hist
       Latency:
         avg: 0.004
@@ -138,7 +138,7 @@
   callbacks:
     /localization/pose_twist_fusion_filter/ekf_localizer/callback_0:
       Frequency:
-        avg: 50.067
+        avg: 50.000
         min: 49.000
         max: 51.000
         std: 0.961
@@ -148,13 +148,13 @@
         avg: 19.996
         min: 4.534
         max: 35.535
-        std: 2.935
+        std: 2.932
         filename_hist: Period_localization_pose_twist_fusion_filter_ekf_localizer_callback_0_hist
       Latency:
         avg: 1.383
         min: 0.426
         max: 4.957
-        std: 0.456
+        std: 0.455
         filename_hist: Latency_localization_pose_twist_fusion_filter_ekf_localizer_callback_0_hist
     /localization/pose_twist_fusion_filter/ekf_localizer/callback_1:
       Frequency:
@@ -165,30 +165,30 @@
         filename_hist: Frequency_localization_pose_twist_fusion_filter_ekf_localizer_callback_1_hist
       displayname: 'callback_1: Timer_20.0ms'
       Period:
-        avg: 20.009
+        avg: 20.010
         min: 2.769
         max: 38.556
-        std: 3.726
+        std: 3.722
         filename_hist: Period_localization_pose_twist_fusion_filter_ekf_localizer_callback_1_hist
       Latency:
-        avg: 0.443
+        avg: 0.442
         min: 0.114
         max: 2.254
         std: 0.220
         filename_hist: Latency_localization_pose_twist_fusion_filter_ekf_localizer_callback_1_hist
     /localization/pose_twist_fusion_filter/ekf_localizer/callback_2:
       Frequency:
-        avg: 9.667
+        avg: 9.714
         min: 9.000
         max: 10.000
-        std: 0.488
+        std: 0.469
         filename_hist: Frequency_localization_pose_twist_fusion_filter_ekf_localizer_callback_2_hist
       displayname: 'callback_2: Sub_/localization/pose_estimator/pose_with_covariance'
       Period:
-        avg: 103.765
+        avg: 103.766
         min: 71.454
         max: 156.360
-        std: 15.074
+        std: 15.046
         filename_hist: Period_localization_pose_twist_fusion_filter_ekf_localizer_callback_2_hist
       Latency:
         avg: 0.010
@@ -198,17 +198,17 @@
         filename_hist: Latency_localization_pose_twist_fusion_filter_ekf_localizer_callback_2_hist
     /localization/pose_twist_fusion_filter/ekf_localizer/callback_3:
       Frequency:
-        avg: 28.533
+        avg: 28.500
         min: 28.000
         max: 30.000
-        std: 0.640
+        std: 0.650
         filename_hist: Frequency_localization_pose_twist_fusion_filter_ekf_localizer_callback_3_hist
       displayname: 'callback_3: Sub_/localization/twist_estimator/twist_with_covariance'
       Period:
-        avg: 35.067
+        avg: 35.048
         min: 9.362
         max: 80.682
-        std: 8.914
+        std: 8.900
         filename_hist: Period_localization_pose_twist_fusion_filter_ekf_localizer_callback_3_hist
       Latency:
         avg: 0.002
@@ -224,17 +224,17 @@
   callbacks:
     /localization/pose_twist_fusion_filter/stop_filter/callback_0:
       Frequency:
-        avg: 50.067
+        avg: 50.000
         min: 49.000
         max: 51.000
         std: 0.961
         filename_hist: Frequency_localization_pose_twist_fusion_filter_stop_filter_callback_0_hist
       displayname: 'callback_0: Sub_/localization/pose_twist_fusion_filter/kinematic_state'
       Period:
-        avg: 19.995
+        avg: 19.996
         min: 4.379
         max: 35.890
-        std: 3.041
+        std: 3.038
         filename_hist: Period_localization_pose_twist_fusion_filter_stop_filter_callback_0_hist
       Latency:
         avg: 0.119
@@ -250,17 +250,17 @@
   callbacks:
     /localization/pose_twist_fusion_filter/twist2accel/callback_0:
       Frequency:
-        avg: 50.067
+        avg: 50.000
         min: 49.000
         max: 51.000
         std: 0.961
         filename_hist: Frequency_localization_pose_twist_fusion_filter_twist2accel_callback_0_hist
       displayname: 'callback_0: Sub_/localization/kinematic_state'
       Period:
-        avg: 19.995
+        avg: 19.997
         min: 4.442
         max: 35.858
-        std: 3.043
+        std: 3.040
         filename_hist: Period_localization_pose_twist_fusion_filter_twist2accel_callback_0_hist
       Latency:
         avg: 0.026
@@ -270,17 +270,17 @@
         filename_hist: Latency_localization_pose_twist_fusion_filter_twist2accel_callback_0_hist
     /localization/pose_twist_fusion_filter/twist2accel/callback_1:
       Frequency:
-        avg: 28.533
+        avg: 28.500
         min: 28.000
         max: 30.000
-        std: 0.640
+        std: 0.650
         filename_hist: Frequency_localization_pose_twist_fusion_filter_twist2accel_callback_1_hist
       displayname: 'callback_1: Sub_/localization/twist_estimator/twist_with_covariance'
       Period:
-        avg: 35.067
+        avg: 35.048
         min: 9.514
         max: 81.301
-        std: 8.921
+        std: 8.907
         filename_hist: Period_localization_pose_twist_fusion_filter_twist2accel_callback_1_hist
       Latency:
         avg: 0.002
@@ -296,17 +296,17 @@
   callbacks:
     /localization/twist_estimator/gyro_odometer/callback_0:
       Frequency:
-        avg: 28.933
+        avg: 29.071
         min: 26.000
         max: 32.000
-        std: 1.792
+        std: 1.774
         filename_hist: Frequency_localization_twist_estimator_gyro_odometer_callback_0_hist
       displayname: 'callback_0: Sub_/sensing/vehicle_velocity_converter/twist_with_covariance'
       Period:
-        avg: 34.583
+        avg: 34.569
         min: 0.014
         max: 84.125
-        std: 15.315
+        std: 15.285
         filename_hist: Period_localization_twist_estimator_gyro_odometer_callback_0_hist
       Latency:
         avg: 0.005
@@ -316,17 +316,17 @@
         filename_hist: Latency_localization_twist_estimator_gyro_odometer_callback_0_hist
     /localization/twist_estimator/gyro_odometer/callback_1:
       Frequency:
-        avg: 28.600
+        avg: 28.571
         min: 28.000
         max: 30.000
-        std: 0.632
+        std: 0.646
         filename_hist: Frequency_localization_twist_estimator_gyro_odometer_callback_1_hist
       displayname: 'callback_1: Sub_/sensing/imu/imu_data'
       Period:
-        avg: 35.067
+        avg: 35.048
         min: 9.645
         max: 81.307
-        std: 8.923
+        std: 8.909
         filename_hist: Period_localization_twist_estimator_gyro_odometer_callback_1_hist
       Latency:
         avg: 0.097
@@ -342,23 +342,23 @@
   callbacks:
     /localization/util/crop_box_filter_measurement_range/callback_0:
       Frequency:
-        avg: 9.667
+        avg: 9.643
         min: 9.000
         max: 10.000
-        std: 0.488
+        std: 0.497
         filename_hist: Frequency_localization_util_crop_box_filter_measurement_range_callback_0_hist
       displayname: 'callback_0: Sub_/sensing/lidar/top/outlier_filtered/pointcloud'
       Period:
-        avg: 103.788
+        avg: 103.745
         min: 77.577
         max: 149.603
-        std: 10.934
+        std: 11.027
         filename_hist: Period_localization_util_crop_box_filter_measurement_range_callback_0_hist
       Latency:
-        avg: 1.143
+        avg: 1.140
         min: 0.577
         max: 4.214
-        std: 0.435
+        std: 0.433
         filename_hist: Latency_localization_util_crop_box_filter_measurement_range_callback_0_hist
 /localization/util/pose_initializer:
   filename_timeseries:
@@ -368,17 +368,17 @@
   callbacks:
     /localization/util/pose_initializer/callback_0:
       Frequency:
-        avg: 1.071
+        avg: 1.000
         min: 1.000
-        max: 2.000
-        std: 0.267
+        max: 1.000
+        std: 0.000
         filename_hist: Frequency_localization_util_pose_initializer_callback_0_hist
       displayname: 'callback_0: Sub_/sensing/gnss/pose_with_covariance'
       Period:
-        avg: 999.149
+        avg: 999.177
         min: 986.598
         max: 1014.843
-        std: 9.521
+        std: 9.072
         filename_hist: Period_localization_util_pose_initializer_callback_0_hist
       Latency:
         avg: 0.003
@@ -414,20 +414,20 @@
   callbacks:
     /localization/util/random_downsample_filter/callback_0:
       Frequency:
-        avg: 9.667
+        avg: 9.643
         min: 9.000
         max: 10.000
-        std: 0.488
+        std: 0.497
         filename_hist: Frequency_localization_util_random_downsample_filter_callback_0_hist
       displayname: 'callback_0: Sub_/localization/util/voxel_grid_downsample/pointcloud'
       Period:
-        avg: 103.788
+        avg: 103.752
         min: 75.699
         max: 151.624
-        std: 11.019
+        std: 11.141
         filename_hist: Period_localization_util_random_downsample_filter_callback_0_hist
       Latency:
-        avg: 0.117
+        avg: 0.116
         min: 0.049
         max: 0.338
         std: 0.047
@@ -440,21 +440,21 @@
   callbacks:
     /localization/util/voxel_grid_downsample_filter/callback_0:
       Frequency:
-        avg: 9.667
+        avg: 9.643
         min: 9.000
         max: 10.000
-        std: 0.488
+        std: 0.497
         filename_hist: Frequency_localization_util_voxel_grid_downsample_filter_callback_0_hist
       displayname: 'callback_0: Sub_/localization/util/measurement_range/pointcloud'
       Period:
-        avg: 103.787
+        avg: 103.745
         min: 78.464
         max: 149.533
-        std: 10.994
+        std: 11.087
         filename_hist: Period_localization_util_voxel_grid_downsample_filter_callback_0_hist
       Latency:
-        avg: 6.028
+        avg: 6.019
         min: 4.009
         max: 10.911
-        std: 1.387
+        std: 1.385
         filename_hist: Latency_localization_util_voxel_grid_downsample_filter_callback_0_hist

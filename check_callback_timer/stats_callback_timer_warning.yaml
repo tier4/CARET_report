@@ -4,5 +4,5 @@
   callback_displayname: Timer_100.0ms
   freq_timer: 10.000
   freq_callback: 2.000
-  num_huge_gap: 14.000
+  num_huge_gap: 13.000
   graph_filename: planning_scenario_planning_lane_driving_motion_planning_surround_obstacle_checker_callback_0

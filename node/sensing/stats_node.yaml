@@ -6,17 +6,17 @@
   callbacks:
     /sensing/imu/imu_corrector/callback_0:
       Frequency:
-        avg: 28.600
+        avg: 28.571
         min: 28.000
         max: 30.000
-        std: 0.632
+        std: 0.646
         filename_hist: Frequency_sensing_imu_imu_corrector_callback_0_hist
       displayname: 'callback_0: Sub_/sensing/imu/tamagawa/imu_raw'
       Period:
-        avg: 35.067
+        avg: 35.048
         min: 9.686
         max: 81.329
-        std: 8.920
+        std: 8.906
         filename_hist: Period_sensing_imu_imu_corrector_callback_0_hist
       Latency:
         avg: 0.072
@@ -39,16 +39,16 @@
         filename_hist: Frequency_sensing_lidar_concatenate_data_callback_0_hist
       displayname: 'callback_0: Timer_1000.0ms'
       Period:
-        avg: 999.737
+        avg: 999.771
         min: 991.670
         max: 1008.346
-        std: 5.192
+        std: 4.858
         filename_hist: Period_sensing_lidar_concatenate_data_callback_0_hist
       Latency:
         avg: 0.082
         min: 0.045
         max: 0.145
-        std: 0.030
+        std: 0.028
         filename_hist: Latency_sensing_lidar_concatenate_data_callback_0_hist
     /sensing/lidar/concatenate_data/callback_1:
       Frequency:
@@ -72,23 +72,23 @@
         filename_hist: ''
     /sensing/lidar/concatenate_data/callback_2:
       Frequency:
-        avg: 9.667
+        avg: 9.643
         min: 9.000
         max: 10.000
-        std: 0.488
+        std: 0.497
         filename_hist: Frequency_sensing_lidar_concatenate_data_callback_2_hist
       displayname: 'callback_2: Sub_/sensing/lidar/top/outlier_filtered/pointcloud'
       Period:
-        avg: 103.790
+        avg: 103.746
         min: 76.568
         max: 150.233
-        std: 10.966
+        std: 11.063
         filename_hist: Period_sensing_lidar_concatenate_data_callback_2_hist
       Latency:
-        avg: 9.821
+        avg: 9.764
         min: 1.061
         max: 17.730
-        std: 3.243
+        std: 3.281
         filename_hist: Latency_sensing_lidar_concatenate_data_callback_2_hist
     /sensing/lidar/concatenate_data/callback_3:
       Frequency:
@@ -99,50 +99,50 @@
         filename_hist: Frequency_sensing_lidar_concatenate_data_callback_3_hist
       displayname: 'callback_3: Sub_/sensing/lidar/left/outlier_filtered/pointcloud'
       Period:
-        avg: 99.997
+        avg: 100.021
         min: 69.976
         max: 126.513
-        std: 9.804
+        std: 10.065
         filename_hist: Period_sensing_lidar_concatenate_data_callback_3_hist
       Latency:
-        avg: 0.704
+        avg: 0.744
         min: 0.069
         max: 8.878
-        std: 1.812
+        std: 1.885
         filename_hist: Latency_sensing_lidar_concatenate_data_callback_3_hist
     /sensing/lidar/concatenate_data/callback_4:
       Frequency:
         avg: 10.000
         min: 9.000
         max: 11.000
-        std: 0.655
+        std: 0.679
         filename_hist: Frequency_sensing_lidar_concatenate_data_callback_4_hist
       displayname: 'callback_4: Sub_/sensing/lidar/right/outlier_filtered/pointcloud'
       Period:
-        avg: 100.008
+        avg: 99.954
         min: 88.720
         max: 116.707
-        std: 5.950
+        std: 5.962
         filename_hist: Period_sensing_lidar_concatenate_data_callback_4_hist
       Latency:
-        avg: 0.283
+        avg: 0.281
         min: 0.056
         max: 9.354
-        std: 1.178
+        std: 1.171
         filename_hist: Latency_sensing_lidar_concatenate_data_callback_4_hist
     /sensing/lidar/concatenate_data/callback_5:
       Frequency:
-        avg: 28.933
+        avg: 29.071
         min: 26.000
         max: 32.000
-        std: 1.792
+        std: 1.774
         filename_hist: Frequency_sensing_lidar_concatenate_data_callback_5_hist
       displayname: 'callback_5: Sub_/vehicle/status/velocity_status'
       Period:
-        avg: 34.583
+        avg: 34.569
         min: 0.047
         max: 84.148
-        std: 15.619
+        std: 15.588
         filename_hist: Period_sensing_lidar_concatenate_data_callback_5_hist
       Latency:
         avg: 0.005
@@ -158,17 +158,17 @@
   callbacks:
     /sensing/lidar/left/crop_box_filter_mirror/callback_0:
       Frequency:
-        avg: 10.067
+        avg: 10.071
         min: 9.000
         max: 11.000
-        std: 0.594
+        std: 0.616
         filename_hist: Frequency_sensing_lidar_left_crop_box_filter_mirror_callback_0_hist
       displayname: 'callback_0: Sub_/sensing/lidar/left/self_cropped/pointcloud_ex'
       Period:
-        avg: 100.001
+        avg: 100.022
         min: 70.649
         max: 125.520
-        std: 9.568
+        std: 9.827
         filename_hist: Period_sensing_lidar_left_crop_box_filter_mirror_callback_0_hist
       Latency:
         avg: 0.091
@@ -184,23 +184,23 @@
   callbacks:
     /sensing/lidar/left/crop_box_filter_self/callback_0:
       Frequency:
-        avg: 10.067
+        avg: 10.071
         min: 9.000
         max: 11.000
-        std: 0.594
+        std: 0.616
         filename_hist: Frequency_sensing_lidar_left_crop_box_filter_self_callback_0_hist
       displayname: 'callback_0: Sub_/sensing/lidar/left/pointcloud_raw_ex'
       Period:
-        avg: 100.002
+        avg: 100.021
         min: 70.808
         max: 125.124
-        std: 9.534
+        std: 9.794
         filename_hist: Period_sensing_lidar_left_crop_box_filter_self_callback_0_hist
       Latency:
-        avg: 0.357
+        avg: 0.358
         min: 0.197
         max: 0.914
-        std: 0.161
+        std: 0.160
         filename_hist: Latency_sensing_lidar_left_crop_box_filter_self_callback_0_hist
 /sensing/lidar/left/distortion_corrector_node:
   filename_timeseries:
@@ -210,17 +210,17 @@
   callbacks:
     /sensing/lidar/left/distortion_corrector_node/callback_0:
       Frequency:
-        avg: 28.933
+        avg: 29.071
         min: 26.000
         max: 32.000
-        std: 1.792
+        std: 1.774
         filename_hist: Frequency_sensing_lidar_left_distortion_corrector_node_callback_0_hist
       displayname: 'callback_0: Sub_/sensing/vehicle_velocity_converter/twist_with_covariance'
       Period:
-        avg: 34.583
+        avg: 34.569
         min: 0.024
         max: 84.110
-        std: 15.330
+        std: 15.300
         filename_hist: Period_sensing_lidar_left_distortion_corrector_node_callback_0_hist
       Latency:
         avg: 0.004
@@ -230,17 +230,17 @@
         filename_hist: Latency_sensing_lidar_left_distortion_corrector_node_callback_0_hist
     /sensing/lidar/left/distortion_corrector_node/callback_1:
       Frequency:
-        avg: 28.600
+        avg: 28.571
         min: 28.000
         max: 30.000
-        std: 0.632
+        std: 0.646
         filename_hist: Frequency_sensing_lidar_left_distortion_corrector_node_callback_1_hist
       displayname: 'callback_1: Sub_/sensing/imu/imu_data'
       Period:
-        avg: 35.067
+        avg: 35.048
         min: 9.505
         max: 81.411
-        std: 8.935
+        std: 8.921
         filename_hist: Period_sensing_lidar_left_distortion_corrector_node_callback_1_hist
       Latency:
         avg: 0.013
@@ -257,16 +257,16 @@
         filename_hist: Frequency_sensing_lidar_left_distortion_corrector_node_callback_2_hist
       displayname: 'callback_2: Sub_/sensing/lidar/left/mirror_cropped/pointcloud_ex'
       Period:
-        avg: 100.001
+        avg: 100.022
         min: 70.643
         max: 125.653
-        std: 9.575
+        std: 9.835
         filename_hist: Period_sensing_lidar_left_distortion_corrector_node_callback_2_hist
       Latency:
         avg: 0.560
         min: 0.360
         max: 1.308
-        std: 0.204
+        std: 0.203
         filename_hist: Latency_sensing_lidar_left_distortion_corrector_node_callback_2_hist
 /sensing/lidar/left/ring_outlier_filter:
   filename_timeseries:
@@ -276,20 +276,20 @@
   callbacks:
     /sensing/lidar/left/ring_outlier_filter/callback_0:
       Frequency:
-        avg: 10.067
+        avg: 10.071
         min: 9.000
         max: 11.000
-        std: 0.594
+        std: 0.616
         filename_hist: Frequency_sensing_lidar_left_ring_outlier_filter_callback_0_hist
       displayname: 'callback_0: Sub_/sensing/lidar/left/rectified/pointcloud_ex'
       Period:
-        avg: 99.998
+        avg: 100.020
         min: 70.164
         max: 126.478
-        std: 9.644
+        std: 9.912
         filename_hist: Period_sensing_lidar_left_ring_outlier_filter_callback_0_hist
       Latency:
-        avg: 0.326
+        avg: 0.327
         min: 0.193
         max: 0.962
         std: 0.132
@@ -305,17 +305,17 @@
         avg: 10.000
         min: 9.000
         max: 11.000
-        std: 0.535
+        std: 0.555
         filename_hist: Frequency_sensing_lidar_left_velodyne_convert_node_callback_0_hist
       displayname: 'callback_0: Sub_/sensing/lidar/left/velodyne_packets'
       Period:
-        avg: 100.002
+        avg: 100.022
         min: 71.600
         max: 124.325
-        std: 9.408
+        std: 9.663
         filename_hist: Period_sensing_lidar_left_velodyne_convert_node_callback_0_hist
       Latency:
-        avg: 0.823
+        avg: 0.824
         min: 0.394
         max: 2.202
         std: 0.342
@@ -328,17 +328,17 @@
   callbacks:
     /sensing/lidar/rear/distortion_corrector_node/callback_0:
       Frequency:
-        avg: 28.933
+        avg: 29.071
         min: 26.000
         max: 32.000
-        std: 1.792
+        std: 1.774
         filename_hist: Frequency_sensing_lidar_rear_distortion_corrector_node_callback_0_hist
       displayname: 'callback_0: Sub_/sensing/vehicle_velocity_converter/twist_with_covariance'
       Period:
-        avg: 34.583
+        avg: 34.569
         min: 0.019
         max: 84.062
-        std: 15.320
+        std: 15.290
         filename_hist: Period_sensing_lidar_rear_distortion_corrector_node_callback_0_hist
       Latency:
         avg: 0.004
@@ -348,17 +348,17 @@
         filename_hist: Latency_sensing_lidar_rear_distortion_corrector_node_callback_0_hist
     /sensing/lidar/rear/distortion_corrector_node/callback_1:
       Frequency:
-        avg: 28.600
+        avg: 28.571
         min: 28.000
         max: 30.000
-        std: 0.632
+        std: 0.646
         filename_hist: Frequency_sensing_lidar_rear_distortion_corrector_node_callback_1_hist
       displayname: 'callback_1: Sub_/sensing/imu/imu_data'
       Period:
-        avg: 35.067
+        avg: 35.048
         min: 9.551
         max: 81.399
-        std: 8.936
+        std: 8.922
         filename_hist: Period_sensing_lidar_rear_distortion_corrector_node_callback_1_hist
       Latency:
         avg: 0.013
@@ -397,14 +397,14 @@
         avg: 10.000
         min: 9.000
         max: 11.000
-        std: 0.845
+        std: 0.877
         filename_hist: Frequency_sensing_lidar_right_crop_box_filter_mirror_callback_0_hist
       displayname: 'callback_0: Sub_/sensing/lidar/right/self_cropped/pointcloud_ex'
       Period:
-        avg: 100.007
+        avg: 99.951
         min: 89.515
         max: 112.884
-        std: 5.589
+        std: 5.609
         filename_hist: Period_sensing_lidar_right_crop_box_filter_mirror_callback_0_hist
       Latency:
         avg: 0.078
@@ -423,20 +423,20 @@
         avg: 10.000
         min: 9.000
         max: 11.000
-        std: 0.845
+        std: 0.877
         filename_hist: Frequency_sensing_lidar_right_crop_box_filter_self_callback_0_hist
       displayname: 'callback_0: Sub_/sensing/lidar/right/pointcloud_raw_ex'
       Period:
-        avg: 100.007
+        avg: 99.950
         min: 89.518
         max: 113.030
-        std: 5.592
+        std: 5.611
         filename_hist: Period_sensing_lidar_right_crop_box_filter_self_callback_0_hist
       Latency:
-        avg: 0.320
+        avg: 0.319
         min: 0.152
         max: 1.150
-        std: 0.140
+        std: 0.139
         filename_hist: Latency_sensing_lidar_right_crop_box_filter_self_callback_0_hist
 /sensing/lidar/right/distortion_corrector_node:
   filename_timeseries:
@@ -446,17 +446,17 @@
   callbacks:
     /sensing/lidar/right/distortion_corrector_node/callback_0:
       Frequency:
-        avg: 28.933
+        avg: 29.071
         min: 26.000
         max: 32.000
-        std: 1.792
+        std: 1.774
         filename_hist: Frequency_sensing_lidar_right_distortion_corrector_node_callback_0_hist
       displayname: 'callback_0: Sub_/sensing/vehicle_velocity_converter/twist_with_covariance'
       Period:
-        avg: 34.583
+        avg: 34.569
         min: 0.028
         max: 84.115
-        std: 15.326
+        std: 15.296
         filename_hist: Period_sensing_lidar_right_distortion_corrector_node_callback_0_hist
       Latency:
         avg: 0.004
@@ -466,17 +466,17 @@
         filename_hist: Latency_sensing_lidar_right_distortion_corrector_node_callback_0_hist
     /sensing/lidar/right/distortion_corrector_node/callback_1:
       Frequency:
-        avg: 28.600
+        avg: 28.571
         min: 28.000
         max: 30.000
-        std: 0.632
+        std: 0.646
         filename_hist: Frequency_sensing_lidar_right_distortion_corrector_node_callback_1_hist
       displayname: 'callback_1: Sub_/sensing/imu/imu_data'
       Period:
-        avg: 35.067
+        avg: 35.048
         min: 9.606
         max: 81.374
-        std: 8.929
+        std: 8.914
         filename_hist: Period_sensing_lidar_right_distortion_corrector_node_callback_1_hist
       Latency:
         avg: 0.013
@@ -489,20 +489,20 @@
         avg: 10.000
         min: 9.000
         max: 11.000
-        std: 0.756
+        std: 0.784
         filename_hist: Frequency_sensing_lidar_right_distortion_corrector_node_callback_2_hist
       displayname: 'callback_2: Sub_/sensing/lidar/right/mirror_cropped/pointcloud_ex'
       Period:
-        avg: 100.007
+        avg: 99.951
         min: 89.505
         max: 112.852
-        std: 5.590
+        std: 5.610
         filename_hist: Period_sensing_lidar_right_distortion_corrector_node_callback_2_hist
       Latency:
-        avg: 0.572
+        avg: 0.570
         min: 0.276
         max: 1.515
-        std: 0.235
+        std: 0.234
         filename_hist: Latency_sensing_lidar_right_distortion_corrector_node_callback_2_hist
 /sensing/lidar/right/ring_outlier_filter:
   filename_timeseries:
@@ -515,20 +515,20 @@
         avg: 10.000
         min: 9.000
         max: 11.000
-        std: 0.756
+        std: 0.784
         filename_hist: Frequency_sensing_lidar_right_ring_outlier_filter_callback_0_hist
       displayname: 'callback_0: Sub_/sensing/lidar/right/rectified/pointcloud_ex'
       Period:
-        avg: 100.007
+        avg: 99.953
         min: 89.363
         max: 112.612
-        std: 5.599
+        std: 5.618
         filename_hist: Period_sensing_lidar_right_ring_outlier_filter_callback_0_hist
       Latency:
         avg: 0.371
         min: 0.167
         max: 1.013
-        std: 0.164
+        std: 0.163
         filename_hist: Latency_sensing_lidar_right_ring_outlier_filter_callback_0_hist
 /sensing/lidar/right/velodyne_convert_node:
   filename_timeseries:
@@ -538,23 +538,23 @@
   callbacks:
     /sensing/lidar/right/velodyne_convert_node/callback_0:
       Frequency:
-        avg: 10.067
+        avg: 10.071
         min: 9.000
         max: 11.000
-        std: 0.799
+        std: 0.829
         filename_hist: Frequency_sensing_lidar_right_velodyne_convert_node_callback_0_hist
       displayname: 'callback_0: Sub_/sensing/lidar/right/velodyne_packets'
       Period:
-        avg: 100.006
+        avg: 99.950
         min: 89.845
         max: 112.939
-        std: 5.625
+        std: 5.639
         filename_hist: Period_sensing_lidar_right_velodyne_convert_node_callback_0_hist
       Latency:
-        avg: 0.815
+        avg: 0.813
         min: 0.382
         max: 2.525
-        std: 0.328
+        std: 0.327
         filename_hist: Latency_sensing_lidar_right_velodyne_convert_node_callback_0_hist
 /sensing/lidar/top/crop_box_filter_mirror:
   filename_timeseries:
@@ -564,23 +564,23 @@
   callbacks:
     /sensing/lidar/top/crop_box_filter_mirror/callback_0:
       Frequency:
-        avg: 9.667
+        avg: 9.643
         min: 9.000
         max: 10.000
-        std: 0.488
+        std: 0.497
         filename_hist: Frequency_sensing_lidar_top_crop_box_filter_mirror_callback_0_hist
       displayname: 'callback_0: Sub_/sensing/lidar/top/self_cropped/pointcloud_ex'
       Period:
-        avg: 103.761
+        avg: 103.718
         min: 78.616
         max: 143.452
-        std: 9.612
+        std: 9.696
         filename_hist: Period_sensing_lidar_top_crop_box_filter_mirror_callback_0_hist
       Latency:
-        avg: 2.605
+        avg: 2.623
         min: 1.466
         max: 6.443
-        std: 1.032
+        std: 1.048
         filename_hist: Latency_sensing_lidar_top_crop_box_filter_mirror_callback_0_hist
 /sensing/lidar/top/crop_box_filter_self:
   filename_timeseries:
@@ -590,23 +590,23 @@
   callbacks:
     /sensing/lidar/top/crop_box_filter_self/callback_0:
       Frequency:
-        avg: 9.667
+        avg: 9.643
         min: 9.000
         max: 10.000
-        std: 0.488
+        std: 0.497
         filename_hist: Frequency_sensing_lidar_top_crop_box_filter_self_callback_0_hist
       displayname: 'callback_0: Sub_/sensing/lidar/top/pointcloud_raw_ex'
       Period:
-        avg: 103.768
+        avg: 103.723
         min: 80.964
         max: 135.167
-        std: 8.945
+        std: 9.013
         filename_hist: Period_sensing_lidar_top_crop_box_filter_self_callback_0_hist
       Latency:
-        avg: 7.703
+        avg: 7.707
         min: 4.043
         max: 14.608
-        std: 2.347
+        std: 2.335
         filename_hist: Latency_sensing_lidar_top_crop_box_filter_self_callback_0_hist
 /sensing/lidar/top/distortion_corrector_node:
   filename_timeseries:
@@ -616,17 +616,17 @@
   callbacks:
     /sensing/lidar/top/distortion_corrector_node/callback_0:
       Frequency:
-        avg: 28.933
+        avg: 29.071
         min: 26.000
         max: 32.000
-        std: 1.792
+        std: 1.774
         filename_hist: Frequency_sensing_lidar_top_distortion_corrector_node_callback_0_hist
       displayname: 'callback_0: Sub_/sensing/vehicle_velocity_converter/twist_with_covariance'
       Period:
-        avg: 34.583
+        avg: 34.569
         min: 0.046
         max: 84.038
-        std: 15.518
+        std: 15.487
         filename_hist: Period_sensing_lidar_top_distortion_corrector_node_callback_0_hist
       Latency:
         avg: 0.004
@@ -636,17 +636,17 @@
         filename_hist: Latency_sensing_lidar_top_distortion_corrector_node_callback_0_hist
     /sensing/lidar/top/distortion_corrector_node/callback_1:
       Frequency:
-        avg: 28.600
+        avg: 28.571
         min: 28.000
         max: 29.000
-        std: 0.507
+        std: 0.514
         filename_hist: Frequency_sensing_lidar_top_distortion_corrector_node_callback_1_hist
       displayname: 'callback_1: Sub_/sensing/imu/imu_data'
       Period:
-        avg: 35.067
+        avg: 35.048
         min: 1.827
         max: 83.024
-        std: 9.390
+        std: 9.374
         filename_hist: Period_sensing_lidar_top_distortion_corrector_node_callback_1_hist
       Latency:
         avg: 0.013
@@ -656,23 +656,23 @@
         filename_hist: Latency_sensing_lidar_top_distortion_corrector_node_callback_1_hist
     /sensing/lidar/top/distortion_corrector_node/callback_2:
       Frequency:
-        avg: 9.667
+        avg: 9.643
         min: 9.000
         max: 10.000
-        std: 0.488
+        std: 0.497
         filename_hist: Frequency_sensing_lidar_top_distortion_corrector_node_callback_2_hist
       displayname: 'callback_2: Sub_/sensing/lidar/top/mirror_cropped/pointcloud_ex'
       Period:
-        avg: 103.764
+        avg: 103.725
         min: 80.115
         max: 142.584
-        std: 9.460
+        std: 9.496
         filename_hist: Period_sensing_lidar_top_distortion_corrector_node_callback_2_hist
       Latency:
-        avg: 8.919
+        avg: 8.901
         min: 6.205
         max: 17.550
-        std: 2.347
+        std: 2.339
         filename_hist: Latency_sensing_lidar_top_distortion_corrector_node_callback_2_hist
 /sensing/lidar/top/ring_outlier_filter:
   filename_timeseries:
@@ -682,23 +682,23 @@
   callbacks:
     /sensing/lidar/top/ring_outlier_filter/callback_0:
       Frequency:
-        avg: 9.667
+        avg: 9.643
         min: 9.000
         max: 10.000
-        std: 0.488
+        std: 0.497
         filename_hist: Frequency_sensing_lidar_top_ring_outlier_filter_callback_0_hist
       displayname: 'callback_0: Sub_/sensing/lidar/top/rectified/pointcloud_ex'
       Period:
-        avg: 103.767
+        avg: 103.727
         min: 77.184
         max: 146.363
-        std: 10.567
+        std: 10.599
         filename_hist: Period_sensing_lidar_top_ring_outlier_filter_callback_0_hist
       Latency:
-        avg: 9.565
+        avg: 9.563
         min: 5.768
         max: 14.844
-        std: 1.852
+        std: 1.854
         filename_hist: Latency_sensing_lidar_top_ring_outlier_filter_callback_0_hist
 /sensing/lidar/top/velodyne_convert_node:
   filename_timeseries:
@@ -708,23 +708,23 @@
   callbacks:
     /sensing/lidar/top/velodyne_convert_node/callback_0:
       Frequency:
-        avg: 9.667
+        avg: 9.643
         min: 9.000
         max: 10.000
-        std: 0.488
+        std: 0.497
         filename_hist: Frequency_sensing_lidar_top_velodyne_convert_node_callback_0_hist
       displayname: 'callback_0: Sub_/sensing/lidar/top/velodyne_packets'
       Period:
-        avg: 103.800
+        avg: 103.767
         min: 84.097
         max: 133.975
-        std: 8.461
+        std: 8.497
         filename_hist: Period_sensing_lidar_top_velodyne_convert_node_callback_0_hist
       Latency:
-        avg: 11.769
+        avg: 11.733
         min: 4.986
         max: 18.864
-        std: 2.437
+        std: 2.444
         filename_hist: Latency_sensing_lidar_top_velodyne_convert_node_callback_0_hist
 /sensing/vehicle_velocity_converter_node:
   filename_timeseries:
@@ -737,14 +737,14 @@
         avg: 29.000
         min: 25.000
         max: 31.000
-        std: 1.773
+        std: 1.840
         filename_hist: Frequency_sensing_vehicle_velocity_converter_node_callback_0_hist
       displayname: 'callback_0: Sub_/vehicle/status/velocity_status'
       Period:
-        avg: 34.583
+        avg: 34.569
         min: 0.062
         max: 84.040
-        std: 15.301
+        std: 15.271
         filename_hist: Period_sensing_vehicle_velocity_converter_node_callback_0_hist
       Latency:
         avg: 0.076
