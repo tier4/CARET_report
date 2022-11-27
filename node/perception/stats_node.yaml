@@ -6,23 +6,23 @@
   callbacks:
     /perception/object_recognition/detection/centerpoint/lidar_centerpoint/callback_0:
       Frequency:
-        avg: 9.666666666666666
-        min: 9.0
-        max: 10.0
-        std: 0.48795003647426666
+        avg: 9.667
+        min: 9.000
+        max: 10.000
+        std: 0.488
         filename_hist: Frequency_perception_object_recognition_detection_centerpoint_lidar_centerpoint_callback_0_hist
       displayname: 'callback_0: Sub_/sensing/lidar/concatenated/pointcloud'
       Period:
-        avg: 103.77131535443039
-        min: 73.90622499999999
-        max: 156.333426
-        std: 11.459118236819762
+        avg: 103.771
+        min: 73.906
+        max: 156.333
+        std: 11.459
         filename_hist: Period_perception_object_recognition_detection_centerpoint_lidar_centerpoint_callback_0_hist
       Latency:
-        avg: 20.330311716981132
-        min: 15.007665999999999
-        max: 35.068936
-        std: 3.6038650894572126
+        avg: 20.330
+        min: 15.008
+        max: 35.069
+        std: 3.604
         filename_hist: Latency_perception_object_recognition_detection_centerpoint_lidar_centerpoint_callback_0_hist
 /perception/object_recognition/detection/clustering/detected_object_feature_remover:
   filename_timeseries:
@@ -32,23 +32,23 @@
   callbacks:
     /perception/object_recognition/detection/clustering/detected_object_feature_remover/callback_0:
       Frequency:
-        avg: 9.666666666666666
-        min: 9.0
-        max: 10.0
-        std: 0.48795003647426666
+        avg: 9.667
+        min: 9.000
+        max: 10.000
+        std: 0.488
         filename_hist: Frequency_perception_object_recognition_detection_clustering_detected_object_feature_remover_callback_0_hist
       displayname: 'callback_0: Sub_/perception/object_recognition/detection/clustering/objects_with_feature'
       Period:
-        avg: 103.9557513836478
-        min: 65.399346
-        max: 146.585311
-        std: 15.482300415492492
+        avg: 103.956
+        min: 65.399
+        max: 146.585
+        std: 15.482
         filename_hist: Period_perception_object_recognition_detection_clustering_detected_object_feature_remover_callback_0_hist
       Latency:
-        avg: 0.08923289999999999
-        min: 0.041282
-        max: 0.25343699999999997
-        std: 0.03683889077625922
+        avg: 0.089
+        min: 0.041
+        max: 0.253
+        std: 0.037
         filename_hist: Latency_perception_object_recognition_detection_clustering_detected_object_feature_remover_callback_0_hist
 /perception/object_recognition/detection/clustering/euclidean_cluster:
   filename_timeseries:
@@ -58,23 +58,23 @@
   callbacks:
     /perception/object_recognition/detection/clustering/euclidean_cluster/callback_0:
       Frequency:
-        avg: 9.666666666666666
-        min: 9.0
-        max: 10.0
-        std: 0.48795003647426666
+        avg: 9.667
+        min: 9.000
+        max: 10.000
+        std: 0.488
         filename_hist: Frequency_perception_object_recognition_detection_clustering_euclidean_cluster_callback_0_hist
       displayname: 'callback_0: Sub_/perception/object_recognition/detection/clustering/outlier_filter/pointcloud'
       Period:
-        avg: 103.9583075345912
-        min: 64.79054099999999
-        max: 145.86924
-        std: 15.360975918128183
+        avg: 103.958
+        min: 64.791
+        max: 145.869
+        std: 15.361
         filename_hist: Period_perception_object_recognition_detection_clustering_euclidean_cluster_callback_0_hist
       Latency:
-        avg: 0.6569183375
-        min: 0.28563
-        max: 1.91411
-        std: 0.24326779829708875
+        avg: 0.657
+        min: 0.286
+        max: 1.914
+        std: 0.243
         filename_hist: Latency_perception_object_recognition_detection_clustering_euclidean_cluster_callback_0_hist
 /perception/object_recognition/detection/clustering/outlier_filter:
   filename_timeseries:
@@ -84,23 +84,23 @@
   callbacks:
     /perception/object_recognition/detection/clustering/outlier_filter/callback_0:
       Frequency:
-        avg: 9.666666666666666
-        min: 9.0
-        max: 10.0
-        std: 0.48795003647426666
+        avg: 9.667
+        min: 9.000
+        max: 10.000
+        std: 0.488
         filename_hist: Frequency_perception_object_recognition_detection_clustering_outlier_filter_callback_0_hist
       displayname: 'callback_0: Sub_/perception/object_recognition/detection/clustering/downsampled/pointcloud'
       Period:
-        avg: 103.95879310691825
-        min: 64.57858
-        max: 145.700933
-        std: 15.36367691684419
+        avg: 103.959
+        min: 64.579
+        max: 145.701
+        std: 15.364
         filename_hist: Period_perception_object_recognition_detection_clustering_outlier_filter_callback_0_hist
       Latency:
-        avg: 0.22543716875
-        min: 0.11294699999999999
-        max: 0.737428
-        std: 0.08405423315102319
+        avg: 0.225
+        min: 0.113
+        max: 0.737
+        std: 0.084
         filename_hist: Latency_perception_object_recognition_detection_clustering_outlier_filter_callback_0_hist
 /perception/object_recognition/detection/clustering/shape_estimation:
   filename_timeseries:
@@ -110,23 +110,23 @@
   callbacks:
     /perception/object_recognition/detection/clustering/shape_estimation/callback_0:
       Frequency:
-        avg: 9.666666666666666
-        min: 9.0
-        max: 10.0
-        std: 0.48795003647426666
+        avg: 9.667
+        min: 9.000
+        max: 10.000
+        std: 0.488
         filename_hist: Frequency_perception_object_recognition_detection_clustering_shape_estimation_callback_0_hist
       displayname: 'callback_0: Sub_/perception/object_recognition/detection/clustering/clusters'
       Period:
-        avg: 103.95578620754715
-        min: 65.169994
-        max: 146.282644
-        std: 15.432218326302223
+        avg: 103.956
+        min: 65.170
+        max: 146.283
+        std: 15.432
         filename_hist: Period_perception_object_recognition_detection_clustering_shape_estimation_callback_0_hist
       Latency:
-        avg: 0.33366006249999997
-        min: 0.13202999999999998
-        max: 0.829724
-        std: 0.14302932362781426
+        avg: 0.334
+        min: 0.132
+        max: 0.830
+        std: 0.143
         filename_hist: Latency_perception_object_recognition_detection_clustering_shape_estimation_callback_0_hist
 /perception/object_recognition/detection/clustering/voxel_grid_filter_dpc2205002_483052_5166454800811858489:
   filename_timeseries:
@@ -136,23 +136,23 @@
   callbacks:
     /perception/object_recognition/detection/clustering/voxel_grid_filter_dpc2205002_483052_5166454800811858489/callback_0:
       Frequency:
-        avg: 9.666666666666666
-        min: 9.0
-        max: 10.0
-        std: 0.48795003647426666
+        avg: 9.667
+        min: 9.000
+        max: 10.000
+        std: 0.488
         filename_hist: Frequency_perception_object_recognition_detection_clustering_voxel_grid_filter_dpc2205002_483052_5166454800811858489_callback_0_hist
       displayname: 'callback_0: Sub_/perception/object_recognition/detection/pointcloud_map_filtered/pointcloud'
       Period:
-        avg: 103.94042384276729
-        min: 64.479653
-        max: 144.90440999999998
-        std: 15.259050567021088
+        avg: 103.940
+        min: 64.480
+        max: 144.904
+        std: 15.259
         filename_hist: Period_perception_object_recognition_detection_clustering_voxel_grid_filter_dpc2205002_483052_5166454800811858489_callback_0_hist
       Latency:
-        avg: 1.7337606062500002
-        min: 0.517983
-        max: 6.865672
-        std: 1.1525099813603061
+        avg: 1.734
+        min: 0.518
+        max: 6.866
+        std: 1.153
         filename_hist: Latency_perception_object_recognition_detection_clustering_voxel_grid_filter_dpc2205002_483052_5166454800811858489_callback_0_hist
 /perception/object_recognition/detection/detection_by_tracker/detection_by_tracker_node:
   filename_timeseries:
@@ -162,43 +162,43 @@
   callbacks:
     /perception/object_recognition/detection/detection_by_tracker/detection_by_tracker_node/callback_0:
       Frequency:
-        avg: 9.666666666666666
-        min: 9.0
-        max: 10.0
-        std: 0.48795003647426666
+        avg: 9.667
+        min: 9.000
+        max: 10.000
+        std: 0.488
         filename_hist: Frequency_perception_object_recognition_detection_detection_by_tracker_detection_by_tracker_node_callback_0_hist
       displayname: 'callback_0: Sub_/perception/object_recognition/tracking/objects'
       Period:
-        avg: 103.97371432075471
-        min: 63.954651
-        max: 145.59720199999998
-        std: 15.709760398757348
+        avg: 103.974
+        min: 63.955
+        max: 145.597
+        std: 15.710
         filename_hist: Period_perception_object_recognition_detection_detection_by_tracker_detection_by_tracker_node_callback_0_hist
       Latency:
-        avg: 0.00513155
-        min: 0.0014759999999999999
-        max: 0.021998
-        std: 0.002560208461933024
+        avg: 0.005
+        min: 0.001
+        max: 0.022
+        std: 0.003
         filename_hist: Latency_perception_object_recognition_detection_detection_by_tracker_detection_by_tracker_node_callback_0_hist
     /perception/object_recognition/detection/detection_by_tracker/detection_by_tracker_node/callback_1:
       Frequency:
-        avg: 9.666666666666666
-        min: 9.0
-        max: 10.0
-        std: 0.48795003647426666
+        avg: 9.667
+        min: 9.000
+        max: 10.000
+        std: 0.488
         filename_hist: Frequency_perception_object_recognition_detection_detection_by_tracker_detection_by_tracker_node_callback_1_hist
       displayname: 'callback_1: Sub_/perception/object_recognition/detection/clustering/objects_with_feature'
       Period:
-        avg: 103.95590574213836
-        min: 65.38734
-        max: 146.408817
-        std: 15.484130657216
+        avg: 103.956
+        min: 65.387
+        max: 146.409
+        std: 15.484
         filename_hist: Period_perception_object_recognition_detection_detection_by_tracker_detection_by_tracker_node_callback_1_hist
       Latency:
-        avg: 2.47529658125
-        min: 0.414941
-        max: 7.840084999999999
-        std: 1.2727857232424886
+        avg: 2.475
+        min: 0.415
+        max: 7.840
+        std: 1.273
         filename_hist: Latency_perception_object_recognition_detection_detection_by_tracker_detection_by_tracker_node_callback_1_hist
 /perception/object_recognition/detection/object_association_merger_dpc2205002_483052_3254617852513423639:
   filename_timeseries:
@@ -208,43 +208,43 @@
   callbacks:
     /perception/object_recognition/detection/object_association_merger_dpc2205002_483052_3254617852513423639/callback_0:
       Frequency:
-        avg: 9.666666666666666
-        min: 9.0
-        max: 10.0
-        std: 0.48795003647426666
+        avg: 9.667
+        min: 9.000
+        max: 10.000
+        std: 0.488
         filename_hist: Frequency_perception_object_recognition_detection_object_association_merger_dpc2205002_483052_3254617852513423639_callback_0_hist
       displayname: 'callback_0: Sub_/perception/object_recognition/detection/temporary_merged_objects'
       Period:
-        avg: 103.96220331446538
-        min: 65.630045
-        max: 146.27821699999998
-        std: 15.556903294738337
+        avg: 103.962
+        min: 65.630
+        max: 146.278
+        std: 15.557
         filename_hist: Period_perception_object_recognition_detection_object_association_merger_dpc2205002_483052_3254617852513423639_callback_0_hist
       Latency:
-        avg: 0.0126931875
-        min: 0.0028599999999999997
-        max: 0.445501
-        std: 0.04918822592514122
+        avg: 0.013
+        min: 0.003
+        max: 0.446
+        std: 0.049
         filename_hist: Latency_perception_object_recognition_detection_object_association_merger_dpc2205002_483052_3254617852513423639_callback_0_hist
     /perception/object_recognition/detection/object_association_merger_dpc2205002_483052_3254617852513423639/callback_1:
       Frequency:
-        avg: 9.666666666666666
-        min: 9.0
-        max: 10.0
-        std: 0.48795003647426666
+        avg: 9.667
+        min: 9.000
+        max: 10.000
+        std: 0.488
         filename_hist: Frequency_perception_object_recognition_detection_object_association_merger_dpc2205002_483052_3254617852513423639_callback_1_hist
       displayname: 'callback_1: Sub_/perception/object_recognition/detection/detection_by_tracker/objects'
       Period:
-        avg: 103.97422996226413
-        min: 64.23194099999999
-        max: 145.491601
-        std: 15.638809323376918
+        avg: 103.974
+        min: 64.232
+        max: 145.492
+        std: 15.639
         filename_hist: Period_perception_object_recognition_detection_object_association_merger_dpc2205002_483052_3254617852513423639_callback_1_hist
       Latency:
-        avg: 0.24796758749999998
-        min: 0.004001
-        max: 0.576422
-        std: 0.09912727453815807
+        avg: 0.248
+        min: 0.004
+        max: 0.576
+        std: 0.099
         filename_hist: Latency_perception_object_recognition_detection_object_association_merger_dpc2205002_483052_3254617852513423639_callback_1_hist
 /perception/object_recognition/detection/object_association_merger_dpc2205002_483052_548538146038979947:
   filename_timeseries:
@@ -254,43 +254,43 @@
   callbacks:
     /perception/object_recognition/detection/object_association_merger_dpc2205002_483052_548538146038979947/callback_0:
       Frequency:
-        avg: 9.666666666666666
-        min: 9.0
-        max: 10.0
-        std: 0.48795003647426666
+        avg: 9.667
+        min: 9.000
+        max: 10.000
+        std: 0.488
         filename_hist: Frequency_perception_object_recognition_detection_object_association_merger_dpc2205002_483052_548538146038979947_callback_0_hist
       displayname: 'callback_0: Sub_/perception/object_recognition/detection/centerpoint/validation/objects'
       Period:
-        avg: 103.9770670062893
-        min: 65.69946
-        max: 147.70717199999999
-        std: 15.504999648778847
+        avg: 103.977
+        min: 65.699
+        max: 147.707
+        std: 15.505
         filename_hist: Period_perception_object_recognition_detection_object_association_merger_dpc2205002_483052_548538146038979947_callback_0_hist
       Latency:
-        avg: 0.03638562499999999
-        min: 0.0035759999999999998
-        max: 0.467916
-        std: 0.08772228786530763
+        avg: 0.036
+        min: 0.004
+        max: 0.468
+        std: 0.088
         filename_hist: Latency_perception_object_recognition_detection_object_association_merger_dpc2205002_483052_548538146038979947_callback_0_hist
     /perception/object_recognition/detection/object_association_merger_dpc2205002_483052_548538146038979947/callback_1:
       Frequency:
-        avg: 9.666666666666666
-        min: 9.0
-        max: 10.0
-        std: 0.48795003647426666
+        avg: 9.667
+        min: 9.000
+        max: 10.000
+        std: 0.488
         filename_hist: Frequency_perception_object_recognition_detection_object_association_merger_dpc2205002_483052_548538146038979947_callback_1_hist
       displayname: 'callback_1: Sub_/perception/object_recognition/detection/clustering/objects'
       Period:
-        avg: 103.95543971698112
-        min: 65.181833
-        max: 146.391535
-        std: 15.504940522081212
+        avg: 103.955
+        min: 65.182
+        max: 146.392
+        std: 15.505
         filename_hist: Period_perception_object_recognition_detection_object_association_merger_dpc2205002_483052_548538146038979947_callback_1_hist
       Latency:
-        avg: 0.257684125
-        min: 0.0046749999999999995
-        max: 1.052603
-        std: 0.16181646640560676
+        avg: 0.258
+        min: 0.005
+        max: 1.053
+        std: 0.162
         filename_hist: Latency_perception_object_recognition_detection_object_association_merger_dpc2205002_483052_548538146038979947_callback_1_hist
 /perception/object_recognition/detection/object_lanelet_filter:
   filename_timeseries:
@@ -300,23 +300,23 @@
   callbacks:
     /perception/object_recognition/detection/object_lanelet_filter/callback_0:
       Frequency:
-        avg: 9.666666666666666
-        min: 9.0
-        max: 10.0
-        std: 0.48795003647426666
+        avg: 9.667
+        min: 9.000
+        max: 10.000
+        std: 0.488
         filename_hist: Frequency_perception_object_recognition_detection_object_lanelet_filter_callback_0_hist
       displayname: 'callback_0: Sub_/perception/object_recognition/detection/objects_before_filter'
       Period:
-        avg: 103.97394889937105
-        min: 64.096778
-        max: 145.47894599999998
-        std: 15.648300567606144
+        avg: 103.974
+        min: 64.097
+        max: 145.479
+        std: 15.648
         filename_hist: Period_perception_object_recognition_detection_object_lanelet_filter_callback_0_hist
       Latency:
-        avg: 0.29262136875
-        min: 0.11294699999999999
-        max: 0.7781239999999999
-        std: 0.10509606496529834
+        avg: 0.293
+        min: 0.113
+        max: 0.778
+        std: 0.105
         filename_hist: Latency_perception_object_recognition_detection_object_lanelet_filter_callback_0_hist
 /perception/object_recognition/detection/obstacle_pointcloud_based_validator_node:
   filename_timeseries:
@@ -326,43 +326,43 @@
   callbacks:
     /perception/object_recognition/detection/obstacle_pointcloud_based_validator_node/callback_0:
       Frequency:
-        avg: 9.6
-        min: 9.0
-        max: 10.0
-        std: 0.50709255283711
+        avg: 9.600
+        min: 9.000
+        max: 10.000
+        std: 0.507
         filename_hist: Frequency_perception_object_recognition_detection_obstacle_pointcloud_based_validator_node_callback_0_hist
       displayname: 'callback_0: Sub_/perception/object_recognition/detection/centerpoint/objects'
       Period:
-        avg: 103.72841279746835
-        min: 79.437444
-        max: 154.602376
-        std: 12.08773131946447
+        avg: 103.728
+        min: 79.437
+        max: 154.602
+        std: 12.088
         filename_hist: Period_perception_object_recognition_detection_obstacle_pointcloud_based_validator_node_callback_0_hist
       Latency:
-        avg: 0.007077270440251572
-        min: 0.0037449999999999996
-        max: 0.017814
-        std: 0.002491495795665105
+        avg: 0.007
+        min: 0.004
+        max: 0.018
+        std: 0.002
         filename_hist: Latency_perception_object_recognition_detection_obstacle_pointcloud_based_validator_node_callback_0_hist
     /perception/object_recognition/detection/obstacle_pointcloud_based_validator_node/callback_1:
       Frequency:
-        avg: 9.666666666666666
-        min: 9.0
-        max: 10.0
-        std: 0.48795003647426666
+        avg: 9.667
+        min: 9.000
+        max: 10.000
+        std: 0.488
         filename_hist: Frequency_perception_object_recognition_detection_obstacle_pointcloud_based_validator_node_callback_1_hist
       displayname: 'callback_1: Sub_/perception/object_recognition/detection/pointcloud_map_filtered/pointcloud'
       Period:
-        avg: 103.94057528930817
-        min: 64.429547
-        max: 144.996277
-        std: 15.261027322418773
+        avg: 103.941
+        min: 64.430
+        max: 144.996
+        std: 15.261
         filename_hist: Period_perception_object_recognition_detection_obstacle_pointcloud_based_validator_node_callback_1_hist
       Latency:
-        avg: 2.1737460812499996
-        min: 0.5461579999999999
-        max: 11.838296
-        std: 1.9966239464106883
+        avg: 2.174
+        min: 0.546
+        max: 11.838
+        std: 1.997
         filename_hist: Latency_perception_object_recognition_detection_obstacle_pointcloud_based_validator_node_callback_1_hist
 /perception/object_recognition/detection/voxel_based_compare_map_filter:
   filename_timeseries:
@@ -372,23 +372,23 @@
   callbacks:
     /perception/object_recognition/detection/voxel_based_compare_map_filter/callback_0:
       Frequency:
-        avg: 9.666666666666666
-        min: 9.0
-        max: 10.0
-        std: 0.48795003647426666
+        avg: 9.667
+        min: 9.000
+        max: 10.000
+        std: 0.488
         filename_hist: Frequency_perception_object_recognition_detection_voxel_based_compare_map_filter_callback_0_hist
       displayname: 'callback_0: Sub_/perception/obstacle_segmentation/pointcloud'
       Period:
-        avg: 103.8531071572327
-        min: 64.813752
-        max: 156.153592
-        std: 13.516900185589646
+        avg: 103.853
+        min: 64.814
+        max: 156.154
+        std: 13.517
         filename_hist: Period_perception_object_recognition_detection_voxel_based_compare_map_filter_callback_0_hist
       Latency:
-        avg: 16.44400410625
-        min: 5.074621
-        max: 39.744048
-        std: 8.034205119194288
+        avg: 16.444
+        min: 5.075
+        max: 39.744
+        std: 8.034
         filename_hist: Latency_perception_object_recognition_detection_voxel_based_compare_map_filter_callback_0_hist
 /perception/object_recognition/prediction/map_based_prediction:
   filename_timeseries:
@@ -398,23 +398,23 @@
   callbacks:
     /perception/object_recognition/prediction/map_based_prediction/callback_0:
       Frequency:
-        avg: 9.666666666666666
-        min: 9.0
-        max: 10.0
-        std: 0.48795003647426666
+        avg: 9.667
+        min: 9.000
+        max: 10.000
+        std: 0.488
         filename_hist: Frequency_perception_object_recognition_prediction_map_based_prediction_callback_0_hist
       displayname: 'callback_0: Sub_/perception/object_recognition/tracking/objects'
       Period:
-        avg: 103.9747152389937
-        min: 63.954364999999996
-        max: 145.58369199999999
-        std: 15.696651277315633
+        avg: 103.975
+        min: 63.954
+        max: 145.584
+        std: 15.697
         filename_hist: Period_perception_object_recognition_prediction_map_based_prediction_callback_0_hist
       Latency:
-        avg: 3.8168457937499993
-        min: 0.264372
-        max: 17.538847
-        std: 2.461279273944871
+        avg: 3.817
+        min: 0.264
+        max: 17.539
+        std: 2.461
         filename_hist: Latency_perception_object_recognition_prediction_map_based_prediction_callback_0_hist
 /perception/object_recognition/tracking/multi_object_tracker:
   filename_timeseries:
@@ -424,23 +424,23 @@
   callbacks:
     /perception/object_recognition/tracking/multi_object_tracker/callback_0:
       Frequency:
-        avg: 9.666666666666666
-        min: 9.0
-        max: 10.0
-        std: 0.48795003647426666
+        avg: 9.667
+        min: 9.000
+        max: 10.000
+        std: 0.488
         filename_hist: Frequency_perception_object_recognition_tracking_multi_object_tracker_callback_0_hist
       displayname: 'callback_0: Sub_/perception/object_recognition/detection/objects'
       Period:
-        avg: 103.97370851572326
-        min: 63.979479999999995
-        max: 145.52742899999998
-        std: 15.706455121051462
+        avg: 103.974
+        min: 63.979
+        max: 145.527
+        std: 15.706
         filename_hist: Period_perception_object_recognition_tracking_multi_object_tracker_callback_0_hist
       Latency:
-        avg: 0.51869209375
-        min: 0.251427
-        max: 1.543939
-        std: 0.19887587206729163
+        avg: 0.519
+        min: 0.251
+        max: 1.544
+        std: 0.199
         filename_hist: Latency_perception_object_recognition_tracking_multi_object_tracker_callback_0_hist
 /perception/obstacle_segmentation/common_ground_filter:
   filename_timeseries:
@@ -450,23 +450,23 @@
   callbacks:
     /perception/obstacle_segmentation/common_ground_filter/callback_0:
       Frequency:
-        avg: 9.666666666666666
-        min: 9.0
-        max: 10.0
-        std: 0.48795003647426666
+        avg: 9.667
+        min: 9.000
+        max: 10.000
+        std: 0.488
         filename_hist: Frequency_perception_obstacle_segmentation_common_ground_filter_callback_0_hist
       displayname: 'callback_0: Sub_/perception/obstacle_segmentation/range_cropped/pointcloud'
       Period:
-        avg: 103.79117092405063
-        min: 71.984732
-        max: 152.63548799999998
-        std: 11.309814173844716
+        avg: 103.791
+        min: 71.985
+        max: 152.635
+        std: 11.310
         filename_hist: Period_perception_obstacle_segmentation_common_ground_filter_callback_0_hist
       Latency:
-        avg: 18.77911978616352
-        min: 11.311789
-        max: 33.574208999999996
-        std: 4.044901434878178
+        avg: 18.779
+        min: 11.312
+        max: 33.574
+        std: 4.045
         filename_hist: Latency_perception_obstacle_segmentation_common_ground_filter_callback_0_hist
 /perception/obstacle_segmentation/crop_box_filter:
   filename_timeseries:
@@ -476,23 +476,23 @@
   callbacks:
     /perception/obstacle_segmentation/crop_box_filter/callback_0:
       Frequency:
-        avg: 9.666666666666666
-        min: 9.0
-        max: 10.0
-        std: 0.48795003647426666
+        avg: 9.667
+        min: 9.000
+        max: 10.000
+        std: 0.488
         filename_hist: Frequency_perception_obstacle_segmentation_crop_box_filter_callback_0_hist
       displayname: 'callback_0: Sub_/sensing/lidar/concatenated/pointcloud'
       Period:
-        avg: 103.7911707658228
-        min: 72.44549599999999
-        max: 152.460069
-        std: 11.327552788426477
+        avg: 103.791
+        min: 72.445
+        max: 152.460
+        std: 11.328
         filename_hist: Period_perception_obstacle_segmentation_crop_box_filter_callback_0_hist
       Latency:
-        avg: 1.4857737484276732
-        min: 0.605907
-        max: 4.724753
-        std: 0.7990971879482713
+        avg: 1.486
+        min: 0.606
+        max: 4.725
+        std: 0.799
         filename_hist: Latency_perception_obstacle_segmentation_crop_box_filter_callback_0_hist
 /perception/obstacle_segmentation/occupancy_grid_map_outlier_filter:
   filename_timeseries:
@@ -502,43 +502,43 @@
   callbacks:
     /perception/obstacle_segmentation/occupancy_grid_map_outlier_filter/callback_0:
       Frequency:
-        avg: 9.666666666666666
-        min: 9.0
-        max: 10.0
-        std: 0.48795003647426666
+        avg: 9.667
+        min: 9.000
+        max: 10.000
+        std: 0.488
         filename_hist: Frequency_perception_obstacle_segmentation_occupancy_grid_map_outlier_filter_callback_0_hist
       displayname: 'callback_0: Sub_/perception/obstacle_segmentation/single_frame/pointcloud_raw'
       Period:
-        avg: 103.74769765189876
-        min: 66.249481
-        max: 151.888394
-        std: 12.74646166348812
+        avg: 103.748
+        min: 66.249
+        max: 151.888
+        std: 12.746
         filename_hist: Period_perception_obstacle_segmentation_occupancy_grid_map_outlier_filter_callback_0_hist
       Latency:
-        avg: 0.009279798742138363
-        min: 0.004572
-        max: 0.07808799999999999
-        std: 0.006458645556739691
+        avg: 0.009
+        min: 0.005
+        max: 0.078
+        std: 0.006
         filename_hist: Latency_perception_obstacle_segmentation_occupancy_grid_map_outlier_filter_callback_0_hist
     /perception/obstacle_segmentation/occupancy_grid_map_outlier_filter/callback_1:
       Frequency:
-        avg: 9.666666666666666
-        min: 9.0
-        max: 10.0
-        std: 0.48795003647426666
+        avg: 9.667
+        min: 9.000
+        max: 10.000
+        std: 0.488
         filename_hist: Frequency_perception_obstacle_segmentation_occupancy_grid_map_outlier_filter_callback_1_hist
       displayname: 'callback_1: Sub_/perception/occupancy_grid_map/map'
       Period:
-        avg: 103.7719733164557
-        min: 64.959045
-        max: 153.829216
-        std: 12.823481569986942
+        avg: 103.772
+        min: 64.959
+        max: 153.829
+        std: 12.823
         filename_hist: Period_perception_obstacle_segmentation_occupancy_grid_map_outlier_filter_callback_1_hist
       Latency:
-        avg: 11.342245591194969
-        min: 5.661302
-        max: 21.769122
-        std: 3.861222365002611
+        avg: 11.342
+        min: 5.661
+        max: 21.769
+        std: 3.861
         filename_hist: Latency_perception_obstacle_segmentation_occupancy_grid_map_outlier_filter_callback_1_hist
 /perception/occupancy_grid_map/occupancy_grid_map_node:
   filename_timeseries:
@@ -548,43 +548,43 @@
   callbacks:
     /perception/occupancy_grid_map/occupancy_grid_map_node/callback_0:
       Frequency:
-        avg: 9.666666666666666
-        min: 9.0
-        max: 10.0
-        std: 0.48795003647426666
+        avg: 9.667
+        min: 9.000
+        max: 10.000
+        std: 0.488
         filename_hist: Frequency_perception_occupancy_grid_map_occupancy_grid_map_node_callback_0_hist
       displayname: 'callback_0: Sub_/perception/obstacle_segmentation/single_frame/pointcloud_raw'
       Period:
-        avg: 103.75024729113926
-        min: 65.844938
-        max: 152.00079
-        std: 12.767445680867134
+        avg: 103.750
+        min: 65.845
+        max: 152.001
+        std: 12.767
         filename_hist: Period_perception_occupancy_grid_map_occupancy_grid_map_node_callback_0_hist
       Latency:
-        avg: 15.72277924528302
-        min: 11.992614
-        max: 24.278973
-        std: 2.1295850769257156
+        avg: 15.723
+        min: 11.993
+        max: 24.279
+        std: 2.130
         filename_hist: Latency_perception_occupancy_grid_map_occupancy_grid_map_node_callback_0_hist
     /perception/occupancy_grid_map/occupancy_grid_map_node/callback_1:
       Frequency:
-        avg: 9.666666666666666
-        min: 9.0
-        max: 10.0
-        std: 0.48795003647426666
+        avg: 9.667
+        min: 9.000
+        max: 10.000
+        std: 0.488
         filename_hist: Frequency_perception_occupancy_grid_map_occupancy_grid_map_node_callback_1_hist
       displayname: 'callback_1: Sub_/sensing/lidar/concatenated/pointcloud'
       Period:
-        avg: 103.77622734177211
-        min: 74.537883
-        max: 155.918206
-        std: 11.435627159624701
+        avg: 103.776
+        min: 74.538
+        max: 155.918
+        std: 11.436
         filename_hist: Period_perception_occupancy_grid_map_occupancy_grid_map_node_callback_1_hist
       Latency:
-        avg: 0.013133911949685531
-        min: 0.005462
-        max: 0.027601999999999998
-        std: 0.004293793910296209
+        avg: 0.013
+        min: 0.005
+        max: 0.028
+        std: 0.004
         filename_hist: Latency_perception_occupancy_grid_map_occupancy_grid_map_node_callback_1_hist
 /perception/traffic_light_recognition/traffic_light_classifier:
   filename_timeseries:
@@ -594,23 +594,23 @@
   callbacks:
     /perception/traffic_light_recognition/traffic_light_classifier/callback_0:
       Frequency:
-        avg: 10.0
-        min: 9.0
-        max: 11.0
-        std: 0.3779644730092272
+        avg: 10.000
+        min: 9.000
+        max: 11.000
+        std: 0.378
         filename_hist: Frequency_perception_traffic_light_recognition_traffic_light_classifier_callback_0_hist
       displayname: 'callback_0: Timer_100.0ms'
       Period:
-        avg: 100.00827373619632
-        min: 79.827074
-        max: 118.49671199999999
-        std: 7.628530807224407
+        avg: 100.008
+        min: 79.827
+        max: 118.497
+        std: 7.629
         filename_hist: Period_perception_traffic_light_recognition_traffic_light_classifier_callback_0_hist
       Latency:
-        avg: 0.006441024390243902
-        min: 0.0020889999999999997
-        max: 0.056983
-        std: 0.004601257618098896
+        avg: 0.006
+        min: 0.002
+        max: 0.057
+        std: 0.005
         filename_hist: Latency_perception_traffic_light_recognition_traffic_light_classifier_callback_0_hist
     /perception/traffic_light_recognition/traffic_light_classifier/callback_1:
       Frequency:
@@ -660,23 +660,23 @@
   callbacks:
     /perception/traffic_light_recognition/traffic_light_roi_visualizer/callback_0:
       Frequency:
-        avg: 10.0
-        min: 9.0
-        max: 11.0
-        std: 0.3779644730092272
+        avg: 10.000
+        min: 9.000
+        max: 11.000
+        std: 0.378
         filename_hist: Frequency_perception_traffic_light_recognition_traffic_light_roi_visualizer_callback_0_hist
       displayname: 'callback_0: Timer_100.0ms'
       Period:
-        avg: 100.00825868098158
-        min: 80.009813
-        max: 118.67601599999999
-        std: 7.6251302080544345
+        avg: 100.008
+        min: 80.010
+        max: 118.676
+        std: 7.625
         filename_hist: Period_perception_traffic_light_recognition_traffic_light_roi_visualizer_callback_0_hist
       Latency:
-        avg: 0.016414304878048777
-        min: 0.008681
-        max: 0.051108
-        std: 0.0051317441711144825
+        avg: 0.016
+        min: 0.009
+        max: 0.051
+        std: 0.005
         filename_hist: Latency_perception_traffic_light_recognition_traffic_light_roi_visualizer_callback_0_hist
     /perception/traffic_light_recognition/traffic_light_roi_visualizer/callback_1:
       Frequency:
@@ -766,23 +766,23 @@
   callbacks:
     /perception/traffic_light_recognition/traffic_light_ssd_fine_detector/callback_0:
       Frequency:
-        avg: 10.0
-        min: 9.0
-        max: 11.0
-        std: 0.3779644730092272
+        avg: 10.000
+        min: 9.000
+        max: 11.000
+        std: 0.378
         filename_hist: Frequency_perception_traffic_light_recognition_traffic_light_ssd_fine_detector_callback_0_hist
       displayname: 'callback_0: Timer_100.0ms'
       Period:
-        avg: 100.00839674846624
-        min: 80.13571499999999
-        max: 118.51625299999999
-        std: 7.609650604997525
+        avg: 100.008
+        min: 80.136
+        max: 118.516
+        std: 7.610
         filename_hist: Period_perception_traffic_light_recognition_traffic_light_ssd_fine_detector_callback_0_hist
       Latency:
-        avg: 0.0056201524390243895
-        min: 0.001326
-        max: 0.015597999999999999
-        std: 0.0025833800220995307
+        avg: 0.006
+        min: 0.001
+        max: 0.016
+        std: 0.003
         filename_hist: Latency_perception_traffic_light_recognition_traffic_light_ssd_fine_detector_callback_0_hist
     /perception/traffic_light_recognition/traffic_light_ssd_fine_detector/callback_1:
       Frequency:

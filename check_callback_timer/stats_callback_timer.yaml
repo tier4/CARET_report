@@ -2,319 +2,319 @@
   package_name: control
   callback_name: /control/external_cmd_converter/callback_0
   callback_displayname: Timer_1000.0ms
-  freq_timer: 1.0
-  freq_callback: 1.3333333333333333
-  num_huge_gap: 0
+  freq_timer: 1.000
+  freq_callback: 1.333
+  num_huge_gap: 0.000
   graph_filename: control_external_cmd_converter_callback_0
 - node_name: /control/external_cmd_converter
   package_name: control
   callback_name: /control/external_cmd_converter/callback_1
   callback_displayname: Timer_100.0ms
-  freq_timer: 10.0
-  freq_callback: 10
-  num_huge_gap: 0
+  freq_timer: 10.000
+  freq_callback: 10.000
+  num_huge_gap: 0.000
   graph_filename: control_external_cmd_converter_callback_1
 - node_name: /control/external_cmd_selector
   package_name: control
   callback_name: /control/external_cmd_selector/callback_0
   callback_displayname: Timer_1000.0ms
-  freq_timer: 1.0
-  freq_callback: 1.0666666666666667
-  num_huge_gap: 0
+  freq_timer: 1.000
+  freq_callback: 1.067
+  num_huge_gap: 0.000
   graph_filename: control_external_cmd_selector_callback_0
 - node_name: /control/external_cmd_selector
   package_name: control
   callback_name: /control/external_cmd_selector/callback_1
   callback_displayname: Timer_100.0ms
-  freq_timer: 10.0
-  freq_callback: 10
-  num_huge_gap: 0
+  freq_timer: 10.000
+  freq_callback: 10.000
+  num_huge_gap: 0.000
   graph_filename: control_external_cmd_selector_callback_1
 - node_name: /control/operation_mode_transition_manager
   package_name: control
   callback_name: /control/operation_mode_transition_manager/callback_0
   callback_displayname: Timer_100.0ms
-  freq_timer: 10.0
-  freq_callback: 10
-  num_huge_gap: 0
+  freq_timer: 10.000
+  freq_callback: 10.000
+  num_huge_gap: 0.000
   graph_filename: control_operation_mode_transition_manager_callback_0
 - node_name: /control/shift_decider
   package_name: control
   callback_name: /control/shift_decider/callback_0
   callback_displayname: Timer_100.0ms
-  freq_timer: 10.0
-  freq_callback: 10
-  num_huge_gap: 0
+  freq_timer: 10.000
+  freq_callback: 10.000
+  num_huge_gap: 0.000
   graph_filename: control_shift_decider_callback_0
 - node_name: /control/trajectory_follower/controller_node_exe
   package_name: control
   callback_name: /control/trajectory_follower/controller_node_exe/callback_0
   callback_displayname: Timer_30.0ms
-  freq_timer: 33.333333333333336
-  freq_callback: 33.333333333333336
-  num_huge_gap: 0
+  freq_timer: 33.333
+  freq_callback: 33.333
+  num_huge_gap: 0.000
   graph_filename: control_trajectory_follower_controller_node_exe_callback_0
 - node_name: /control/trajectory_follower/lane_departure_checker_node
   package_name: control
   callback_name: /control/trajectory_follower/lane_departure_checker_node/callback_0
   callback_displayname: Timer_1000.0ms
-  freq_timer: 1.0
-  freq_callback: 1.0666666666666667
-  num_huge_gap: 0
+  freq_timer: 1.000
+  freq_callback: 1.067
+  num_huge_gap: 0.000
   graph_filename: control_trajectory_follower_lane_departure_checker_node_callback_0
 - node_name: /control/trajectory_follower/lane_departure_checker_node
   package_name: control
   callback_name: /control/trajectory_follower/lane_departure_checker_node/callback_1
   callback_displayname: Timer_100.0ms
-  freq_timer: 10.0
-  freq_callback: 10
-  num_huge_gap: 0
+  freq_timer: 10.000
+  freq_callback: 10.000
+  num_huge_gap: 0.000
   graph_filename: control_trajectory_follower_lane_departure_checker_node_callback_1
 - node_name: /control/vehicle_cmd_gate
   package_name: control
   callback_name: /control/vehicle_cmd_gate/callback_00
   callback_displayname: Timer_1000.0ms
-  freq_timer: 1.0
-  freq_callback: 1.1428571428571428
-  num_huge_gap: 0
+  freq_timer: 1.000
+  freq_callback: 1.143
+  num_huge_gap: 0.000
   graph_filename: control_vehicle_cmd_gate_callback_00
 - node_name: /control/vehicle_cmd_gate
   package_name: control
   callback_name: /control/vehicle_cmd_gate/callback_01
   callback_displayname: Timer_100.0ms
-  freq_timer: 10.0
-  freq_callback: 10
-  num_huge_gap: 0
+  freq_timer: 10.000
+  freq_callback: 10.000
+  num_huge_gap: 0.000
   graph_filename: control_vehicle_cmd_gate_callback_01
 - node_name: /control/vehicle_cmd_gate
   package_name: control
   callback_name: /control/vehicle_cmd_gate/callback_02
   callback_displayname: Timer_100.00000999999999ms
-  freq_timer: 9.9999990000001
-  freq_callback: 10
-  num_huge_gap: 0
+  freq_timer: 10.000
+  freq_callback: 10.000
+  num_huge_gap: 0.000
   graph_filename: control_vehicle_cmd_gate_callback_02
 - node_name: /localization/localization_error_monitor
   package_name: localization
   callback_name: /localization/localization_error_monitor/callback_0
   callback_displayname: Timer_1000.0ms
-  freq_timer: 1.0
-  freq_callback: 1.0714285714285714
-  num_huge_gap: 0
+  freq_timer: 1.000
+  freq_callback: 1.071
+  num_huge_gap: 0.000
   graph_filename: localization_localization_error_monitor_callback_0
 - node_name: /localization/localization_error_monitor
   package_name: localization
   callback_name: /localization/localization_error_monitor/callback_1
   callback_displayname: Timer_100.0ms
-  freq_timer: 10.0
-  freq_callback: 10
-  num_huge_gap: 0
+  freq_timer: 10.000
+  freq_callback: 10.000
+  num_huge_gap: 0.000
   graph_filename: localization_localization_error_monitor_callback_1
 - node_name: /localization/pose_twist_fusion_filter/ekf_localizer
   package_name: localization
   callback_name: /localization/pose_twist_fusion_filter/ekf_localizer/callback_0
   callback_displayname: Timer_19.999999ms
-  freq_timer: 50.00000250000012
-  freq_callback: 50.06666666666667
-  num_huge_gap: 0
+  freq_timer: 50.000
+  freq_callback: 50.067
+  num_huge_gap: 0.000
   graph_filename: localization_pose_twist_fusion_filter_ekf_localizer_callback_0
 - node_name: /localization/pose_twist_fusion_filter/ekf_localizer
   package_name: localization
   callback_name: /localization/pose_twist_fusion_filter/ekf_localizer/callback_1
   callback_displayname: Timer_20.0ms
-  freq_timer: 50.0
-  freq_callback: 50
-  num_huge_gap: 0
+  freq_timer: 50.000
+  freq_callback: 50.000
+  num_huge_gap: 0.000
   graph_filename: localization_pose_twist_fusion_filter_ekf_localizer_callback_1
 - node_name: /perception/traffic_light_recognition/traffic_light_classifier
   package_name: perception
   callback_name: /perception/traffic_light_recognition/traffic_light_classifier/callback_0
   callback_displayname: Timer_100.0ms
-  freq_timer: 10.0
-  freq_callback: 10
-  num_huge_gap: 0
+  freq_timer: 10.000
+  freq_callback: 10.000
+  num_huge_gap: 0.000
   graph_filename: perception_traffic_light_recognition_traffic_light_classifier_callback_0
 - node_name: /perception/traffic_light_recognition/traffic_light_roi_visualizer
   package_name: perception
   callback_name: /perception/traffic_light_recognition/traffic_light_roi_visualizer/callback_0
   callback_displayname: Timer_100.0ms
-  freq_timer: 10.0
-  freq_callback: 10
-  num_huge_gap: 0
+  freq_timer: 10.000
+  freq_callback: 10.000
+  num_huge_gap: 0.000
   graph_filename: perception_traffic_light_recognition_traffic_light_roi_visualizer_callback_0
 - node_name: /perception/traffic_light_recognition/traffic_light_ssd_fine_detector
   package_name: perception
   callback_name: /perception/traffic_light_recognition/traffic_light_ssd_fine_detector/callback_0
   callback_displayname: Timer_100.0ms
-  freq_timer: 10.0
-  freq_callback: 10
-  num_huge_gap: 0
+  freq_timer: 10.000
+  freq_callback: 10.000
+  num_huge_gap: 0.000
   graph_filename: perception_traffic_light_recognition_traffic_light_ssd_fine_detector_callback_0
 - node_name: /planning/planning_diagnostics/planning_error_monitor
   package_name: planning
   callback_name: /planning/planning_diagnostics/planning_error_monitor/callback_0
   callback_displayname: Timer_1000.0ms
-  freq_timer: 1.0
-  freq_callback: 1.6666666666666667
-  num_huge_gap: 0
+  freq_timer: 1.000
+  freq_callback: 1.667
+  num_huge_gap: 0.000
   graph_filename: planning_planning_diagnostics_planning_error_monitor_callback_0
 - node_name: /planning/planning_diagnostics/planning_error_monitor
   package_name: planning
   callback_name: /planning/planning_diagnostics/planning_error_monitor/callback_1
   callback_displayname: Timer_100.0ms
-  freq_timer: 10.0
-  freq_callback: 10
-  num_huge_gap: 0
+  freq_timer: 10.000
+  freq_callback: 10.000
+  num_huge_gap: 0.000
   graph_filename: planning_planning_diagnostics_planning_error_monitor_callback_1
 - node_name: /planning/scenario_planning/lane_driving/behavior_planning/behavior_path_planner
   package_name: planning
   callback_name: /planning/scenario_planning/lane_driving/behavior_planning/behavior_path_planner/callback_0
   callback_displayname: Timer_100.0ms
-  freq_timer: 10.0
-  freq_callback: 10.066666666666666
-  num_huge_gap: 0
+  freq_timer: 10.000
+  freq_callback: 10.067
+  num_huge_gap: 0.000
   graph_filename: planning_scenario_planning_lane_driving_behavior_planning_behavior_path_planner_callback_0
 - node_name: /planning/scenario_planning/lane_driving/motion_planning/surround_obstacle_checker
   package_name: planning
   callback_name: /planning/scenario_planning/lane_driving/motion_planning/surround_obstacle_checker/callback_0
   callback_displayname: Timer_100.0ms
-  freq_timer: 10.0
-  freq_callback: 2
-  num_huge_gap: 14
+  freq_timer: 10.000
+  freq_callback: 2.000
+  num_huge_gap: 14.000
   graph_filename: planning_scenario_planning_lane_driving_motion_planning_surround_obstacle_checker_callback_0
 - node_name: /planning/scenario_planning/parking/costmap_generator
   package_name: planning
   callback_name: /planning/scenario_planning/parking/costmap_generator/callback_0
   callback_displayname: Timer_100.0ms
-  freq_timer: 10.0
-  freq_callback: 10
-  num_huge_gap: 0
+  freq_timer: 10.000
+  freq_callback: 10.000
+  num_huge_gap: 0.000
   graph_filename: planning_scenario_planning_parking_costmap_generator_callback_0
 - node_name: /planning/scenario_planning/parking/freespace_planner
   package_name: planning
   callback_name: /planning/scenario_planning/parking/freespace_planner/callback_0
   callback_displayname: Timer_100.0ms
-  freq_timer: 10.0
-  freq_callback: 10
-  num_huge_gap: 0
+  freq_timer: 10.000
+  freq_callback: 10.000
+  num_huge_gap: 0.000
   graph_filename: planning_scenario_planning_parking_freespace_planner_callback_0
 - node_name: /planning/scenario_planning/scenario_selector
   package_name: planning
   callback_name: /planning/scenario_planning/scenario_selector/callback_0
   callback_displayname: Timer_100.0ms
-  freq_timer: 10.0
-  freq_callback: 10
-  num_huge_gap: 0
+  freq_timer: 10.000
+  freq_callback: 10.000
+  num_huge_gap: 0.000
   graph_filename: planning_scenario_planning_scenario_selector_callback_0
 - node_name: /sensing/lidar/concatenate_data
   package_name: sensing
   callback_name: /sensing/lidar/concatenate_data/callback_0
   callback_displayname: Timer_1000.0ms
-  freq_timer: 1.0
-  freq_callback: 1.3333333333333333
-  num_huge_gap: 0
+  freq_timer: 1.000
+  freq_callback: 1.333
+  num_huge_gap: 0.000
   graph_filename: sensing_lidar_concatenate_data_callback_0
 - node_name: /system/ad_service_state_monitor
   package_name: ''
   callback_name: /system/ad_service_state_monitor/callback_0
   callback_displayname: Timer_1000.0ms
-  freq_timer: 1.0
-  freq_callback: 1.4545454545454546
-  num_huge_gap: 0
+  freq_timer: 1.000
+  freq_callback: 1.455
+  num_huge_gap: 0.000
   graph_filename: system_ad_service_state_monitor_callback_0
 - node_name: /system/ad_service_state_monitor
   package_name: ''
   callback_name: /system/ad_service_state_monitor/callback_1
   callback_displayname: Timer_100.0ms
-  freq_timer: 10.0
-  freq_callback: 10
-  num_huge_gap: 0
+  freq_timer: 10.000
+  freq_callback: 10.000
+  num_huge_gap: 0.000
   graph_filename: system_ad_service_state_monitor_callback_1
 - node_name: /system/emergency_handler
   package_name: ''
   callback_name: /system/emergency_handler/callback_0
   callback_displayname: Timer_100.0ms
-  freq_timer: 10.0
-  freq_callback: 10
-  num_huge_gap: 0
+  freq_timer: 10.000
+  freq_callback: 10.000
+  num_huge_gap: 0.000
   graph_filename: system_emergency_handler_callback_0
 - node_name: /system/system_error_monitor
   package_name: ''
   callback_name: /system/system_error_monitor/callback_0
   callback_displayname: Timer_100.0ms
-  freq_timer: 10.0
-  freq_callback: 10
-  num_huge_gap: 0
+  freq_timer: 10.000
+  freq_callback: 10.000
+  num_huge_gap: 0.000
   graph_filename: system_system_error_monitor_callback_0
 - node_name: /system/system_monitor/cpu_monitor
   package_name: ''
   callback_name: /system/system_monitor/cpu_monitor/callback_0
   callback_displayname: Timer_1000.0ms
-  freq_timer: 1.0
-  freq_callback: 1
-  num_huge_gap: 0
+  freq_timer: 1.000
+  freq_callback: 1.000
+  num_huge_gap: 0.000
   graph_filename: system_system_monitor_cpu_monitor_callback_0
 - node_name: /system/system_monitor/gpu_monitor
   package_name: ''
   callback_name: /system/system_monitor/gpu_monitor/callback_0
   callback_displayname: Timer_1000.0ms
-  freq_timer: 1.0
-  freq_callback: 1.1538461538461537
-  num_huge_gap: 0
+  freq_timer: 1.000
+  freq_callback: 1.154
+  num_huge_gap: 0.000
   graph_filename: system_system_monitor_gpu_monitor_callback_0
 - node_name: /system/system_monitor/hdd_monitor
   package_name: ''
   callback_name: /system/system_monitor/hdd_monitor/callback_0
   callback_displayname: Timer_1000.0ms
-  freq_timer: 1.0
-  freq_callback: 1.1428571428571428
-  num_huge_gap: 0
+  freq_timer: 1.000
+  freq_callback: 1.143
+  num_huge_gap: 0.000
   graph_filename: system_system_monitor_hdd_monitor_callback_0
 - node_name: /system/system_monitor/hdd_monitor
   package_name: ''
   callback_name: /system/system_monitor/hdd_monitor/callback_1
   callback_displayname: Timer_1000.0ms
-  freq_timer: 1.0
-  freq_callback: 1.0714285714285714
-  num_huge_gap: 0
+  freq_timer: 1.000
+  freq_callback: 1.071
+  num_huge_gap: 0.000
   graph_filename: system_system_monitor_hdd_monitor_callback_1
 - node_name: /system/system_monitor/mem_monitor
   package_name: ''
   callback_name: /system/system_monitor/mem_monitor/callback_0
   callback_displayname: Timer_1000.0ms
-  freq_timer: 1.0
-  freq_callback: 1.2142857142857142
-  num_huge_gap: 0
+  freq_timer: 1.000
+  freq_callback: 1.214
+  num_huge_gap: 0.000
   graph_filename: system_system_monitor_mem_monitor_callback_0
 - node_name: /system/system_monitor/net_monitor
   package_name: ''
   callback_name: /system/system_monitor/net_monitor/callback_0
   callback_displayname: Timer_1000.0ms
-  freq_timer: 1.0
-  freq_callback: 1.0666666666666667
-  num_huge_gap: 0
+  freq_timer: 1.000
+  freq_callback: 1.067
+  num_huge_gap: 0.000
   graph_filename: system_system_monitor_net_monitor_callback_0
 - node_name: /system/system_monitor/ntp_monitor
   package_name: ''
   callback_name: /system/system_monitor/ntp_monitor/callback_0
   callback_displayname: Timer_1000.0ms
-  freq_timer: 1.0
-  freq_callback: 1
-  num_huge_gap: 0
+  freq_timer: 1.000
+  freq_callback: 1.000
+  num_huge_gap: 0.000
   graph_filename: system_system_monitor_ntp_monitor_callback_0
 - node_name: /system/system_monitor/process_monitor
   package_name: ''
   callback_name: /system/system_monitor/process_monitor/callback_0
   callback_displayname: Timer_1000.0ms
-  freq_timer: 1.0
-  freq_callback: 1.1428571428571428
-  num_huge_gap: 0
+  freq_timer: 1.000
+  freq_callback: 1.143
+  num_huge_gap: 0.000
   graph_filename: system_system_monitor_process_monitor_callback_0
 - node_name: /system/system_monitor/process_monitor
   package_name: ''
   callback_name: /system/system_monitor/process_monitor/callback_1
   callback_displayname: Timer_1000.0ms
-  freq_timer: 1.0
-  freq_callback: 1.0714285714285714
-  num_huge_gap: 0
+  freq_timer: 1.000
+  freq_callback: 1.071
+  num_huge_gap: 0.000
   graph_filename: system_system_monitor_process_monitor_callback_1

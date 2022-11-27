@@ -29,15 +29,15 @@
   - /planning/scenario_planning/motion_velocity_smoother
   - /control/trajectory_follower/controller_node_exe
   - /control/vehicle_cmd_gate
-  worst_avg: 299.4333565793103
-  worst_min: 226.99259099999998
-  worst_max: 399.71027
-  best_avg: 186.36188860000001
-  best_min: 122.06199
-  best_max: 253.604042
-  total_avg: 299.4333565793103
-  total_min: 122.06199
-  total_max: 399.71027
+  worst_avg: 299.433
+  worst_min: 226.993
+  worst_max: 399.710
+  best_avg: 186.362
+  best_min: 122.062
+  best_max: 253.604
+  total_avg: 299.433
+  total_min: 122.062
+  total_max: 399.710
   filename_messageflow: e2e-lidar_top-map_based_prediction-planning-vehicle_cmd_gate_0_messageflow
   filename_messageflow_short: e2e-lidar_top-map_based_prediction-planning-vehicle_cmd_gate_0_messageflow_short
   filename_hist_total: e2e-lidar_top-map_based_prediction-planning-vehicle_cmd_gate_0_hist
@@ -62,15 +62,15 @@
   - /planning/scenario_planning/motion_velocity_smoother
   - /control/trajectory_follower/controller_node_exe
   - /control/vehicle_cmd_gate
-  worst_avg: 263.6867101307189
-  worst_min: 201.125157
-  worst_max: 334.641367
-  best_avg: 156.52747577124182
-  best_min: 90.17050599999999
-  best_max: 229.901909
-  total_avg: 263.6867101307189
-  total_min: 90.17050599999999
-  total_max: 334.641367
+  worst_avg: 263.687
+  worst_min: 201.125
+  worst_max: 334.641
+  best_avg: 156.527
+  best_min: 90.171
+  best_max: 229.902
+  total_avg: 263.687
+  total_min: 90.171
+  total_max: 334.641
   filename_messageflow: e2e-lidar_top-obstacle_stop_planner-vehicle_cmd_gate_0_messageflow
   filename_messageflow_short: e2e-lidar_top-obstacle_stop_planner-vehicle_cmd_gate_0_messageflow_short
   filename_hist_total: e2e-lidar_top-obstacle_stop_planner-vehicle_cmd_gate_0_hist
@@ -91,15 +91,15 @@
   - /localization/pose_estimator/ndt_scan_matcher
   - /localization/pose_twist_fusion_filter/ekf_localizer
   - /localization/pose_twist_fusion_filter/stop_filter
-  worst_avg: 160.56271372327043
-  worst_min: 127.44969999999999
-  worst_max: 201.787069
-  best_avg: 56.89753576100629
-  best_min: 37.617965
-  best_max: 85.319514
-  total_avg: 160.56271372327043
-  total_min: 37.617965
-  total_max: 201.787069
+  worst_avg: 160.563
+  worst_min: 127.450
+  worst_max: 201.787
+  best_avg: 56.898
+  best_min: 37.618
+  best_max: 85.320
+  total_avg: 160.563
+  total_min: 37.618
+  total_max: 201.787
   filename_messageflow: sensing_lidar_top-localization_stop_filter_0_messageflow
   filename_messageflow_short: sensing_lidar_top-localization_stop_filter_0_messageflow_short
   filename_hist_total: sensing_lidar_top-localization_stop_filter_0_hist
@@ -115,15 +115,15 @@
   - /sensing/lidar/top/distortion_corrector_node
   - /sensing/lidar/top/ring_outlier_filter
   - /sensing/lidar/concatenate_data
-  worst_avg: 134.24958329375
-  worst_min: 111.57379999999999
-  worst_max: 176.795855
-  best_avg: 30.526121424999996
-  best_min: 21.672375
-  best_max: 44.813123
-  total_avg: 134.24958329375
-  total_min: 21.672375
-  total_max: 176.795855
+  worst_avg: 134.250
+  worst_min: 111.574
+  worst_max: 176.796
+  best_avg: 30.526
+  best_min: 21.672
+  best_max: 44.813
+  total_avg: 134.250
+  total_min: 21.672
+  total_max: 176.796
   filename_messageflow: sensing_lidar_top-sensing_lidar_concatenate_0_messageflow
   filename_messageflow_short: sensing_lidar_top-sensing_lidar_concatenate_0_messageflow_short
   filename_hist_total: sensing_lidar_top-sensing_lidar_concatenate_0_hist
