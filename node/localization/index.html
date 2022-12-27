@@ -10,13 +10,13 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <title>localization: report_trace_data</title>
+    <title>localization: report_autoware_launch_trace_20221227-150253</title>
   </head>
 
   <body>
     <div class="container">
       <!-- <div> -->
-      <h1>localization: report_trace_data</h1>
+      <h1>localization: report_autoware_launch_trace_20221227-150253</h1>
 
       <h2>Node List</h2>
       <ul>
@@ -35,7 +35,11 @@
         
         <li><a href="#/localization/util/crop_box_filter_measurement_range">/localization/util/crop_box_filter_measurement_range</a></li>
         
-        <li><a href="#/localization/util/pose_initializer">/localization/util/pose_initializer</a></li>
+        <li><a href="#/localization/util/default_ad_api/helpers/automatic_pose_initializer">/localization/util/default_ad_api/helpers/automatic_pose_initializer</a></li>
+        
+        <li><a href="#/localization/util/map_height_fitter">/localization/util/map_height_fitter</a></li>
+        
+        <li><a href="#/localization/util/pose_initializer_node">/localization/util/pose_initializer_node</a></li>
         
         <li><a href="#/localization/util/random_downsample_filter">/localization/util/random_downsample_filter</a></li>
         
@@ -78,9 +82,11 @@
         <label class="form-check-label" for="checkbox_hist_2">Histogram</label>
       </div>
 
+      
       <a href="Frequency_localization_localization_error_monitor.html" target="_blank">
         <img src="Frequency_localization_localization_error_monitor.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_2">
         <table class="table table-hover table-bordered">
@@ -115,10 +121,10 @@
           <tr>
             <td>callback_2: Sub_/localization/kinematic_state</td>
             
-            <td class="text-end">50.000</td>
+            <td class="text-end">50.091</td>
             <td class="text-end">49.000</td>
             <td class="text-end">51.000</td>
-            <td class="text-end">0.961</td>
+            <td class="text-end">0.701</td>
             
           </tr>
            
@@ -171,9 +177,11 @@
         <label class="form-check-label" for="checkbox_hist_3">Histogram</label>
       </div>
 
+      
       <a href="Period_localization_localization_error_monitor.html" target="_blank">
         <img src="Period_localization_localization_error_monitor.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_3">
         <table class="table table-hover table-bordered">
@@ -188,30 +196,30 @@
           <tr>
             <td>callback_0: Timer_1000.0ms</td>
             
-            <td class="text-end">1000.004</td>
-            <td class="text-end">999.957</td>
-            <td class="text-end">1000.084</td>
-            <td class="text-end">0.031</td>
+            <td class="text-end">1000.675</td>
+            <td class="text-end">993.577</td>
+            <td class="text-end">1006.167</td>
+            <td class="text-end">5.226</td>
             
           </tr>
             
           <tr>
             <td>callback_1: Timer_100.0ms</td>
             
-            <td class="text-end">100.099</td>
-            <td class="text-end">80.357</td>
-            <td class="text-end">118.867</td>
-            <td class="text-end">7.687</td>
+            <td class="text-end">99.992</td>
+            <td class="text-end">80.771</td>
+            <td class="text-end">118.728</td>
+            <td class="text-end">7.448</td>
             
           </tr>
             
           <tr>
             <td>callback_2: Sub_/localization/kinematic_state</td>
             
-            <td class="text-end">19.997</td>
-            <td class="text-end">4.434</td>
-            <td class="text-end">35.840</td>
-            <td class="text-end">3.048</td>
+            <td class="text-end">19.989</td>
+            <td class="text-end">2.738</td>
+            <td class="text-end">37.019</td>
+            <td class="text-end">3.588</td>
             
           </tr>
            
@@ -264,9 +272,11 @@
         <label class="form-check-label" for="checkbox_hist_4">Histogram</label>
       </div>
 
+      
       <a href="Latency_localization_localization_error_monitor.html" target="_blank">
         <img src="Latency_localization_localization_error_monitor.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_4">
         <table class="table table-hover table-bordered">
@@ -281,30 +291,30 @@
           <tr>
             <td>callback_0: Timer_1000.0ms</td>
             
-            <td class="text-end">0.098</td>
-            <td class="text-end">0.036</td>
-            <td class="text-end">0.259</td>
-            <td class="text-end">0.065</td>
+            <td class="text-end">0.112</td>
+            <td class="text-end">0.077</td>
+            <td class="text-end">0.143</td>
+            <td class="text-end">0.019</td>
             
           </tr>
             
           <tr>
             <td>callback_1: Timer_100.0ms</td>
             
-            <td class="text-end">0.131</td>
-            <td class="text-end">0.069</td>
-            <td class="text-end">0.308</td>
-            <td class="text-end">0.038</td>
+            <td class="text-end">0.141</td>
+            <td class="text-end">0.017</td>
+            <td class="text-end">0.339</td>
+            <td class="text-end">0.061</td>
             
           </tr>
             
           <tr>
             <td>callback_2: Sub_/localization/kinematic_state</td>
             
-            <td class="text-end">0.045</td>
-            <td class="text-end">0.018</td>
-            <td class="text-end">0.217</td>
-            <td class="text-end">0.015</td>
+            <td class="text-end">0.071</td>
+            <td class="text-end">0.031</td>
+            <td class="text-end">0.277</td>
+            <td class="text-end">0.024</td>
             
           </tr>
            
@@ -360,9 +370,11 @@
         <label class="form-check-label" for="checkbox_hist_5">Histogram</label>
       </div>
 
+      
       <a href="Frequency_localization_pose_estimator_ndt_scan_matcher.html" target="_blank">
         <img src="Frequency_localization_pose_estimator_ndt_scan_matcher.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_5">
         <table class="table table-hover table-bordered">
@@ -375,22 +387,22 @@
           </tr>
            
           <tr>
-            <td>callback_0: Sub_/localization/pose_twist_fusion_filter/pose_with_covariance_without_yawbias</td>
+            <td>callback_0: Sub_/localization/pose_twist_fusion_filter/biased_pose_with_covariance</td>
             
             <td class="text-end">50.000</td>
             <td class="text-end">49.000</td>
             <td class="text-end">51.000</td>
-            <td class="text-end">0.961</td>
+            <td class="text-end">0.632</td>
             
           </tr>
             
           <tr>
             <td>callback_1: Sub_/localization/util/downsample/pointcloud</td>
             
-            <td class="text-end">9.643</td>
+            <td class="text-end">9.636</td>
             <td class="text-end">9.000</td>
             <td class="text-end">10.000</td>
-            <td class="text-end">0.497</td>
+            <td class="text-end">0.505</td>
             
           </tr>
             
@@ -453,9 +465,11 @@
         <label class="form-check-label" for="checkbox_hist_6">Histogram</label>
       </div>
 
+      
       <a href="Period_localization_pose_estimator_ndt_scan_matcher.html" target="_blank">
         <img src="Period_localization_pose_estimator_ndt_scan_matcher.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_6">
         <table class="table table-hover table-bordered">
@@ -468,32 +482,32 @@
           </tr>
            
           <tr>
-            <td>callback_0: Sub_/localization/pose_twist_fusion_filter/pose_with_covariance_without_yawbias</td>
+            <td>callback_0: Sub_/localization/pose_twist_fusion_filter/biased_pose_with_covariance</td>
             
-            <td class="text-end">19.996</td>
-            <td class="text-end">4.378</td>
-            <td class="text-end">35.910</td>
-            <td class="text-end">3.038</td>
+            <td class="text-end">19.989</td>
+            <td class="text-end">3.256</td>
+            <td class="text-end">36.975</td>
+            <td class="text-end">3.562</td>
             
           </tr>
             
           <tr>
             <td>callback_1: Sub_/localization/util/downsample/pointcloud</td>
             
-            <td class="text-end">103.751</td>
-            <td class="text-end">75.634</td>
-            <td class="text-end">151.710</td>
-            <td class="text-end">11.151</td>
+            <td class="text-end">103.902</td>
+            <td class="text-end">49.774</td>
+            <td class="text-end">155.166</td>
+            <td class="text-end">21.292</td>
             
           </tr>
             
           <tr>
             <td>callback_2: Sub_/sensing/gnss/pose_with_covariance</td>
             
-            <td class="text-end">999.181</td>
-            <td class="text-end">986.595</td>
-            <td class="text-end">1014.770</td>
-            <td class="text-end">9.059</td>
+            <td class="text-end">1000.738</td>
+            <td class="text-end">988.057</td>
+            <td class="text-end">1015.054</td>
+            <td class="text-end">9.674</td>
             
           </tr>
            
@@ -546,9 +560,11 @@
         <label class="form-check-label" for="checkbox_hist_7">Histogram</label>
       </div>
 
+      
       <a href="Latency_localization_pose_estimator_ndt_scan_matcher.html" target="_blank">
         <img src="Latency_localization_pose_estimator_ndt_scan_matcher.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_7">
         <table class="table table-hover table-bordered">
@@ -561,11 +577,11 @@
           </tr>
            
           <tr>
-            <td>callback_0: Sub_/localization/pose_twist_fusion_filter/pose_with_covariance_without_yawbias</td>
+            <td>callback_0: Sub_/localization/pose_twist_fusion_filter/biased_pose_with_covariance</td>
             
-            <td class="text-end">0.003</td>
-            <td class="text-end">0.001</td>
-            <td class="text-end">0.026</td>
+            <td class="text-end">0.005</td>
+            <td class="text-end">0.002</td>
+            <td class="text-end">0.015</td>
             <td class="text-end">0.002</td>
             
           </tr>
@@ -573,10 +589,10 @@
           <tr>
             <td>callback_1: Sub_/localization/util/downsample/pointcloud</td>
             
-            <td class="text-end">10.894</td>
-            <td class="text-end">2.067</td>
-            <td class="text-end">36.669</td>
-            <td class="text-end">7.154</td>
+            <td class="text-end">21.173</td>
+            <td class="text-end">4.847</td>
+            <td class="text-end">55.686</td>
+            <td class="text-end">12.228</td>
             
           </tr>
             
@@ -584,9 +600,9 @@
             <td>callback_2: Sub_/sensing/gnss/pose_with_covariance</td>
             
             <td class="text-end">0.004</td>
-            <td class="text-end">0.001</td>
-            <td class="text-end">0.009</td>
             <td class="text-end">0.002</td>
+            <td class="text-end">0.010</td>
+            <td class="text-end">0.003</td>
             
           </tr>
            
@@ -642,9 +658,11 @@
         <label class="form-check-label" for="checkbox_hist_8">Histogram</label>
       </div>
 
+      
       <a href="Frequency_localization_pose_twist_fusion_filter_ekf_localizer.html" target="_blank">
         <img src="Frequency_localization_pose_twist_fusion_filter_ekf_localizer.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_8">
         <table class="table table-hover table-bordered">
@@ -660,16 +678,6 @@
             <td>callback_0: Timer_19.999999ms</td>
             
             <td class="text-end">50.000</td>
-            <td class="text-end">49.000</td>
-            <td class="text-end">51.000</td>
-            <td class="text-end">0.961</td>
-            
-          </tr>
-            
-          <tr>
-            <td>callback_1: Timer_20.0ms</td>
-            
-            <td class="text-end">50.000</td>
             <td class="text-end">50.000</td>
             <td class="text-end">50.000</td>
             <td class="text-end">0.000</td>
@@ -677,22 +685,32 @@
           </tr>
             
           <tr>
+            <td>callback_1: Timer_20.0ms</td>
+            
+            <td class="text-end">50.091</td>
+            <td class="text-end">49.000</td>
+            <td class="text-end">51.000</td>
+            <td class="text-end">0.539</td>
+            
+          </tr>
+            
+          <tr>
             <td>callback_2: Sub_/localization/pose_estimator/pose_with_covariance</td>
             
-            <td class="text-end">9.714</td>
+            <td class="text-end">9.600</td>
             <td class="text-end">9.000</td>
             <td class="text-end">10.000</td>
-            <td class="text-end">0.469</td>
+            <td class="text-end">0.516</td>
             
           </tr>
             
           <tr>
             <td>callback_3: Sub_/localization/twist_estimator/twist_with_covariance</td>
             
-            <td class="text-end">28.500</td>
-            <td class="text-end">28.000</td>
-            <td class="text-end">30.000</td>
-            <td class="text-end">0.650</td>
+            <td class="text-end">27.909</td>
+            <td class="text-end">26.000</td>
+            <td class="text-end">29.000</td>
+            <td class="text-end">1.375</td>
             
           </tr>
            
@@ -751,9 +769,11 @@
         <label class="form-check-label" for="checkbox_hist_9">Histogram</label>
       </div>
 
+      
       <a href="Period_localization_pose_twist_fusion_filter_ekf_localizer.html" target="_blank">
         <img src="Period_localization_pose_twist_fusion_filter_ekf_localizer.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_9">
         <table class="table table-hover table-bordered">
@@ -768,40 +788,40 @@
           <tr>
             <td>callback_0: Timer_19.999999ms</td>
             
-            <td class="text-end">19.996</td>
-            <td class="text-end">4.534</td>
-            <td class="text-end">35.535</td>
-            <td class="text-end">2.932</td>
+            <td class="text-end">19.991</td>
+            <td class="text-end">3.643</td>
+            <td class="text-end">37.052</td>
+            <td class="text-end">3.351</td>
             
           </tr>
             
           <tr>
             <td>callback_1: Timer_20.0ms</td>
             
-            <td class="text-end">20.010</td>
-            <td class="text-end">2.769</td>
-            <td class="text-end">38.556</td>
-            <td class="text-end">3.722</td>
+            <td class="text-end">20.005</td>
+            <td class="text-end">4.111</td>
+            <td class="text-end">39.409</td>
+            <td class="text-end">3.845</td>
             
           </tr>
             
           <tr>
             <td>callback_2: Sub_/localization/pose_estimator/pose_with_covariance</td>
             
-            <td class="text-end">103.766</td>
-            <td class="text-end">71.454</td>
-            <td class="text-end">156.360</td>
-            <td class="text-end">15.046</td>
+            <td class="text-end">103.605</td>
+            <td class="text-end">44.755</td>
+            <td class="text-end">169.173</td>
+            <td class="text-end">28.307</td>
             
           </tr>
             
           <tr>
             <td>callback_3: Sub_/localization/twist_estimator/twist_with_covariance</td>
             
-            <td class="text-end">35.048</td>
-            <td class="text-end">9.362</td>
-            <td class="text-end">80.682</td>
-            <td class="text-end">8.900</td>
+            <td class="text-end">35.863</td>
+            <td class="text-end">8.739</td>
+            <td class="text-end">71.453</td>
+            <td class="text-end">10.215</td>
             
           </tr>
            
@@ -860,9 +880,11 @@
         <label class="form-check-label" for="checkbox_hist_10">Histogram</label>
       </div>
 
+      
       <a href="Latency_localization_pose_twist_fusion_filter_ekf_localizer.html" target="_blank">
         <img src="Latency_localization_pose_twist_fusion_filter_ekf_localizer.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_10">
         <table class="table table-hover table-bordered">
@@ -877,40 +899,40 @@
           <tr>
             <td>callback_0: Timer_19.999999ms</td>
             
-            <td class="text-end">1.383</td>
-            <td class="text-end">0.426</td>
-            <td class="text-end">4.957</td>
-            <td class="text-end">0.455</td>
+            <td class="text-end">1.696</td>
+            <td class="text-end">0.443</td>
+            <td class="text-end">5.049</td>
+            <td class="text-end">0.713</td>
             
           </tr>
             
           <tr>
             <td>callback_1: Timer_20.0ms</td>
             
-            <td class="text-end">0.442</td>
-            <td class="text-end">0.114</td>
-            <td class="text-end">2.254</td>
-            <td class="text-end">0.220</td>
+            <td class="text-end">0.769</td>
+            <td class="text-end">0.130</td>
+            <td class="text-end">8.712</td>
+            <td class="text-end">0.595</td>
             
           </tr>
             
           <tr>
             <td>callback_2: Sub_/localization/pose_estimator/pose_with_covariance</td>
             
-            <td class="text-end">0.010</td>
-            <td class="text-end">0.003</td>
-            <td class="text-end">0.066</td>
             <td class="text-end">0.008</td>
+            <td class="text-end">0.002</td>
+            <td class="text-end">0.018</td>
+            <td class="text-end">0.003</td>
             
           </tr>
             
           <tr>
             <td>callback_3: Sub_/localization/twist_estimator/twist_with_covariance</td>
             
-            <td class="text-end">0.002</td>
-            <td class="text-end">0.000</td>
-            <td class="text-end">0.007</td>
+            <td class="text-end">0.004</td>
             <td class="text-end">0.001</td>
+            <td class="text-end">0.019</td>
+            <td class="text-end">0.002</td>
             
           </tr>
            
@@ -972,9 +994,11 @@
         <label class="form-check-label" for="checkbox_hist_11">Histogram</label>
       </div>
 
+      
       <a href="Frequency_localization_pose_twist_fusion_filter_stop_filter.html" target="_blank">
         <img src="Frequency_localization_pose_twist_fusion_filter_stop_filter.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_11">
         <table class="table table-hover table-bordered">
@@ -989,10 +1013,10 @@
           <tr>
             <td>callback_0: Sub_/localization/pose_twist_fusion_filter/kinematic_state</td>
             
-            <td class="text-end">50.000</td>
+            <td class="text-end">50.091</td>
             <td class="text-end">49.000</td>
             <td class="text-end">51.000</td>
-            <td class="text-end">0.961</td>
+            <td class="text-end">0.701</td>
             
           </tr>
            
@@ -1033,9 +1057,11 @@
         <label class="form-check-label" for="checkbox_hist_12">Histogram</label>
       </div>
 
+      
       <a href="Period_localization_pose_twist_fusion_filter_stop_filter.html" target="_blank">
         <img src="Period_localization_pose_twist_fusion_filter_stop_filter.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_12">
         <table class="table table-hover table-bordered">
@@ -1050,10 +1076,10 @@
           <tr>
             <td>callback_0: Sub_/localization/pose_twist_fusion_filter/kinematic_state</td>
             
-            <td class="text-end">19.996</td>
-            <td class="text-end">4.379</td>
-            <td class="text-end">35.890</td>
-            <td class="text-end">3.038</td>
+            <td class="text-end">19.989</td>
+            <td class="text-end">3.236</td>
+            <td class="text-end">37.007</td>
+            <td class="text-end">3.551</td>
             
           </tr>
            
@@ -1094,9 +1120,11 @@
         <label class="form-check-label" for="checkbox_hist_13">Histogram</label>
       </div>
 
+      
       <a href="Latency_localization_pose_twist_fusion_filter_stop_filter.html" target="_blank">
         <img src="Latency_localization_pose_twist_fusion_filter_stop_filter.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_13">
         <table class="table table-hover table-bordered">
@@ -1111,10 +1139,10 @@
           <tr>
             <td>callback_0: Sub_/localization/pose_twist_fusion_filter/kinematic_state</td>
             
-            <td class="text-end">0.119</td>
-            <td class="text-end">0.051</td>
-            <td class="text-end">0.444</td>
-            <td class="text-end">0.040</td>
+            <td class="text-end">0.162</td>
+            <td class="text-end">0.062</td>
+            <td class="text-end">0.640</td>
+            <td class="text-end">0.063</td>
             
           </tr>
            
@@ -1158,9 +1186,11 @@
         <label class="form-check-label" for="checkbox_hist_14">Histogram</label>
       </div>
 
+      
       <a href="Frequency_localization_pose_twist_fusion_filter_twist2accel.html" target="_blank">
         <img src="Frequency_localization_pose_twist_fusion_filter_twist2accel.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_14">
         <table class="table table-hover table-bordered">
@@ -1178,17 +1208,17 @@
             <td class="text-end">50.000</td>
             <td class="text-end">49.000</td>
             <td class="text-end">51.000</td>
-            <td class="text-end">0.961</td>
+            <td class="text-end">0.632</td>
             
           </tr>
             
           <tr>
             <td>callback_1: Sub_/localization/twist_estimator/twist_with_covariance</td>
             
-            <td class="text-end">28.500</td>
-            <td class="text-end">28.000</td>
-            <td class="text-end">30.000</td>
-            <td class="text-end">0.650</td>
+            <td class="text-end">27.818</td>
+            <td class="text-end">25.000</td>
+            <td class="text-end">29.000</td>
+            <td class="text-end">1.537</td>
             
           </tr>
            
@@ -1235,9 +1265,11 @@
         <label class="form-check-label" for="checkbox_hist_15">Histogram</label>
       </div>
 
+      
       <a href="Period_localization_pose_twist_fusion_filter_twist2accel.html" target="_blank">
         <img src="Period_localization_pose_twist_fusion_filter_twist2accel.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_15">
         <table class="table table-hover table-bordered">
@@ -1252,20 +1284,20 @@
           <tr>
             <td>callback_0: Sub_/localization/kinematic_state</td>
             
-            <td class="text-end">19.997</td>
-            <td class="text-end">4.442</td>
-            <td class="text-end">35.858</td>
-            <td class="text-end">3.040</td>
+            <td class="text-end">19.989</td>
+            <td class="text-end">2.958</td>
+            <td class="text-end">36.984</td>
+            <td class="text-end">3.652</td>
             
           </tr>
             
           <tr>
             <td>callback_1: Sub_/localization/twist_estimator/twist_with_covariance</td>
             
-            <td class="text-end">35.048</td>
-            <td class="text-end">9.514</td>
-            <td class="text-end">81.301</td>
-            <td class="text-end">8.907</td>
+            <td class="text-end">35.863</td>
+            <td class="text-end">8.858</td>
+            <td class="text-end">71.267</td>
+            <td class="text-end">10.137</td>
             
           </tr>
            
@@ -1312,9 +1344,11 @@
         <label class="form-check-label" for="checkbox_hist_16">Histogram</label>
       </div>
 
+      
       <a href="Latency_localization_pose_twist_fusion_filter_twist2accel.html" target="_blank">
         <img src="Latency_localization_pose_twist_fusion_filter_twist2accel.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_16">
         <table class="table table-hover table-bordered">
@@ -1329,19 +1363,19 @@
           <tr>
             <td>callback_0: Sub_/localization/kinematic_state</td>
             
+            <td class="text-end">0.084</td>
+            <td class="text-end">0.036</td>
+            <td class="text-end">0.187</td>
             <td class="text-end">0.026</td>
-            <td class="text-end">0.012</td>
-            <td class="text-end">0.192</td>
-            <td class="text-end">0.009</td>
             
           </tr>
             
           <tr>
             <td>callback_1: Sub_/localization/twist_estimator/twist_with_covariance</td>
             
-            <td class="text-end">0.002</td>
-            <td class="text-end">0.000</td>
-            <td class="text-end">0.038</td>
+            <td class="text-end">0.003</td>
+            <td class="text-end">0.001</td>
+            <td class="text-end">0.011</td>
             <td class="text-end">0.002</td>
             
           </tr>
@@ -1392,9 +1426,11 @@
         <label class="form-check-label" for="checkbox_hist_17">Histogram</label>
       </div>
 
+      
       <a href="Frequency_localization_twist_estimator_gyro_odometer.html" target="_blank">
         <img src="Frequency_localization_twist_estimator_gyro_odometer.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_17">
         <table class="table table-hover table-bordered">
@@ -1409,20 +1445,20 @@
           <tr>
             <td>callback_0: Sub_/sensing/vehicle_velocity_converter/twist_with_covariance</td>
             
-            <td class="text-end">29.071</td>
+            <td class="text-end">29.273</td>
             <td class="text-end">26.000</td>
-            <td class="text-end">32.000</td>
-            <td class="text-end">1.774</td>
+            <td class="text-end">30.000</td>
+            <td class="text-end">1.272</td>
             
           </tr>
             
           <tr>
             <td>callback_1: Sub_/sensing/imu/imu_data</td>
             
-            <td class="text-end">28.571</td>
+            <td class="text-end">28.545</td>
             <td class="text-end">28.000</td>
-            <td class="text-end">30.000</td>
-            <td class="text-end">0.646</td>
+            <td class="text-end">29.000</td>
+            <td class="text-end">0.522</td>
             
           </tr>
            
@@ -1469,9 +1505,11 @@
         <label class="form-check-label" for="checkbox_hist_18">Histogram</label>
       </div>
 
+      
       <a href="Period_localization_twist_estimator_gyro_odometer.html" target="_blank">
         <img src="Period_localization_twist_estimator_gyro_odometer.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_18">
         <table class="table table-hover table-bordered">
@@ -1486,20 +1524,20 @@
           <tr>
             <td>callback_0: Sub_/sensing/vehicle_velocity_converter/twist_with_covariance</td>
             
-            <td class="text-end">34.569</td>
-            <td class="text-end">0.014</td>
-            <td class="text-end">84.125</td>
-            <td class="text-end">15.285</td>
+            <td class="text-end">34.018</td>
+            <td class="text-end">0.039</td>
+            <td class="text-end">80.820</td>
+            <td class="text-end">15.046</td>
             
           </tr>
             
           <tr>
             <td>callback_1: Sub_/sensing/imu/imu_data</td>
             
-            <td class="text-end">35.048</td>
-            <td class="text-end">9.645</td>
-            <td class="text-end">81.307</td>
-            <td class="text-end">8.909</td>
+            <td class="text-end">34.993</td>
+            <td class="text-end">10.200</td>
+            <td class="text-end">68.893</td>
+            <td class="text-end">8.679</td>
             
           </tr>
            
@@ -1546,9 +1584,11 @@
         <label class="form-check-label" for="checkbox_hist_19">Histogram</label>
       </div>
 
+      
       <a href="Latency_localization_twist_estimator_gyro_odometer.html" target="_blank">
         <img src="Latency_localization_twist_estimator_gyro_odometer.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_19">
         <table class="table table-hover table-bordered">
@@ -1563,20 +1603,20 @@
           <tr>
             <td>callback_0: Sub_/sensing/vehicle_velocity_converter/twist_with_covariance</td>
             
-            <td class="text-end">0.005</td>
-            <td class="text-end">0.000</td>
-            <td class="text-end">0.018</td>
-            <td class="text-end">0.002</td>
+            <td class="text-end">0.035</td>
+            <td class="text-end">0.001</td>
+            <td class="text-end">0.229</td>
+            <td class="text-end">0.048</td>
             
           </tr>
             
           <tr>
             <td>callback_1: Sub_/sensing/imu/imu_data</td>
             
-            <td class="text-end">0.097</td>
-            <td class="text-end">0.039</td>
-            <td class="text-end">0.558</td>
-            <td class="text-end">0.047</td>
+            <td class="text-end">0.090</td>
+            <td class="text-end">0.008</td>
+            <td class="text-end">0.275</td>
+            <td class="text-end">0.058</td>
             
           </tr>
            
@@ -1626,9 +1666,11 @@
         <label class="form-check-label" for="checkbox_hist_20">Histogram</label>
       </div>
 
+      
       <a href="Frequency_localization_util_crop_box_filter_measurement_range.html" target="_blank">
         <img src="Frequency_localization_util_crop_box_filter_measurement_range.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_20">
         <table class="table table-hover table-bordered">
@@ -1643,10 +1685,10 @@
           <tr>
             <td>callback_0: Sub_/sensing/lidar/top/outlier_filtered/pointcloud</td>
             
-            <td class="text-end">9.643</td>
+            <td class="text-end">9.636</td>
             <td class="text-end">9.000</td>
             <td class="text-end">10.000</td>
-            <td class="text-end">0.497</td>
+            <td class="text-end">0.505</td>
             
           </tr>
            
@@ -1687,9 +1729,11 @@
         <label class="form-check-label" for="checkbox_hist_21">Histogram</label>
       </div>
 
+      
       <a href="Period_localization_util_crop_box_filter_measurement_range.html" target="_blank">
         <img src="Period_localization_util_crop_box_filter_measurement_range.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_21">
         <table class="table table-hover table-bordered">
@@ -1704,10 +1748,10 @@
           <tr>
             <td>callback_0: Sub_/sensing/lidar/top/outlier_filtered/pointcloud</td>
             
-            <td class="text-end">103.745</td>
-            <td class="text-end">77.577</td>
-            <td class="text-end">149.603</td>
-            <td class="text-end">11.027</td>
+            <td class="text-end">103.830</td>
+            <td class="text-end">53.085</td>
+            <td class="text-end">165.186</td>
+            <td class="text-end">19.839</td>
             
           </tr>
            
@@ -1748,9 +1792,11 @@
         <label class="form-check-label" for="checkbox_hist_22">Histogram</label>
       </div>
 
+      
       <a href="Latency_localization_util_crop_box_filter_measurement_range.html" target="_blank">
         <img src="Latency_localization_util_crop_box_filter_measurement_range.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_22">
         <table class="table table-hover table-bordered">
@@ -1765,10 +1811,10 @@
           <tr>
             <td>callback_0: Sub_/sensing/lidar/top/outlier_filtered/pointcloud</td>
             
-            <td class="text-end">1.140</td>
-            <td class="text-end">0.577</td>
-            <td class="text-end">4.214</td>
-            <td class="text-end">0.433</td>
+            <td class="text-end">2.038</td>
+            <td class="text-end">0.793</td>
+            <td class="text-end">5.884</td>
+            <td class="text-end">1.085</td>
             
           </tr>
            
@@ -1789,7 +1835,7 @@
 
         
       <hr />
-      <h3 id="/localization/util/pose_initializer">Node Name: /localization/util/pose_initializer</h3>
+      <h3 id="/localization/util/default_ad_api/helpers/automatic_pose_initializer">Node Name: /localization/util/default_ad_api/helpers/automatic_pose_initializer</h3>
        
       <h4>Frequency</h4>
       
@@ -1812,9 +1858,11 @@
         <label class="form-check-label" for="checkbox_hist_23">Histogram</label>
       </div>
 
-      <a href="Frequency_localization_util_pose_initializer.html" target="_blank">
-        <img src="Frequency_localization_util_pose_initializer.png" />
+      
+      <a href="Frequency_localization_util_default_ad_api_helpers_automatic_pose_initializer.html" target="_blank">
+        <img src="Frequency_localization_util_default_ad_api_helpers_automatic_pose_initializer.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_23">
         <table class="table table-hover table-bordered">
@@ -1827,22 +1875,12 @@
           </tr>
            
           <tr>
-            <td>callback_0: Sub_/sensing/gnss/pose_with_covariance</td>
+            <td>callback_0: Timer_1000.0ms</td>
             
             <td class="text-end">1.000</td>
             <td class="text-end">1.000</td>
             <td class="text-end">1.000</td>
             <td class="text-end">0.000</td>
-            
-          </tr>
-            
-          <tr>
-            <td>callback_1: Sub_/localization/util/pose_initialization_request</td>
-            
-            <td>---</td>
-            <td>---</td>
-            <td>---</td>
-            <td>---</td>
             
           </tr>
            
@@ -1853,11 +1891,11 @@
         <div class="row">
            
           <div class="col">
-            <a href="Frequency_localization_util_pose_initializer_callback_0_hist.html" target="_blank">
-              <img src="Frequency_localization_util_pose_initializer_callback_0_hist.png" />
+            <a href="Frequency_localization_util_default_ad_api_helpers_automatic_pose_initializer_callback_0_hist.html" target="_blank">
+              <img src="Frequency_localization_util_default_ad_api_helpers_automatic_pose_initializer_callback_0_hist.png" />
             </a>
           </div>
-             
+           
         </div>
       </div>
 
@@ -1883,9 +1921,11 @@
         <label class="form-check-label" for="checkbox_hist_24">Histogram</label>
       </div>
 
-      <a href="Period_localization_util_pose_initializer.html" target="_blank">
-        <img src="Period_localization_util_pose_initializer.png" />
+      
+      <a href="Period_localization_util_default_ad_api_helpers_automatic_pose_initializer.html" target="_blank">
+        <img src="Period_localization_util_default_ad_api_helpers_automatic_pose_initializer.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_24">
         <table class="table table-hover table-bordered">
@@ -1898,22 +1938,12 @@
           </tr>
            
           <tr>
-            <td>callback_0: Sub_/sensing/gnss/pose_with_covariance</td>
+            <td>callback_0: Timer_1000.0ms</td>
             
-            <td class="text-end">999.177</td>
-            <td class="text-end">986.598</td>
-            <td class="text-end">1014.843</td>
-            <td class="text-end">9.072</td>
-            
-          </tr>
-            
-          <tr>
-            <td>callback_1: Sub_/localization/util/pose_initialization_request</td>
-            
-            <td>---</td>
-            <td>---</td>
-            <td>---</td>
-            <td>---</td>
+            <td class="text-end">1005.160</td>
+            <td class="text-end">1003.410</td>
+            <td class="text-end">1006.383</td>
+            <td class="text-end">0.940</td>
             
           </tr>
            
@@ -1924,11 +1954,11 @@
         <div class="row">
            
           <div class="col">
-            <a href="Period_localization_util_pose_initializer_callback_0_hist.html" target="_blank">
-              <img src="Period_localization_util_pose_initializer_callback_0_hist.png" />
+            <a href="Period_localization_util_default_ad_api_helpers_automatic_pose_initializer_callback_0_hist.html" target="_blank">
+              <img src="Period_localization_util_default_ad_api_helpers_automatic_pose_initializer_callback_0_hist.png" />
             </a>
           </div>
-             
+           
         </div>
       </div>
 
@@ -1954,9 +1984,11 @@
         <label class="form-check-label" for="checkbox_hist_25">Histogram</label>
       </div>
 
-      <a href="Latency_localization_util_pose_initializer.html" target="_blank">
-        <img src="Latency_localization_util_pose_initializer.png" />
+      
+      <a href="Latency_localization_util_default_ad_api_helpers_automatic_pose_initializer.html" target="_blank">
+        <img src="Latency_localization_util_default_ad_api_helpers_automatic_pose_initializer.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_25">
         <table class="table table-hover table-bordered">
@@ -1969,22 +2001,12 @@
           </tr>
            
           <tr>
-            <td>callback_0: Sub_/sensing/gnss/pose_with_covariance</td>
+            <td>callback_0: Timer_1000.0ms</td>
             
-            <td class="text-end">0.003</td>
-            <td class="text-end">0.002</td>
+            <td class="text-end">0.009</td>
             <td class="text-end">0.005</td>
-            <td class="text-end">0.001</td>
-            
-          </tr>
-            
-          <tr>
-            <td>callback_1: Sub_/localization/util/pose_initialization_request</td>
-            
-            <td>---</td>
-            <td>---</td>
-            <td>---</td>
-            <td>---</td>
+            <td class="text-end">0.015</td>
+            <td class="text-end">0.003</td>
             
           </tr>
            
@@ -1995,17 +2017,17 @@
         <div class="row">
            
           <div class="col">
-            <a href="Latency_localization_util_pose_initializer_callback_0_hist.html" target="_blank">
-              <img src="Latency_localization_util_pose_initializer_callback_0_hist.png" />
+            <a href="Latency_localization_util_default_ad_api_helpers_automatic_pose_initializer_callback_0_hist.html" target="_blank">
+              <img src="Latency_localization_util_default_ad_api_helpers_automatic_pose_initializer_callback_0_hist.png" />
             </a>
           </div>
-             
+           
         </div>
       </div>
 
         
       <hr />
-      <h3 id="/localization/util/random_downsample_filter">Node Name: /localization/util/random_downsample_filter</h3>
+      <h3 id="/localization/util/map_height_fitter">Node Name: /localization/util/map_height_fitter</h3>
        
       <h4>Frequency</h4>
       
@@ -2028,9 +2050,7 @@
         <label class="form-check-label" for="checkbox_hist_26">Histogram</label>
       </div>
 
-      <a href="Frequency_localization_util_random_downsample_filter.html" target="_blank">
-        <img src="Frequency_localization_util_random_downsample_filter.png" />
-      </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_26">
         <table class="table table-hover table-bordered">
@@ -2041,29 +2061,13 @@
             <th width="10%">Max [Hz]</th>
             <th width="10%">Std [Hz]</th>
           </tr>
-           
-          <tr>
-            <td>callback_0: Sub_/localization/util/voxel_grid_downsample/pointcloud</td>
-            
-            <td class="text-end">9.643</td>
-            <td class="text-end">9.000</td>
-            <td class="text-end">10.000</td>
-            <td class="text-end">0.497</td>
-            
-          </tr>
-           
+          
         </table>
       </div>
 
       <div class="collapse collapse_hist" id="colllapse_hist_26">
         <div class="row">
-           
-          <div class="col">
-            <a href="Frequency_localization_util_random_downsample_filter_callback_0_hist.html" target="_blank">
-              <img src="Frequency_localization_util_random_downsample_filter_callback_0_hist.png" />
-            </a>
-          </div>
-           
+          
         </div>
       </div>
 
@@ -2089,9 +2093,7 @@
         <label class="form-check-label" for="checkbox_hist_27">Histogram</label>
       </div>
 
-      <a href="Period_localization_util_random_downsample_filter.html" target="_blank">
-        <img src="Period_localization_util_random_downsample_filter.png" />
-      </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_27">
         <table class="table table-hover table-bordered">
@@ -2102,29 +2104,13 @@
             <th width="10%">Max [ms]</th>
             <th width="10%">Std [ms]</th>
           </tr>
-           
-          <tr>
-            <td>callback_0: Sub_/localization/util/voxel_grid_downsample/pointcloud</td>
-            
-            <td class="text-end">103.752</td>
-            <td class="text-end">75.699</td>
-            <td class="text-end">151.624</td>
-            <td class="text-end">11.141</td>
-            
-          </tr>
-           
+          
         </table>
       </div>
 
       <div class="collapse collapse_hist" id="colllapse_hist_27">
         <div class="row">
-           
-          <div class="col">
-            <a href="Period_localization_util_random_downsample_filter_callback_0_hist.html" target="_blank">
-              <img src="Period_localization_util_random_downsample_filter_callback_0_hist.png" />
-            </a>
-          </div>
-           
+          
         </div>
       </div>
 
@@ -2150,9 +2136,7 @@
         <label class="form-check-label" for="checkbox_hist_28">Histogram</label>
       </div>
 
-      <a href="Latency_localization_util_random_downsample_filter.html" target="_blank">
-        <img src="Latency_localization_util_random_downsample_filter.png" />
-      </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_28">
         <table class="table table-hover table-bordered">
@@ -2163,35 +2147,19 @@
             <th width="10%">Max [ms]</th>
             <th width="10%">Std [ms]</th>
           </tr>
-           
-          <tr>
-            <td>callback_0: Sub_/localization/util/voxel_grid_downsample/pointcloud</td>
-            
-            <td class="text-end">0.116</td>
-            <td class="text-end">0.049</td>
-            <td class="text-end">0.338</td>
-            <td class="text-end">0.047</td>
-            
-          </tr>
-           
+          
         </table>
       </div>
 
       <div class="collapse collapse_hist" id="colllapse_hist_28">
         <div class="row">
-           
-          <div class="col">
-            <a href="Latency_localization_util_random_downsample_filter_callback_0_hist.html" target="_blank">
-              <img src="Latency_localization_util_random_downsample_filter_callback_0_hist.png" />
-            </a>
-          </div>
-           
+          
         </div>
       </div>
 
         
       <hr />
-      <h3 id="/localization/util/voxel_grid_downsample_filter">Node Name: /localization/util/voxel_grid_downsample_filter</h3>
+      <h3 id="/localization/util/pose_initializer_node">Node Name: /localization/util/pose_initializer_node</h3>
        
       <h4>Frequency</h4>
       
@@ -2214,9 +2182,11 @@
         <label class="form-check-label" for="checkbox_hist_29">Histogram</label>
       </div>
 
-      <a href="Frequency_localization_util_voxel_grid_downsample_filter.html" target="_blank">
-        <img src="Frequency_localization_util_voxel_grid_downsample_filter.png" />
+      
+      <a href="Frequency_localization_util_pose_initializer_node.html" target="_blank">
+        <img src="Frequency_localization_util_pose_initializer_node.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_29">
         <table class="table table-hover table-bordered">
@@ -2229,12 +2199,22 @@
           </tr>
            
           <tr>
-            <td>callback_0: Sub_/localization/util/measurement_range/pointcloud</td>
+            <td>callback_0: Sub_/sensing/gnss/pose_with_covariance</td>
             
-            <td class="text-end">9.643</td>
-            <td class="text-end">9.000</td>
-            <td class="text-end">10.000</td>
-            <td class="text-end">0.497</td>
+            <td class="text-end">1.000</td>
+            <td class="text-end">1.000</td>
+            <td class="text-end">1.000</td>
+            <td class="text-end">0.000</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_1: Sub_/sensing/vehicle_velocity_converter/twist_with_covariance</td>
+            
+            <td class="text-end">28.800</td>
+            <td class="text-end">25.000</td>
+            <td class="text-end">30.000</td>
+            <td class="text-end">1.619</td>
             
           </tr>
            
@@ -2245,8 +2225,14 @@
         <div class="row">
            
           <div class="col">
-            <a href="Frequency_localization_util_voxel_grid_downsample_filter_callback_0_hist.html" target="_blank">
-              <img src="Frequency_localization_util_voxel_grid_downsample_filter_callback_0_hist.png" />
+            <a href="Frequency_localization_util_pose_initializer_node_callback_0_hist.html" target="_blank">
+              <img src="Frequency_localization_util_pose_initializer_node_callback_0_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Frequency_localization_util_pose_initializer_node_callback_1_hist.html" target="_blank">
+              <img src="Frequency_localization_util_pose_initializer_node_callback_1_hist.png" />
             </a>
           </div>
            
@@ -2275,9 +2261,11 @@
         <label class="form-check-label" for="checkbox_hist_30">Histogram</label>
       </div>
 
-      <a href="Period_localization_util_voxel_grid_downsample_filter.html" target="_blank">
-        <img src="Period_localization_util_voxel_grid_downsample_filter.png" />
+      
+      <a href="Period_localization_util_pose_initializer_node.html" target="_blank">
+        <img src="Period_localization_util_pose_initializer_node.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_30">
         <table class="table table-hover table-bordered">
@@ -2290,12 +2278,22 @@
           </tr>
            
           <tr>
-            <td>callback_0: Sub_/localization/util/measurement_range/pointcloud</td>
+            <td>callback_0: Sub_/sensing/gnss/pose_with_covariance</td>
             
-            <td class="text-end">103.745</td>
-            <td class="text-end">78.464</td>
-            <td class="text-end">149.533</td>
-            <td class="text-end">11.087</td>
+            <td class="text-end">1000.717</td>
+            <td class="text-end">988.174</td>
+            <td class="text-end">1014.946</td>
+            <td class="text-end">9.572</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_1: Sub_/sensing/vehicle_velocity_converter/twist_with_covariance</td>
+            
+            <td class="text-end">34.939</td>
+            <td class="text-end">0.042</td>
+            <td class="text-end">80.899</td>
+            <td class="text-end">14.191</td>
             
           </tr>
            
@@ -2306,8 +2304,14 @@
         <div class="row">
            
           <div class="col">
-            <a href="Period_localization_util_voxel_grid_downsample_filter_callback_0_hist.html" target="_blank">
-              <img src="Period_localization_util_voxel_grid_downsample_filter_callback_0_hist.png" />
+            <a href="Period_localization_util_pose_initializer_node_callback_0_hist.html" target="_blank">
+              <img src="Period_localization_util_pose_initializer_node_callback_0_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Period_localization_util_pose_initializer_node_callback_1_hist.html" target="_blank">
+              <img src="Period_localization_util_pose_initializer_node_callback_1_hist.png" />
             </a>
           </div>
            
@@ -2336,9 +2340,11 @@
         <label class="form-check-label" for="checkbox_hist_31">Histogram</label>
       </div>
 
-      <a href="Latency_localization_util_voxel_grid_downsample_filter.html" target="_blank">
-        <img src="Latency_localization_util_voxel_grid_downsample_filter.png" />
+      
+      <a href="Latency_localization_util_pose_initializer_node.html" target="_blank">
+        <img src="Latency_localization_util_pose_initializer_node.png" />
       </a>
+      
 
       <div class="collapse collapse_stats" id="collapse_stats_31">
         <table class="table table-hover table-bordered">
@@ -2351,12 +2357,22 @@
           </tr>
            
           <tr>
-            <td>callback_0: Sub_/localization/util/measurement_range/pointcloud</td>
+            <td>callback_0: Sub_/sensing/gnss/pose_with_covariance</td>
             
-            <td class="text-end">6.019</td>
-            <td class="text-end">4.009</td>
-            <td class="text-end">10.911</td>
-            <td class="text-end">1.385</td>
+            <td class="text-end">0.005</td>
+            <td class="text-end">0.002</td>
+            <td class="text-end">0.008</td>
+            <td class="text-end">0.002</td>
+            
+          </tr>
+            
+          <tr>
+            <td>callback_1: Sub_/sensing/vehicle_velocity_converter/twist_with_covariance</td>
+            
+            <td class="text-end">0.010</td>
+            <td class="text-end">0.001</td>
+            <td class="text-end">0.030</td>
+            <td class="text-end">0.004</td>
             
           </tr>
            
@@ -2364,6 +2380,396 @@
       </div>
 
       <div class="collapse collapse_hist" id="colllapse_hist_31">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Latency_localization_util_pose_initializer_node_callback_0_hist.html" target="_blank">
+              <img src="Latency_localization_util_pose_initializer_node_callback_0_hist.png" />
+            </a>
+          </div>
+            
+          <div class="col">
+            <a href="Latency_localization_util_pose_initializer_node_callback_1_hist.html" target="_blank">
+              <img src="Latency_localization_util_pose_initializer_node_callback_1_hist.png" />
+            </a>
+          </div>
+           
+        </div>
+      </div>
+
+        
+      <hr />
+      <h3 id="/localization/util/random_downsample_filter">Node Name: /localization/util/random_downsample_filter</h3>
+       
+      <h4>Frequency</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_32"
+          target="#collapse_stats_32"
+        />
+        <label class="form-check-label" for="checkbox_stats_32">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_32"
+          target="#colllapse_hist_32"
+        />
+        <label class="form-check-label" for="checkbox_hist_32">Histogram</label>
+      </div>
+
+      
+      <a href="Frequency_localization_util_random_downsample_filter.html" target="_blank">
+        <img src="Frequency_localization_util_random_downsample_filter.png" />
+      </a>
+      
+
+      <div class="collapse collapse_stats" id="collapse_stats_32">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [Hz]</th>
+            <th width="10%">Min [Hz]</th>
+            <th width="10%">Max [Hz]</th>
+            <th width="10%">Std [Hz]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_0: Sub_/localization/util/voxel_grid_downsample/pointcloud</td>
+            
+            <td class="text-end">9.636</td>
+            <td class="text-end">9.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">0.505</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_32">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Frequency_localization_util_random_downsample_filter_callback_0_hist.html" target="_blank">
+              <img src="Frequency_localization_util_random_downsample_filter_callback_0_hist.png" />
+            </a>
+          </div>
+           
+        </div>
+      </div>
+
+      
+      <h4>Period</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_33"
+          target="#collapse_stats_33"
+        />
+        <label class="form-check-label" for="checkbox_stats_33">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_33"
+          target="#colllapse_hist_33"
+        />
+        <label class="form-check-label" for="checkbox_hist_33">Histogram</label>
+      </div>
+
+      
+      <a href="Period_localization_util_random_downsample_filter.html" target="_blank">
+        <img src="Period_localization_util_random_downsample_filter.png" />
+      </a>
+      
+
+      <div class="collapse collapse_stats" id="collapse_stats_33">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [ms]</th>
+            <th width="10%">Min [ms]</th>
+            <th width="10%">Max [ms]</th>
+            <th width="10%">Std [ms]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_0: Sub_/localization/util/voxel_grid_downsample/pointcloud</td>
+            
+            <td class="text-end">103.899</td>
+            <td class="text-end">49.716</td>
+            <td class="text-end">155.149</td>
+            <td class="text-end">21.278</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_33">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Period_localization_util_random_downsample_filter_callback_0_hist.html" target="_blank">
+              <img src="Period_localization_util_random_downsample_filter_callback_0_hist.png" />
+            </a>
+          </div>
+           
+        </div>
+      </div>
+
+      
+      <h4>Latency</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_34"
+          target="#collapse_stats_34"
+        />
+        <label class="form-check-label" for="checkbox_stats_34">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_34"
+          target="#colllapse_hist_34"
+        />
+        <label class="form-check-label" for="checkbox_hist_34">Histogram</label>
+      </div>
+
+      
+      <a href="Latency_localization_util_random_downsample_filter.html" target="_blank">
+        <img src="Latency_localization_util_random_downsample_filter.png" />
+      </a>
+      
+
+      <div class="collapse collapse_stats" id="collapse_stats_34">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [ms]</th>
+            <th width="10%">Min [ms]</th>
+            <th width="10%">Max [ms]</th>
+            <th width="10%">Std [ms]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_0: Sub_/localization/util/voxel_grid_downsample/pointcloud</td>
+            
+            <td class="text-end">0.180</td>
+            <td class="text-end">0.060</td>
+            <td class="text-end">0.517</td>
+            <td class="text-end">0.098</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_34">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Latency_localization_util_random_downsample_filter_callback_0_hist.html" target="_blank">
+              <img src="Latency_localization_util_random_downsample_filter_callback_0_hist.png" />
+            </a>
+          </div>
+           
+        </div>
+      </div>
+
+        
+      <hr />
+      <h3 id="/localization/util/voxel_grid_downsample_filter">Node Name: /localization/util/voxel_grid_downsample_filter</h3>
+       
+      <h4>Frequency</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_35"
+          target="#collapse_stats_35"
+        />
+        <label class="form-check-label" for="checkbox_stats_35">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_35"
+          target="#colllapse_hist_35"
+        />
+        <label class="form-check-label" for="checkbox_hist_35">Histogram</label>
+      </div>
+
+      
+      <a href="Frequency_localization_util_voxel_grid_downsample_filter.html" target="_blank">
+        <img src="Frequency_localization_util_voxel_grid_downsample_filter.png" />
+      </a>
+      
+
+      <div class="collapse collapse_stats" id="collapse_stats_35">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [Hz]</th>
+            <th width="10%">Min [Hz]</th>
+            <th width="10%">Max [Hz]</th>
+            <th width="10%">Std [Hz]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_0: Sub_/localization/util/measurement_range/pointcloud</td>
+            
+            <td class="text-end">9.636</td>
+            <td class="text-end">9.000</td>
+            <td class="text-end">10.000</td>
+            <td class="text-end">0.505</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_35">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Frequency_localization_util_voxel_grid_downsample_filter_callback_0_hist.html" target="_blank">
+              <img src="Frequency_localization_util_voxel_grid_downsample_filter_callback_0_hist.png" />
+            </a>
+          </div>
+           
+        </div>
+      </div>
+
+      
+      <h4>Period</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_36"
+          target="#collapse_stats_36"
+        />
+        <label class="form-check-label" for="checkbox_stats_36">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_36"
+          target="#colllapse_hist_36"
+        />
+        <label class="form-check-label" for="checkbox_hist_36">Histogram</label>
+      </div>
+
+      
+      <a href="Period_localization_util_voxel_grid_downsample_filter.html" target="_blank">
+        <img src="Period_localization_util_voxel_grid_downsample_filter.png" />
+      </a>
+      
+
+      <div class="collapse collapse_stats" id="collapse_stats_36">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [ms]</th>
+            <th width="10%">Min [ms]</th>
+            <th width="10%">Max [ms]</th>
+            <th width="10%">Std [ms]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_0: Sub_/localization/util/measurement_range/pointcloud</td>
+            
+            <td class="text-end">103.841</td>
+            <td class="text-end">50.566</td>
+            <td class="text-end">168.399</td>
+            <td class="text-end">20.453</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_36">
+        <div class="row">
+           
+          <div class="col">
+            <a href="Period_localization_util_voxel_grid_downsample_filter_callback_0_hist.html" target="_blank">
+              <img src="Period_localization_util_voxel_grid_downsample_filter_callback_0_hist.png" />
+            </a>
+          </div>
+           
+        </div>
+      </div>
+
+      
+      <h4>Latency</h4>
+      
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_stats"
+          type="checkbox"
+          id="checkbox_stats_37"
+          target="#collapse_stats_37"
+        />
+        <label class="form-check-label" for="checkbox_stats_37">Stats</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input checkbox_hist"
+          type="checkbox"
+          id="checkbox_hist_37"
+          target="#colllapse_hist_37"
+        />
+        <label class="form-check-label" for="checkbox_hist_37">Histogram</label>
+      </div>
+
+      
+      <a href="Latency_localization_util_voxel_grid_downsample_filter.html" target="_blank">
+        <img src="Latency_localization_util_voxel_grid_downsample_filter.png" />
+      </a>
+      
+
+      <div class="collapse collapse_stats" id="collapse_stats_37">
+        <table class="table table-hover table-bordered">
+          <tr class="table-primary text-center">
+            <th width="60%">Callback Name</th>
+            <th width="10%">Avg [ms]</th>
+            <th width="10%">Min [ms]</th>
+            <th width="10%">Max [ms]</th>
+            <th width="10%">Std [ms]</th>
+          </tr>
+           
+          <tr>
+            <td>callback_0: Sub_/localization/util/measurement_range/pointcloud</td>
+            
+            <td class="text-end">9.893</td>
+            <td class="text-end">3.712</td>
+            <td class="text-end">24.087</td>
+            <td class="text-end">4.751</td>
+            
+          </tr>
+           
+        </table>
+      </div>
+
+      <div class="collapse collapse_hist" id="colllapse_hist_37">
         <div class="row">
            
           <div class="col">

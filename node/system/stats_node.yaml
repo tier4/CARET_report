@@ -1,0 +1,954 @@
+/system/component_state_monitor/component:
+  filename_timeseries:
+    Frequency: Frequency_system_component_state_monitor_component
+    Period: Period_system_component_state_monitor_component
+    Latency: Latency_system_component_state_monitor_component
+  callbacks:
+    /system/component_state_monitor/component/callback_0:
+      Frequency:
+        avg: 10.091
+        min: 9.000
+        max: 11.000
+        std: 0.944
+        filename_hist: Frequency_system_component_state_monitor_component_callback_0_hist
+      displayname: 'callback_0: Timer_100.0ms'
+      Period:
+        avg: 99.993
+        min: 80.652
+        max: 118.523
+        std: 7.444
+        filename_hist: Period_system_component_state_monitor_component_callback_0_hist
+      Latency:
+        avg: 0.027
+        min: 0.009
+        max: 0.242
+        std: 0.021
+        filename_hist: Latency_system_component_state_monitor_component_callback_0_hist
+/system/emergency_handler:
+  filename_timeseries:
+    Frequency: Frequency_system_emergency_handler
+    Period: Period_system_emergency_handler
+    Latency: Latency_system_emergency_handler
+  callbacks:
+    /system/emergency_handler/callback_0:
+      Frequency:
+        avg: 10.000
+        min: 10.000
+        max: 10.000
+        std: 0.000
+        filename_hist: Frequency_system_emergency_handler_callback_0_hist
+      displayname: 'callback_0: Timer_100.0ms'
+      Period:
+        avg: 99.994
+        min: 80.862
+        max: 118.946
+        std: 7.526
+        filename_hist: Period_system_emergency_handler_callback_0_hist
+      Latency:
+        avg: 0.154
+        min: 0.060
+        max: 0.510
+        std: 0.054
+        filename_hist: Latency_system_emergency_handler_callback_0_hist
+    /system/emergency_handler/callback_1:
+      Frequency:
+        avg: 10.000
+        min: 10.000
+        max: 10.000
+        std: 0.000
+        filename_hist: Frequency_system_emergency_handler_callback_1_hist
+      displayname: 'callback_1: Sub_/system/emergency/hazard_status'
+      Period:
+        avg: 100.011
+        min: 80.294
+        max: 119.698
+        std: 7.987
+        filename_hist: Period_system_emergency_handler_callback_1_hist
+      Latency:
+        avg: 0.024
+        min: 0.004
+        max: 0.057
+        std: 0.011
+        filename_hist: Latency_system_emergency_handler_callback_1_hist
+    /system/emergency_handler/callback_2:
+      Frequency:
+        avg: 33.364
+        min: 33.000
+        max: 34.000
+        std: 0.505
+        filename_hist: Frequency_system_emergency_handler_callback_2_hist
+      displayname: 'callback_2: Sub_/control/command/control_cmd'
+      Period:
+        avg: 29.986
+        min: 7.760
+        max: 55.656
+        std: 4.778
+        filename_hist: Period_system_emergency_handler_callback_2_hist
+      Latency:
+        avg: 0.005
+        min: 0.002
+        max: 0.015
+        std: 0.002
+        filename_hist: Latency_system_emergency_handler_callback_2_hist
+    /system/emergency_handler/callback_3:
+      Frequency:
+        avg: 50.000
+        min: 50.000
+        max: 50.000
+        std: 0.000
+        filename_hist: Frequency_system_emergency_handler_callback_3_hist
+      displayname: 'callback_3: Sub_/localization/kinematic_state'
+      Period:
+        avg: 19.989
+        min: 3.287
+        max: 37.115
+        std: 3.558
+        filename_hist: Period_system_emergency_handler_callback_3_hist
+      Latency:
+        avg: 0.006
+        min: 0.002
+        max: 0.054
+        std: 0.003
+        filename_hist: Latency_system_emergency_handler_callback_3_hist
+    /system/emergency_handler/callback_4:
+      Frequency:
+        avg: 28.636
+        min: 25.000
+        max: 30.000
+        std: 2.014
+        filename_hist: Frequency_system_emergency_handler_callback_4_hist
+      displayname: 'callback_4: Sub_/vehicle/status/control_mode'
+      Period:
+        avg: 34.940
+        min: 0.065
+        max: 81.590
+        std: 14.834
+        filename_hist: Period_system_emergency_handler_callback_4_hist
+      Latency:
+        avg: 0.005
+        min: 0.001
+        max: 0.018
+        std: 0.003
+        filename_hist: Latency_system_emergency_handler_callback_4_hist
+    /system/emergency_handler/callback_5:
+      Frequency:
+        avg: 10.000
+        min: 10.000
+        max: 10.000
+        std: 0.000
+        filename_hist: Frequency_system_emergency_handler_callback_5_hist
+      displayname: 'callback_5: Sub_/system/mrm/comfortable_stop/status'
+      Period:
+        avg: 99.989
+        min: 79.977
+        max: 121.877
+        std: 7.795
+        filename_hist: Period_system_emergency_handler_callback_5_hist
+      Latency:
+        avg: 0.006
+        min: 0.001
+        max: 0.111
+        std: 0.010
+        filename_hist: Latency_system_emergency_handler_callback_5_hist
+    /system/emergency_handler/callback_6:
+      Frequency:
+        avg: 30.000
+        min: 29.000
+        max: 31.000
+        std: 0.447
+        filename_hist: Frequency_system_emergency_handler_callback_6_hist
+      displayname: 'callback_6: Sub_/system/mrm/emergency_stop/status'
+      Period:
+        avg: 33.325
+        min: 18.208
+        max: 48.517
+        std: 5.176
+        filename_hist: Period_system_emergency_handler_callback_6_hist
+      Latency:
+        avg: 0.006
+        min: 0.001
+        max: 0.022
+        std: 0.002
+        filename_hist: Latency_system_emergency_handler_callback_6_hist
+/system/mrm_comfortable_stop_operator:
+  filename_timeseries:
+    Frequency: Frequency_system_mrm_comfortable_stop_operator
+    Period: Period_system_mrm_comfortable_stop_operator
+    Latency: Latency_system_mrm_comfortable_stop_operator
+  callbacks:
+    /system/mrm_comfortable_stop_operator/callback_0:
+      Frequency:
+        avg: 10.091
+        min: 9.000
+        max: 11.000
+        std: 0.944
+        filename_hist: Frequency_system_mrm_comfortable_stop_operator_callback_0_hist
+      displayname: 'callback_0: Timer_100.0ms'
+      Period:
+        avg: 99.989
+        min: 80.007
+        max: 119.282
+        std: 7.621
+        filename_hist: Period_system_mrm_comfortable_stop_operator_callback_0_hist
+      Latency:
+        avg: 0.071
+        min: 0.028
+        max: 0.268
+        std: 0.029
+        filename_hist: Latency_system_mrm_comfortable_stop_operator_callback_0_hist
+/system/mrm_emergency_stop_operator:
+  filename_timeseries:
+    Frequency: Frequency_system_mrm_emergency_stop_operator
+    Period: Period_system_mrm_emergency_stop_operator
+    Latency: Latency_system_mrm_emergency_stop_operator
+  callbacks:
+    /system/mrm_emergency_stop_operator/callback_0:
+      Frequency:
+        avg: 30.000
+        min: 29.000
+        max: 31.000
+        std: 0.447
+        filename_hist: Frequency_system_mrm_emergency_stop_operator_callback_0_hist
+      displayname: 'callback_0: Timer_33.333332999999996ms'
+      Period:
+        avg: 33.325
+        min: 19.089
+        max: 48.416
+        std: 5.167
+        filename_hist: Period_system_mrm_emergency_stop_operator_callback_0_hist
+      Latency:
+        avg: 0.109
+        min: 0.046
+        max: 0.241
+        std: 0.036
+        filename_hist: Latency_system_mrm_emergency_stop_operator_callback_0_hist
+    /system/mrm_emergency_stop_operator/callback_1:
+      Frequency:
+        avg: 33.364
+        min: 33.000
+        max: 34.000
+        std: 0.505
+        filename_hist: Frequency_system_mrm_emergency_stop_operator_callback_1_hist
+      displayname: 'callback_1: Sub_/control/command/control_cmd'
+      Period:
+        avg: 29.986
+        min: 7.719
+        max: 55.735
+        std: 4.773
+        filename_hist: Period_system_mrm_emergency_stop_operator_callback_1_hist
+      Latency:
+        avg: 0.003
+        min: 0.001
+        max: 0.011
+        std: 0.002
+        filename_hist: Latency_system_mrm_emergency_stop_operator_callback_1_hist
+/system/system_error_monitor:
+  filename_timeseries:
+    Frequency: Frequency_system_system_error_monitor
+    Period: Period_system_system_error_monitor
+    Latency: Latency_system_system_error_monitor
+  callbacks:
+    /system/system_error_monitor/callback_0:
+      Frequency:
+        avg: 10.091
+        min: 9.000
+        max: 11.000
+        std: 0.944
+        filename_hist: Frequency_system_system_error_monitor_callback_0_hist
+      displayname: 'callback_0: Timer_100.0ms'
+      Period:
+        avg: 99.993
+        min: 80.660
+        max: 119.157
+        std: 7.563
+        filename_hist: Period_system_system_error_monitor_callback_0_hist
+      Latency:
+        avg: 2.578
+        min: 0.084
+        max: 8.338
+        std: 1.493
+        filename_hist: Latency_system_system_error_monitor_callback_0_hist
+    /system/system_error_monitor/callback_1:
+      Frequency:
+        avg: 10.000
+        min: 10.000
+        max: 10.000
+        std: 0.000
+        filename_hist: Frequency_system_system_error_monitor_callback_1_hist
+      displayname: 'callback_1: Sub_/control/current_gate_mode'
+      Period:
+        avg: 100.021
+        min: 88.917
+        max: 106.637
+        std: 4.232
+        filename_hist: Period_system_system_error_monitor_callback_1_hist
+      Latency:
+        avg: 0.007
+        min: 0.003
+        max: 0.021
+        std: 0.003
+        filename_hist: Latency_system_system_error_monitor_callback_1_hist
+    /system/system_error_monitor/callback_2:
+      Frequency:
+        avg: 28.364
+        min: 24.000
+        max: 31.000
+        std: 2.378
+        filename_hist: Frequency_system_system_error_monitor_callback_2_hist
+      displayname: 'callback_2: Sub_/vehicle/status/control_mode'
+      Period:
+        avg: 35.226
+        min: 0.037
+        max: 81.623
+        std: 14.583
+        filename_hist: Period_system_system_error_monitor_callback_2_hist
+      Latency:
+        avg: 0.007
+        min: 0.001
+        max: 0.024
+        std: 0.004
+        filename_hist: Latency_system_system_error_monitor_callback_2_hist
+/system/topic_state_monitor_control_command_control_cmd:
+  filename_timeseries:
+    Frequency: Frequency_system_topic_state_monitor_control_command_control_cmd
+    Period: Period_system_topic_state_monitor_control_command_control_cmd
+    Latency: Latency_system_topic_state_monitor_control_command_control_cmd
+  callbacks:
+    /system/topic_state_monitor_control_command_control_cmd/callback_0:
+      Frequency:
+        avg: 1.000
+        min: 1.000
+        max: 1.000
+        std: 0.000
+        filename_hist: Frequency_system_topic_state_monitor_control_command_control_cmd_callback_0_hist
+      displayname: 'callback_0: Timer_1000.0ms'
+      Period:
+        avg: 1000.599
+        min: 993.384
+        max: 1006.803
+        std: 5.181
+        filename_hist: Period_system_topic_state_monitor_control_command_control_cmd_callback_0_hist
+      Latency:
+        avg: 0.119
+        min: 0.083
+        max: 0.227
+        std: 0.041
+        filename_hist: Latency_system_topic_state_monitor_control_command_control_cmd_callback_0_hist
+    /system/topic_state_monitor_control_command_control_cmd/callback_1:
+      Frequency:
+        avg: 10.091
+        min: 9.000
+        max: 11.000
+        std: 0.944
+        filename_hist: Frequency_system_topic_state_monitor_control_command_control_cmd_callback_1_hist
+      displayname: 'callback_1: Timer_100.0ms'
+      Period:
+        avg: 99.996
+        min: 79.615
+        max: 119.434
+        std: 7.441
+        filename_hist: Period_system_topic_state_monitor_control_command_control_cmd_callback_1_hist
+      Latency:
+        avg: 0.125
+        min: 0.027
+        max: 0.286
+        std: 0.055
+        filename_hist: Latency_system_topic_state_monitor_control_command_control_cmd_callback_1_hist
+/system/topic_state_monitor_initialpose3d:
+  filename_timeseries:
+    Frequency: Frequency_system_topic_state_monitor_initialpose3d
+    Period: Period_system_topic_state_monitor_initialpose3d
+    Latency: Latency_system_topic_state_monitor_initialpose3d
+  callbacks:
+    /system/topic_state_monitor_initialpose3d/callback_0:
+      Frequency:
+        avg: 1.000
+        min: 1.000
+        max: 1.000
+        std: 0.000
+        filename_hist: Frequency_system_topic_state_monitor_initialpose3d_callback_0_hist
+      displayname: 'callback_0: Timer_1000.0ms'
+      Period:
+        avg: 1000.755
+        min: 991.785
+        max: 1008.053
+        std: 6.427
+        filename_hist: Period_system_topic_state_monitor_initialpose3d_callback_0_hist
+      Latency:
+        avg: 0.136
+        min: 0.077
+        max: 0.217
+        std: 0.046
+        filename_hist: Latency_system_topic_state_monitor_initialpose3d_callback_0_hist
+    /system/topic_state_monitor_initialpose3d/callback_1:
+      Frequency:
+        avg: 10.091
+        min: 9.000
+        max: 11.000
+        std: 0.944
+        filename_hist: Frequency_system_topic_state_monitor_initialpose3d_callback_1_hist
+      displayname: 'callback_1: Timer_100.0ms'
+      Period:
+        avg: 99.992
+        min: 79.837
+        max: 118.993
+        std: 7.542
+        filename_hist: Period_system_topic_state_monitor_initialpose3d_callback_1_hist
+      Latency:
+        avg: 0.130
+        min: 0.024
+        max: 0.272
+        std: 0.051
+        filename_hist: Latency_system_topic_state_monitor_initialpose3d_callback_1_hist
+/system/topic_state_monitor_mission_planning_route:
+  filename_timeseries:
+    Frequency: Frequency_system_topic_state_monitor_mission_planning_route
+    Period: Period_system_topic_state_monitor_mission_planning_route
+    Latency: Latency_system_topic_state_monitor_mission_planning_route
+  callbacks:
+    /system/topic_state_monitor_mission_planning_route/callback_0:
+      Frequency:
+        avg: 1.000
+        min: 1.000
+        max: 1.000
+        std: 0.000
+        filename_hist: Frequency_system_topic_state_monitor_mission_planning_route_callback_0_hist
+      displayname: 'callback_0: Timer_1000.0ms'
+      Period:
+        avg: 1000.628
+        min: 992.299
+        max: 1006.908
+        std: 6.378
+        filename_hist: Period_system_topic_state_monitor_mission_planning_route_callback_0_hist
+      Latency:
+        avg: 0.116
+        min: 0.068
+        max: 0.203
+        std: 0.039
+        filename_hist: Latency_system_topic_state_monitor_mission_planning_route_callback_0_hist
+    /system/topic_state_monitor_mission_planning_route/callback_1:
+      Frequency:
+        avg: 10.091
+        min: 9.000
+        max: 11.000
+        std: 0.944
+        filename_hist: Frequency_system_topic_state_monitor_mission_planning_route_callback_1_hist
+      displayname: 'callback_1: Timer_100.0ms'
+      Period:
+        avg: 99.988
+        min: 79.837
+        max: 120.050
+        std: 7.526
+        filename_hist: Period_system_topic_state_monitor_mission_planning_route_callback_1_hist
+      Latency:
+        avg: 0.112
+        min: 0.027
+        max: 0.256
+        std: 0.044
+        filename_hist: Latency_system_topic_state_monitor_mission_planning_route_callback_1_hist
+/system/topic_state_monitor_object_recognition_objects:
+  filename_timeseries:
+    Frequency: Frequency_system_topic_state_monitor_object_recognition_objects
+    Period: Period_system_topic_state_monitor_object_recognition_objects
+    Latency: Latency_system_topic_state_monitor_object_recognition_objects
+  callbacks:
+    /system/topic_state_monitor_object_recognition_objects/callback_0:
+      Frequency:
+        avg: 1.000
+        min: 1.000
+        max: 1.000
+        std: 0.000
+        filename_hist: Frequency_system_topic_state_monitor_object_recognition_objects_callback_0_hist
+      displayname: 'callback_0: Timer_1000.0ms'
+      Period:
+        avg: 1000.647
+        min: 992.075
+        max: 1007.899
+        std: 6.552
+        filename_hist: Period_system_topic_state_monitor_object_recognition_objects_callback_0_hist
+      Latency:
+        avg: 0.158
+        min: 0.095
+        max: 0.254
+        std: 0.056
+        filename_hist: Latency_system_topic_state_monitor_object_recognition_objects_callback_0_hist
+    /system/topic_state_monitor_object_recognition_objects/callback_1:
+      Frequency:
+        avg: 10.091
+        min: 9.000
+        max: 11.000
+        std: 0.944
+        filename_hist: Frequency_system_topic_state_monitor_object_recognition_objects_callback_1_hist
+      displayname: 'callback_1: Timer_100.0ms'
+      Period:
+        avg: 99.992
+        min: 77.848
+        max: 122.472
+        std: 7.938
+        filename_hist: Period_system_topic_state_monitor_object_recognition_objects_callback_1_hist
+      Latency:
+        avg: 0.125
+        min: 0.020
+        max: 0.326
+        std: 0.054
+        filename_hist: Latency_system_topic_state_monitor_object_recognition_objects_callback_1_hist
+/system/topic_state_monitor_obstacle_segmentation_pointcloud:
+  filename_timeseries:
+    Frequency: Frequency_system_topic_state_monitor_obstacle_segmentation_pointcloud
+    Period: Period_system_topic_state_monitor_obstacle_segmentation_pointcloud
+    Latency: Latency_system_topic_state_monitor_obstacle_segmentation_pointcloud
+  callbacks:
+    /system/topic_state_monitor_obstacle_segmentation_pointcloud/callback_0:
+      Frequency:
+        avg: 1.000
+        min: 1.000
+        max: 1.000
+        std: 0.000
+        filename_hist: Frequency_system_topic_state_monitor_obstacle_segmentation_pointcloud_callback_0_hist
+      displayname: 'callback_0: Timer_1000.0ms'
+      Period:
+        avg: 1000.634
+        min: 993.353
+        max: 1006.695
+        std: 5.821
+        filename_hist: Period_system_topic_state_monitor_obstacle_segmentation_pointcloud_callback_0_hist
+      Latency:
+        avg: 0.144
+        min: 0.064
+        max: 0.247
+        std: 0.058
+        filename_hist: Latency_system_topic_state_monitor_obstacle_segmentation_pointcloud_callback_0_hist
+    /system/topic_state_monitor_obstacle_segmentation_pointcloud/callback_1:
+      Frequency:
+        avg: 10.091
+        min: 9.000
+        max: 11.000
+        std: 0.944
+        filename_hist: Frequency_system_topic_state_monitor_obstacle_segmentation_pointcloud_callback_1_hist
+      displayname: 'callback_1: Timer_100.0ms'
+      Period:
+        avg: 99.993
+        min: 83.273
+        max: 118.798
+        std: 7.514
+        filename_hist: Period_system_topic_state_monitor_obstacle_segmentation_pointcloud_callback_1_hist
+      Latency:
+        avg: 0.132
+        min: 0.025
+        max: 0.654
+        std: 0.069
+        filename_hist: Latency_system_topic_state_monitor_obstacle_segmentation_pointcloud_callback_1_hist
+/system/topic_state_monitor_pointcloud_map:
+  filename_timeseries:
+    Frequency: Frequency_system_topic_state_monitor_pointcloud_map
+    Period: Period_system_topic_state_monitor_pointcloud_map
+    Latency: Latency_system_topic_state_monitor_pointcloud_map
+  callbacks:
+    /system/topic_state_monitor_pointcloud_map/callback_0:
+      Frequency:
+        avg: 1.000
+        min: 1.000
+        max: 1.000
+        std: 0.000
+        filename_hist: Frequency_system_topic_state_monitor_pointcloud_map_callback_0_hist
+      displayname: 'callback_0: Timer_1000.0ms'
+      Period:
+        avg: 1000.606
+        min: 992.754
+        max: 1006.830
+        std: 6.170
+        filename_hist: Period_system_topic_state_monitor_pointcloud_map_callback_0_hist
+      Latency:
+        avg: 0.131
+        min: 0.073
+        max: 0.213
+        std: 0.043
+        filename_hist: Latency_system_topic_state_monitor_pointcloud_map_callback_0_hist
+    /system/topic_state_monitor_pointcloud_map/callback_1:
+      Frequency:
+        avg: 10.091
+        min: 9.000
+        max: 11.000
+        std: 0.944
+        filename_hist: Frequency_system_topic_state_monitor_pointcloud_map_callback_1_hist
+      displayname: 'callback_1: Timer_100.0ms'
+      Period:
+        avg: 99.989
+        min: 77.603
+        max: 120.107
+        std: 7.557
+        filename_hist: Period_system_topic_state_monitor_pointcloud_map_callback_1_hist
+      Latency:
+        avg: 0.113
+        min: 0.020
+        max: 0.292
+        std: 0.046
+        filename_hist: Latency_system_topic_state_monitor_pointcloud_map_callback_1_hist
+/system/topic_state_monitor_pose_twist_fusion_filter_pose:
+  filename_timeseries:
+    Frequency: Frequency_system_topic_state_monitor_pose_twist_fusion_filter_pose
+    Period: Period_system_topic_state_monitor_pose_twist_fusion_filter_pose
+    Latency: Latency_system_topic_state_monitor_pose_twist_fusion_filter_pose
+  callbacks:
+    /system/topic_state_monitor_pose_twist_fusion_filter_pose/callback_0:
+      Frequency:
+        avg: 1.000
+        min: 1.000
+        max: 1.000
+        std: 0.000
+        filename_hist: Frequency_system_topic_state_monitor_pose_twist_fusion_filter_pose_callback_0_hist
+      displayname: 'callback_0: Timer_1000.0ms'
+      Period:
+        avg: 1000.764
+        min: 992.972
+        max: 1007.960
+        std: 6.033
+        filename_hist: Period_system_topic_state_monitor_pose_twist_fusion_filter_pose_callback_0_hist
+      Latency:
+        avg: 0.118
+        min: 0.078
+        max: 0.175
+        std: 0.030
+        filename_hist: Latency_system_topic_state_monitor_pose_twist_fusion_filter_pose_callback_0_hist
+    /system/topic_state_monitor_pose_twist_fusion_filter_pose/callback_1:
+      Frequency:
+        avg: 10.091
+        min: 9.000
+        max: 11.000
+        std: 0.944
+        filename_hist: Frequency_system_topic_state_monitor_pose_twist_fusion_filter_pose_callback_1_hist
+      displayname: 'callback_1: Timer_100.0ms'
+      Period:
+        avg: 99.988
+        min: 80.240
+        max: 119.992
+        std: 7.568
+        filename_hist: Period_system_topic_state_monitor_pose_twist_fusion_filter_pose_callback_1_hist
+      Latency:
+        avg: 0.116
+        min: 0.015
+        max: 0.264
+        std: 0.047
+        filename_hist: Latency_system_topic_state_monitor_pose_twist_fusion_filter_pose_callback_1_hist
+/system/topic_state_monitor_scenario_planning_trajectory:
+  filename_timeseries:
+    Frequency: Frequency_system_topic_state_monitor_scenario_planning_trajectory
+    Period: Period_system_topic_state_monitor_scenario_planning_trajectory
+    Latency: Latency_system_topic_state_monitor_scenario_planning_trajectory
+  callbacks:
+    /system/topic_state_monitor_scenario_planning_trajectory/callback_0:
+      Frequency:
+        avg: 1.000
+        min: 1.000
+        max: 1.000
+        std: 0.000
+        filename_hist: Frequency_system_topic_state_monitor_scenario_planning_trajectory_callback_0_hist
+      displayname: 'callback_0: Timer_1000.0ms'
+      Period:
+        avg: 1000.647
+        min: 993.378
+        max: 1007.145
+        std: 6.252
+        filename_hist: Period_system_topic_state_monitor_scenario_planning_trajectory_callback_0_hist
+      Latency:
+        avg: 0.139
+        min: 0.070
+        max: 0.239
+        std: 0.046
+        filename_hist: Latency_system_topic_state_monitor_scenario_planning_trajectory_callback_0_hist
+    /system/topic_state_monitor_scenario_planning_trajectory/callback_1:
+      Frequency:
+        avg: 10.091
+        min: 9.000
+        max: 11.000
+        std: 0.944
+        filename_hist: Frequency_system_topic_state_monitor_scenario_planning_trajectory_callback_1_hist
+      displayname: 'callback_1: Timer_100.0ms'
+      Period:
+        avg: 99.992
+        min: 80.763
+        max: 118.992
+        std: 7.634
+        filename_hist: Period_system_topic_state_monitor_scenario_planning_trajectory_callback_1_hist
+      Latency:
+        avg: 0.124
+        min: 0.023
+        max: 0.266
+        std: 0.049
+        filename_hist: Latency_system_topic_state_monitor_scenario_planning_trajectory_callback_1_hist
+/system/topic_state_monitor_system_emergency_control_cmd:
+  filename_timeseries:
+    Frequency: Frequency_system_topic_state_monitor_system_emergency_control_cmd
+    Period: Period_system_topic_state_monitor_system_emergency_control_cmd
+    Latency: Latency_system_topic_state_monitor_system_emergency_control_cmd
+  callbacks:
+    /system/topic_state_monitor_system_emergency_control_cmd/callback_0:
+      Frequency:
+        avg: 1.000
+        min: 1.000
+        max: 1.000
+        std: 0.000
+        filename_hist: Frequency_system_topic_state_monitor_system_emergency_control_cmd_callback_0_hist
+      displayname: 'callback_0: Timer_1000.0ms'
+      Period:
+        avg: 1000.638
+        min: 993.666
+        max: 1006.336
+        std: 5.550
+        filename_hist: Period_system_topic_state_monitor_system_emergency_control_cmd_callback_0_hist
+      Latency:
+        avg: 0.172
+        min: 0.084
+        max: 0.281
+        std: 0.066
+        filename_hist: Latency_system_topic_state_monitor_system_emergency_control_cmd_callback_0_hist
+    /system/topic_state_monitor_system_emergency_control_cmd/callback_1:
+      Frequency:
+        avg: 10.091
+        min: 9.000
+        max: 11.000
+        std: 0.944
+        filename_hist: Frequency_system_topic_state_monitor_system_emergency_control_cmd_callback_1_hist
+      displayname: 'callback_1: Timer_100.0ms'
+      Period:
+        avg: 99.991
+        min: 80.936
+        max: 118.287
+        std: 7.402
+        filename_hist: Period_system_topic_state_monitor_system_emergency_control_cmd_callback_1_hist
+      Latency:
+        avg: 0.152
+        min: 0.022
+        max: 0.306
+        std: 0.059
+        filename_hist: Latency_system_topic_state_monitor_system_emergency_control_cmd_callback_1_hist
+/system/topic_state_monitor_trajectory_follower_control_cmd:
+  filename_timeseries:
+    Frequency: Frequency_system_topic_state_monitor_trajectory_follower_control_cmd
+    Period: Period_system_topic_state_monitor_trajectory_follower_control_cmd
+    Latency: Latency_system_topic_state_monitor_trajectory_follower_control_cmd
+  callbacks:
+    /system/topic_state_monitor_trajectory_follower_control_cmd/callback_0:
+      Frequency:
+        avg: 1.000
+        min: 1.000
+        max: 1.000
+        std: 0.000
+        filename_hist: Frequency_system_topic_state_monitor_trajectory_follower_control_cmd_callback_0_hist
+      displayname: 'callback_0: Timer_1000.0ms'
+      Period:
+        avg: 1000.695
+        min: 989.552
+        max: 1010.500
+        std: 7.202
+        filename_hist: Period_system_topic_state_monitor_trajectory_follower_control_cmd_callback_0_hist
+      Latency:
+        avg: 0.131
+        min: 0.052
+        max: 0.263
+        std: 0.063
+        filename_hist: Latency_system_topic_state_monitor_trajectory_follower_control_cmd_callback_0_hist
+    /system/topic_state_monitor_trajectory_follower_control_cmd/callback_1:
+      Frequency:
+        avg: 10.091
+        min: 9.000
+        max: 11.000
+        std: 0.944
+        filename_hist: Frequency_system_topic_state_monitor_trajectory_follower_control_cmd_callback_1_hist
+      displayname: 'callback_1: Timer_100.0ms'
+      Period:
+        avg: 99.985
+        min: 80.882
+        max: 118.952
+        std: 7.507
+        filename_hist: Period_system_topic_state_monitor_trajectory_follower_control_cmd_callback_1_hist
+      Latency:
+        avg: 0.138
+        min: 0.022
+        max: 0.318
+        std: 0.059
+        filename_hist: Latency_system_topic_state_monitor_trajectory_follower_control_cmd_callback_1_hist
+/system/topic_state_monitor_transform_map_to_base_link:
+  filename_timeseries:
+    Frequency: Frequency_system_topic_state_monitor_transform_map_to_base_link
+    Period: Period_system_topic_state_monitor_transform_map_to_base_link
+    Latency: Latency_system_topic_state_monitor_transform_map_to_base_link
+  callbacks:
+    /system/topic_state_monitor_transform_map_to_base_link/callback_0:
+      Frequency:
+        avg: 1.000
+        min: 1.000
+        max: 1.000
+        std: 0.000
+        filename_hist: Frequency_system_topic_state_monitor_transform_map_to_base_link_callback_0_hist
+      displayname: 'callback_0: Timer_1000.0ms'
+      Period:
+        avg: 1000.679
+        min: 989.600
+        max: 1010.532
+        std: 7.116
+        filename_hist: Period_system_topic_state_monitor_transform_map_to_base_link_callback_0_hist
+      Latency:
+        avg: 0.145
+        min: 0.069
+        max: 0.227
+        std: 0.048
+        filename_hist: Latency_system_topic_state_monitor_transform_map_to_base_link_callback_0_hist
+    /system/topic_state_monitor_transform_map_to_base_link/callback_1:
+      Frequency:
+        avg: 10.091
+        min: 9.000
+        max: 11.000
+        std: 0.944
+        filename_hist: Frequency_system_topic_state_monitor_transform_map_to_base_link_callback_1_hist
+      displayname: 'callback_1: Timer_100.0ms'
+      Period:
+        avg: 99.992
+        min: 80.641
+        max: 118.674
+        std: 7.573
+        filename_hist: Period_system_topic_state_monitor_transform_map_to_base_link_callback_1_hist
+      Latency:
+        avg: 0.146
+        min: 0.019
+        max: 0.344
+        std: 0.066
+        filename_hist: Latency_system_topic_state_monitor_transform_map_to_base_link_callback_1_hist
+/system/topic_state_monitor_vector_map:
+  filename_timeseries:
+    Frequency: Frequency_system_topic_state_monitor_vector_map
+    Period: Period_system_topic_state_monitor_vector_map
+    Latency: Latency_system_topic_state_monitor_vector_map
+  callbacks:
+    /system/topic_state_monitor_vector_map/callback_0:
+      Frequency:
+        avg: 1.000
+        min: 1.000
+        max: 1.000
+        std: 0.000
+        filename_hist: Frequency_system_topic_state_monitor_vector_map_callback_0_hist
+      displayname: 'callback_0: Timer_1000.0ms'
+      Period:
+        avg: 1000.639
+        min: 993.635
+        max: 1006.186
+        std: 5.409
+        filename_hist: Period_system_topic_state_monitor_vector_map_callback_0_hist
+      Latency:
+        avg: 0.185
+        min: 0.120
+        max: 0.243
+        std: 0.035
+        filename_hist: Latency_system_topic_state_monitor_vector_map_callback_0_hist
+    /system/topic_state_monitor_vector_map/callback_1:
+      Frequency:
+        avg: 10.091
+        min: 9.000
+        max: 11.000
+        std: 0.944
+        filename_hist: Frequency_system_topic_state_monitor_vector_map_callback_1_hist
+      displayname: 'callback_1: Timer_100.0ms'
+      Period:
+        avg: 99.990
+        min: 79.992
+        max: 118.367
+        std: 7.506
+        filename_hist: Period_system_topic_state_monitor_vector_map_callback_1_hist
+      Latency:
+        avg: 0.136
+        min: 0.039
+        max: 0.299
+        std: 0.051
+        filename_hist: Latency_system_topic_state_monitor_vector_map_callback_1_hist
+/system/topic_state_monitor_vehicle_status_steering_status:
+  filename_timeseries:
+    Frequency: Frequency_system_topic_state_monitor_vehicle_status_steering_status
+    Period: Period_system_topic_state_monitor_vehicle_status_steering_status
+    Latency: Latency_system_topic_state_monitor_vehicle_status_steering_status
+  callbacks:
+    /system/topic_state_monitor_vehicle_status_steering_status/callback_0:
+      Frequency:
+        avg: 1.000
+        min: 1.000
+        max: 1.000
+        std: 0.000
+        filename_hist: Frequency_system_topic_state_monitor_vehicle_status_steering_status_callback_0_hist
+      displayname: 'callback_0: Timer_1000.0ms'
+      Period:
+        avg: 1000.630
+        min: 993.348
+        max: 1006.613
+        std: 5.596
+        filename_hist: Period_system_topic_state_monitor_vehicle_status_steering_status_callback_0_hist
+      Latency:
+        avg: 0.137
+        min: 0.097
+        max: 0.194
+        std: 0.029
+        filename_hist: Latency_system_topic_state_monitor_vehicle_status_steering_status_callback_0_hist
+    /system/topic_state_monitor_vehicle_status_steering_status/callback_1:
+      Frequency:
+        avg: 10.091
+        min: 9.000
+        max: 11.000
+        std: 0.944
+        filename_hist: Frequency_system_topic_state_monitor_vehicle_status_steering_status_callback_1_hist
+      displayname: 'callback_1: Timer_100.0ms'
+      Period:
+        avg: 99.990
+        min: 80.833
+        max: 118.850
+        std: 7.476
+        filename_hist: Period_system_topic_state_monitor_vehicle_status_steering_status_callback_1_hist
+      Latency:
+        avg: 0.136
+        min: 0.019
+        max: 0.342
+        std: 0.059
+        filename_hist: Latency_system_topic_state_monitor_vehicle_status_steering_status_callback_1_hist
+/system/topic_state_monitor_vehicle_status_velocity_status:
+  filename_timeseries:
+    Frequency: Frequency_system_topic_state_monitor_vehicle_status_velocity_status
+    Period: Period_system_topic_state_monitor_vehicle_status_velocity_status
+    Latency: Latency_system_topic_state_monitor_vehicle_status_velocity_status
+  callbacks:
+    /system/topic_state_monitor_vehicle_status_velocity_status/callback_0:
+      Frequency:
+        avg: 1.000
+        min: 1.000
+        max: 1.000
+        std: 0.000
+        filename_hist: Frequency_system_topic_state_monitor_vehicle_status_velocity_status_callback_0_hist
+      displayname: 'callback_0: Timer_1000.0ms'
+      Period:
+        avg: 1000.657
+        min: 993.649
+        max: 1006.444
+        std: 5.716
+        filename_hist: Period_system_topic_state_monitor_vehicle_status_velocity_status_callback_0_hist
+      Latency:
+        avg: 0.115
+        min: 0.090
+        max: 0.173
+        std: 0.025
+        filename_hist: Latency_system_topic_state_monitor_vehicle_status_velocity_status_callback_0_hist
+    /system/topic_state_monitor_vehicle_status_velocity_status/callback_1:
+      Frequency:
+        avg: 10.091
+        min: 9.000
+        max: 11.000
+        std: 0.944
+        filename_hist: Frequency_system_topic_state_monitor_vehicle_status_velocity_status_callback_1_hist
+      displayname: 'callback_1: Timer_100.0ms'
+      Period:
+        avg: 99.990
+        min: 80.694
+        max: 118.954
+        std: 7.574
+        filename_hist: Period_system_topic_state_monitor_vehicle_status_velocity_status_callback_1_hist
+      Latency:
+        avg: 0.133
+        min: 0.026
+        max: 0.295
+        std: 0.056
+        filename_hist: Latency_system_topic_state_monitor_vehicle_status_velocity_status_callback_1_hist
